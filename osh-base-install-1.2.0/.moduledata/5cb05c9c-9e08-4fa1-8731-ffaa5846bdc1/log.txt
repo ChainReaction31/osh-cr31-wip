@@ -1,0 +1,183 @@
+2017-06-20 16:09:58.659 INFO  [ModuleRegistry-1] - 
+2017-06-20 16:09:58.660 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 16:09:58.660 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 16:09:58.660 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 16:09:58.660 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 16:09:58.661 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 16:09:58.662 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 16:09:58.970 INFO  [ModuleRegistry-1] - Module STARTED
+2017-06-20 16:31:56.898 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-06-20 16:31:56.910 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-06-20 16:32:14.697 INFO  [ModuleRegistry-1] - 
+2017-06-20 16:32:14.698 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 16:32:14.698 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 16:32:14.698 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 16:32:14.698 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 16:32:14.699 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 16:32:14.699 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 16:32:14.950 INFO  [ModuleRegistry-1] - Module STARTED
+2017-06-20 17:37:35.442 INFO  [ModuleRegistry-1] - 
+2017-06-20 17:37:35.442 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 17:37:35.442 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 17:37:35.442 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 17:37:35.442 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 17:37:35.444 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 17:37:35.444 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 17:37:35.577 ERROR [ModuleRegistry-1] - Error while starting module
+org.sensorhub.api.common.SensorHubException: Error while starting SensorHub embedded HTTP server
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:247) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:240) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-20 17:37:35.577 INFO  [ModuleRegistry-1] - Module STOPPING
+2017-06-20 17:37:35.580 INFO  [ModuleRegistry-1] - Module STOPPED
+2017-06-20 17:40:01.579 INFO  [ModuleRegistry-1] - 
+2017-06-20 17:40:01.579 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 17:40:01.579 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 17:40:01.579 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 17:40:01.579 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 17:40:01.580 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 17:40:01.580 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 17:40:01.700 ERROR [ModuleRegistry-1] - Error while starting module
+org.sensorhub.api.common.SensorHubException: Error while starting SensorHub embedded HTTP server
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:247) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:240) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-20 17:40:01.700 INFO  [ModuleRegistry-1] - Module STOPPING
+2017-06-20 17:40:01.703 INFO  [ModuleRegistry-1] - Module STOPPED
+2017-06-20 18:46:33.877 INFO  [ModuleRegistry-1] - 
+2017-06-20 18:46:33.878 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 18:46:33.878 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 18:46:33.878 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 18:46:33.878 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 18:46:33.880 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 18:46:33.880 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 18:46:34.003 ERROR [ModuleRegistry-1] - Error while starting module
+org.sensorhub.api.common.SensorHubException: Error while starting SensorHub embedded HTTP server
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:247) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:240) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-20 18:46:34.004 INFO  [ModuleRegistry-1] - Module STOPPING
+2017-06-20 18:46:34.006 INFO  [ModuleRegistry-1] - Module STOPPED
+2017-06-20 18:50:21.517 INFO  [ModuleRegistry-1] - 
+2017-06-20 18:50:21.517 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 18:50:21.517 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 18:50:21.517 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 18:50:21.517 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 18:50:21.518 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 18:50:21.518 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 18:50:21.645 ERROR [ModuleRegistry-1] - Error while starting module
+org.sensorhub.api.common.SensorHubException: Error while starting SensorHub embedded HTTP server
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:247) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:240) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-20 18:50:21.646 INFO  [ModuleRegistry-1] - Module STOPPING
+2017-06-20 18:50:21.649 INFO  [ModuleRegistry-1] - Module STOPPED
+2017-06-20 19:22:37.355 INFO  [ModuleRegistry-1] - 
+2017-06-20 19:22:37.356 INFO  [ModuleRegistry-1] - *************************************************
+2017-06-20 19:22:37.356 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-06-20 19:22:37.356 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-06-20 19:22:37.356 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-06-20 19:22:37.358 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-06-20 19:22:37.358 INFO  [ModuleRegistry-1] - Module STARTING
+2017-06-20 19:22:37.501 ERROR [ModuleRegistry-1] - Error while starting module
+org.sensorhub.api.common.SensorHubException: Error while starting SensorHub embedded HTTP server
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:247) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:240) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-20 19:22:37.501 INFO  [ModuleRegistry-1] - Module STOPPING
+2017-06-20 19:22:37.504 INFO  [ModuleRegistry-1] - Module STOPPED

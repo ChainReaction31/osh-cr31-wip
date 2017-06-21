@@ -1,0 +1,148 @@
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - 
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 16:09:58.688 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 16:09:59.840 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-20 16:31:56.912 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-06-20 16:31:57.909 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - 
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 16:32:14.726 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 16:32:14.995 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-20 17:37:35.468 INFO  [ModuleRegistry-4] - 
+2017-06-20 17:37:35.468 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 17:37:35.468 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 17:37:35.468 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 17:37:35.468 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 17:37:35.468 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 17:37:35.471 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 17:37:35.498 ERROR [ModuleRegistry-4] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage GPS Sensor Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-20 17:37:35.501 INFO  [ModuleRegistry-4] - Module STOPPING
+2017-06-20 17:37:35.502 INFO  [ModuleRegistry-4] - Module STOPPED
+2017-06-20 17:40:01.605 INFO  [ModuleRegistry-4] - 
+2017-06-20 17:40:01.605 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 17:40:01.605 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 17:40:01.605 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 17:40:01.605 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 17:40:01.605 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 17:40:01.606 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 17:40:01.631 ERROR [ModuleRegistry-4] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage GPS Sensor Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-20 17:40:01.631 INFO  [ModuleRegistry-4] - Module STOPPING
+2017-06-20 17:40:01.631 INFO  [ModuleRegistry-4] - Module STOPPED
+2017-06-20 18:46:33.902 INFO  [ModuleRegistry-4] - 
+2017-06-20 18:46:33.902 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 18:46:33.903 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 18:46:33.903 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 18:46:33.903 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 18:46:33.903 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 18:46:33.903 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 18:46:33.932 ERROR [ModuleRegistry-4] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage GPS Sensor Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-20 18:46:33.933 INFO  [ModuleRegistry-4] - Module STOPPING
+2017-06-20 18:46:33.933 INFO  [ModuleRegistry-4] - Module STOPPED
+2017-06-20 18:50:21.537 INFO  [ModuleRegistry-4] - 
+2017-06-20 18:50:21.537 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 18:50:21.537 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 18:50:21.537 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 18:50:21.537 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 18:50:21.537 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 18:50:21.538 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 18:50:21.570 ERROR [ModuleRegistry-4] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage GPS Sensor Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-20 18:50:21.571 INFO  [ModuleRegistry-4] - Module STOPPING
+2017-06-20 18:50:21.571 INFO  [ModuleRegistry-4] - Module STOPPED
+2017-06-20 19:22:37.383 INFO  [ModuleRegistry-4] - 
+2017-06-20 19:22:37.383 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-20 19:22:37.383 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-20 19:22:37.384 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-20 19:22:37.384 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-20 19:22:37.384 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-20 19:22:37.384 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-20 19:22:37.421 ERROR [ModuleRegistry-4] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage GPS Sensor Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-20 19:22:37.422 INFO  [ModuleRegistry-4] - Module STOPPING
+2017-06-20 19:22:37.423 INFO  [ModuleRegistry-4] - Module STOPPED

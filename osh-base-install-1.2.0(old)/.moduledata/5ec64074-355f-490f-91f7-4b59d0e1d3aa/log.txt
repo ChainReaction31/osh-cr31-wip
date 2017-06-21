@@ -1,0 +1,17 @@
+2017-06-02 14:15:25.972 INFO  [ModuleRegistry-9] - 
+2017-06-02 14:15:25.973 INFO  [ModuleRegistry-9] - *************************************************
+2017-06-02 14:15:25.973 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-06-02 14:15:25.973 INFO  [ModuleRegistry-9] - Starting log for 'New SOS-T Client' [5ec64074-355f-490f-91f7-4b59d0e1d3aa]
+2017-06-02 14:15:25.973 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-06-02 14:15:25.999 ERROR [ModuleRegistry-9] - Error while initializing module
+org.sensorhub.api.client.ClientException: Cannot find sensor with local ID null
+	at org.sensorhub.impl.client.sost.SOSTClient.init(SOSTClient.java:150) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.init(AbstractModule.java:406) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestInit(AbstractModule.java:383) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:483) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_131]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+2017-06-02 14:15:26.000 INFO  [ModuleRegistry-9] - Module LOADED

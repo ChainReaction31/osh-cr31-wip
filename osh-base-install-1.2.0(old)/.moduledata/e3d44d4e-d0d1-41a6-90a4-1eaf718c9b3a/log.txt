@@ -1,0 +1,8 @@
+2017-05-15 14:17:51.863 INFO  [ModuleRegistry-6] - 
+2017-05-15 14:17:51.863 INFO  [ModuleRegistry-6] - *************************************************
+2017-05-15 14:17:51.863 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-05-15 14:17:51.863 INFO  [ModuleRegistry-6] - Starting log for 'New Simulated Weather Sensor' [e3d44d4e-d0d1-41a6-90a4-1eaf718c9b3a]
+2017-05-15 14:17:51.863 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-05-15 14:17:51.863 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-05-15 14:17:51.864 INFO  [ModuleRegistry-6] - Module STARTING
+2017-05-15 14:17:51.864 INFO  [ModuleRegistry-6] - Module STARTED
