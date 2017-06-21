@@ -1,9 +1,0 @@
-2017-05-13 12:39:47.677 INFO  [ModuleRegistry-7] - 
-2017-05-13 12:39:47.677 INFO  [ModuleRegistry-7] - *************************************************
-2017-05-13 12:39:47.678 INFO  [ModuleRegistry-7] - SensorHub Restarted
-2017-05-13 12:39:47.678 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated GPS Sensor' [bca8d963-58f5-4cb4-81db-edefdf40cda7]
-2017-05-13 12:39:47.678 INFO  [ModuleRegistry-7] - Module INITIALIZING
-2017-05-13 12:39:47.678 INFO  [ModuleRegistry-7] - Module INITIALIZED
-2017-05-13 12:39:47.679 INFO  [ModuleRegistry-7] - Module STARTING
-2017-05-13 12:39:47.679 INFO  [ModuleRegistry-7] - Module STARTED
-2017-05-13 12:39:47.680 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7325126574336,-86.62595193831292&destination=34.7720763988484,-86.62466174968925
