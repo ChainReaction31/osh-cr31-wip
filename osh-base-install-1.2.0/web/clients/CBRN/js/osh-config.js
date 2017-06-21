@@ -66,6 +66,18 @@ function init()
         bufferingTime: 1000
     });
 
+    var alertLevelBars = new OSH.DataReceiver.JSON("Bars", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + "8181:/sensorhub/sos",
+        offeringID: "urn:mysos:simcbrn",
+        observedProperty: "http://sensorml.com/ont/swe/property/Level",
+        startTime: "now",
+        endTime: "2055-01-01Z",
+        syncMasterTime: true,
+        bufferingTime: 1000
+    });
+
     console.log("Printing Data Sources...");
     console.log(alertData);
     console.log(gpsData);

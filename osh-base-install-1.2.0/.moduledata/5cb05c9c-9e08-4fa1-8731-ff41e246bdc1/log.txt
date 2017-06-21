@@ -105,3 +105,101 @@
 2017-06-20 19:22:37.409 INFO  [ModuleRegistry-6] - Module INITIALIZED
 2017-06-20 19:22:37.409 INFO  [ModuleRegistry-6] - Module STARTING
 2017-06-20 19:22:37.504 INFO  [EventBus-1] - Module STOPPED
+2017-06-21 07:07:11.883 INFO  [ModuleRegistry-6] - 
+2017-06-21 07:07:11.916 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 07:07:11.916 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 07:07:11.916 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 07:07:11.916 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 07:07:11.917 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 07:07:11.917 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 07:07:12.985 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 07:07:13.328 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-21 07:07:13.333 INFO  [EventBus-3] - Module STARTED
+2017-06-21 08:45:15.470 INFO  [ModuleRegistry-6] - 
+2017-06-21 08:45:15.470 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 08:45:15.470 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 08:45:15.470 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 08:45:15.471 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 08:45:15.472 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 08:45:15.472 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 08:45:15.571 INFO  [EventBus-1] - Module STOPPED
+2017-06-21 08:45:44.977 DEBUG [EventBus-112] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 08:47:46.207 DEBUG [EventBus-124] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 08:47:46.212 INFO  [ModuleRegistry-13] - Module STOPPING
+2017-06-21 08:47:46.213 INFO  [ModuleRegistry-13] - Module STOPPED
+2017-06-21 08:47:52.898 INFO  [ModuleRegistry-6] - 
+2017-06-21 08:47:52.898 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 08:47:52.898 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 08:47:52.898 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 08:47:52.898 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 08:47:52.899 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 08:47:52.899 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 08:47:53.200 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 08:47:53.254 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-21 08:47:53.261 INFO  [EventBus-2] - Module STARTED
+2017-06-21 08:55:01.175 INFO  [ModuleRegistry-6] - 
+2017-06-21 08:55:01.176 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 08:55:01.176 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 08:55:01.176 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 08:55:01.176 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 08:55:01.177 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 08:55:01.177 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 08:55:01.258 INFO  [EventBus-3] - Module STOPPED
+2017-06-21 08:56:20.916 INFO  [ModuleRegistry-6] - 
+2017-06-21 08:56:20.916 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 08:56:20.916 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 08:56:20.916 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 08:56:20.916 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 08:56:20.917 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 08:56:20.918 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 08:56:21.000 INFO  [EventBus-3] - Module STOPPED
+2017-06-21 09:02:37.373 INFO  [ModuleRegistry-6] - 
+2017-06-21 09:02:37.373 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 09:02:37.373 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 09:02:37.373 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 09:02:37.373 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 09:02:37.374 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 09:02:37.375 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 09:02:37.464 INFO  [EventBus-3] - Module STOPPED
+2017-06-21 09:10:36.384 INFO  [ModuleRegistry-6] - 
+2017-06-21 09:10:36.384 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 09:10:36.384 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 09:10:36.384 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 09:10:36.384 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 09:10:36.386 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 09:10:36.386 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 09:10:36.476 INFO  [EventBus-2] - Module STOPPED
+2017-06-21 10:01:44.105 INFO  [ModuleRegistry-6] - 
+2017-06-21 10:01:44.105 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 10:01:44.105 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 10:01:44.105 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 10:01:44.105 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 10:01:44.106 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 10:01:44.107 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 10:01:45.355 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 10:01:45.358 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-21 10:01:45.394 INFO  [EventBus-2] - Module STARTED
+2017-06-21 11:12:53.859 INFO  [ModuleRegistry-6] - 
+2017-06-21 11:12:53.859 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 11:12:53.859 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 11:12:53.859 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 11:12:53.859 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 11:12:53.860 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 11:12:53.861 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 11:12:54.132 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 11:12:54.317 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-21 11:12:54.322 INFO  [EventBus-3] - Module STARTED
+2017-06-21 11:12:54.430 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 11:12:54.850 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-21 12:21:30.147 INFO  [ModuleRegistry-6] - 
+2017-06-21 12:21:30.147 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-21 12:21:30.147 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-21 12:21:30.147 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-21 12:21:30.147 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-21 12:21:30.148 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-21 12:21:30.148 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-21 12:21:30.438 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 12:21:30.514 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-21 12:21:30.520 INFO  [EventBus-1] - Module STARTED
+2017-06-21 12:21:30.735 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-21 12:21:31.362 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879

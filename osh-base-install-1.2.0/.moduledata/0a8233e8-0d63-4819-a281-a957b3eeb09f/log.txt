@@ -4327,3 +4327,412 @@ java.lang.Exception: No route available
 	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
 	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
 	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:45:59.655 INFO  [ModuleRegistry-8] - 
+2017-06-21 08:45:59.674 INFO  [ModuleRegistry-8] - *************************************************
+2017-06-21 08:45:59.674 INFO  [ModuleRegistry-8] - SensorHub Restarted
+2017-06-21 08:45:59.674 INFO  [ModuleRegistry-8] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-21 08:45:59.674 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-06-21 08:45:59.681 ERROR [ModuleRegistry-8] - Error while stopping module
+java.lang.NullPointerException: null
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNSensor.stop(SimCBRNSensor.java:95) ~[sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStop(AbstractModule.java:488) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$1.run(ModuleRegistry.java:382) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-21 08:45:59.681 INFO  [ModuleRegistry-8] - Module INITIALIZING
+2017-06-21 08:45:59.691 INFO  [ModuleRegistry-8] - Module INITIALIZED
+2017-06-21 08:46:03.232 INFO  [ModuleRegistry-8] - Module STARTING
+2017-06-21 08:46:03.233 INFO  [ModuleRegistry-8] - Module STARTED
+2017-06-21 08:46:03.233 DEBUG [Timer-6] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7397172519672,-86.63303373665941&destination=34.752755529261805,-86.60705652857817
+2017-06-21 08:46:03.329 ERROR [Timer-6] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:47:03.329 DEBUG [Timer-6] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71306590752413,-86.59586602959058&destination=34.68198430886175,-86.60546116308917
+2017-06-21 08:47:03.420 ERROR [Timer-6] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:47:46.216 INFO  [ModuleRegistry-13] - Module STOPPING
+2017-06-21 08:47:46.216 INFO  [ModuleRegistry-13] - Module STOPPED
+2017-06-21 08:48:04.298 INFO  [ModuleRegistry-7] - 
+2017-06-21 08:48:04.299 INFO  [ModuleRegistry-7] - *************************************************
+2017-06-21 08:48:04.299 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-06-21 08:48:04.299 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-21 08:48:04.299 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-06-21 08:48:04.311 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-06-21 08:48:04.311 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-21 08:48:04.313 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-21 08:48:04.313 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68691866064947,-86.59593036146016&destination=34.773443474833414,-86.5759900534689
+2017-06-21 08:48:04.412 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:49:04.413 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71294571612388,-86.60212661287723&destination=34.77236110263911,-86.55330422495962
+2017-06-21 08:49:04.501 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:50:04.502 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72097251333164,-86.54171652017592&destination=34.75960857049765,-86.56306666672992
+2017-06-21 08:50:04.592 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:51:04.592 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73628935814805,-86.6082777972861&destination=34.740772652830024,-86.57204219969763
+2017-06-21 08:51:04.685 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:52:04.686 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.752924493366606,-86.56189380394544&destination=34.70575473645136,-86.55166893528842
+2017-06-21 08:52:04.780 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:53:04.781 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76755419881527,-86.5587803037594&destination=34.77347956125531,-86.62929605812342
+2017-06-21 08:53:04.870 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:54:04.870 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69859962302334,-86.55817661836178&destination=34.72696647987054,-86.6232289640679
+2017-06-21 08:54:05.003 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:55:05.004 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76982693815679,-86.53678357462991&destination=34.695996339187424,-86.53740147639463
+2017-06-21 08:55:05.100 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:56:05.100 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73185347118779,-86.5876323457026&destination=34.69568771436807,-86.53915162076996
+2017-06-21 08:56:05.197 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:57:05.198 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.730523889429236,-86.60942658241802&destination=34.73999838007563,-86.57039123616201
+2017-06-21 08:57:05.298 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:58:05.298 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75178938052591,-86.59894530708122&destination=34.73543352172487,-86.54602320161737
+2017-06-21 08:58:05.398 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 08:59:05.398 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70664010478829,-86.60221892916563&destination=34.730440152078565,-86.63410104872901
+2017-06-21 08:59:05.493 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:00:05.495 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72351824554683,-86.63376704143845&destination=34.74665835630489,-86.57127494905183
+2017-06-21 09:00:05.590 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:01:05.591 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71776352377824,-86.6043018053096&destination=34.74941202705175,-86.604965002645
+2017-06-21 09:01:05.685 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:02:05.685 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77441930438449,-86.54244377990906&destination=34.77501723414826,-86.61655870599485
+2017-06-21 09:02:05.776 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:03:05.777 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70572743081837,-86.57099708329791&destination=34.7574863515644,-86.5549294503773
+2017-06-21 09:03:05.867 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:04:05.868 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.769639896809934,-86.57333074553361&destination=34.722206049731085,-86.58457295052077
+2017-06-21 09:04:05.987 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:05:05.988 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75458685129986,-86.5758327040319&destination=34.68734153866623,-86.63068934080302
+2017-06-21 09:05:06.084 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:06:06.084 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69095358414116,-86.56167452217201&destination=34.760708327127716,-86.56177265541446
+2017-06-21 09:06:06.173 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:07:06.174 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77815238055635,-86.580331208642&destination=34.764713859433556,-86.59498568386249
+2017-06-21 09:07:06.270 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:08:06.270 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68047630882704,-86.59942701698871&destination=34.748259859863836,-86.54166027732866
+2017-06-21 09:08:06.356 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:09:06.357 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72401307886165,-86.60697938224325&destination=34.68428417864822,-86.6099699794761
+2017-06-21 09:09:06.459 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:10:06.459 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.743142106875354,-86.59673704011637&destination=34.74368247749781,-86.60365163516938
+2017-06-21 09:10:06.561 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:11:06.562 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.688097245002645,-86.61349739596736&destination=34.72453386313718,-86.53568670047505
+2017-06-21 09:11:06.652 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:12:06.652 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75804831761217,-86.59082499670097&destination=34.73233360175858,-86.60811415245313
+2017-06-21 09:12:06.742 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:13:06.743 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.749154573683455,-86.58859303735065&destination=34.73193604024247,-86.58414686707462
+2017-06-21 09:13:06.851 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:14:06.852 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73204318732926,-86.61276969962334&destination=34.71691085738053,-86.55376333322803
+2017-06-21 09:14:06.949 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:15:06.949 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.740128734659756,-86.54798422681957&destination=34.74605341767451,-86.58573513513382
+2017-06-21 09:15:07.047 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:16:07.048 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69149614952278,-86.62551117615763&destination=34.7152577769217,-86.56769447706716
+2017-06-21 09:16:07.152 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:17:07.153 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75958437549162,-86.5501366330054&destination=34.77769257257475,-86.63211055157535
+2017-06-21 09:17:07.247 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:18:07.248 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.726518590814706,-86.57199110725979&destination=34.769877236111476,-86.5754530033173
+2017-06-21 09:18:07.377 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:19:07.382 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.760958461408464,-86.55489919415241&destination=34.68046124809213,-86.54573068214296
+2017-06-21 09:19:07.502 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:20:07.503 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77398318425442,-86.54277772524652&destination=34.699171000099604,-86.59911652457822
+2017-06-21 09:20:07.596 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:21:07.597 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71577850994001,-86.58869869846498&destination=34.76407818077706,-86.6296864612391
+2017-06-21 09:21:07.688 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:22:07.689 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.730703899384245,-86.6009138952055&destination=34.70601782396061,-86.59531920151299
+2017-06-21 09:22:07.863 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 09:23:07.863 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.713317938869245,-86.53513802517143&destination=34.71398415131702,-86.53780379713754
+2017-06-21 09:23:07.955 ERROR [Timer-3] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.generateRandomTrajectory(SimCBRNOutputAlerts.java:323) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.simulate(SimCBRNOutputAlerts.java:256) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.sendMeasurement(SimCBRNOutputAlerts.java:166) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts.access$000(SimCBRNOutputAlerts.java:35) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
+	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]

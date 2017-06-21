@@ -146,3 +146,175 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weath
 	... 8 common frames omitted
 2017-06-20 19:22:37.422 INFO  [ModuleRegistry-5] - Module STOPPING
 2017-06-20 19:22:37.422 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-21 07:07:11.809 INFO  [ModuleRegistry-5] - 
+2017-06-21 07:07:11.823 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 07:07:11.823 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 07:07:11.823 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 07:07:11.823 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 07:07:11.823 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 07:07:11.823 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 07:07:13.325 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - 
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 08:45:15.464 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 08:45:15.484 ERROR [ModuleRegistry-5] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage Weather Data Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weather_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-21 08:45:15.485 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-21 08:45:15.485 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-21 08:47:46.212 INFO  [ModuleRegistry-12] - Module STOPPING
+2017-06-21 08:47:46.488 INFO  [ModuleRegistry-12] - Module STOPPED
+2017-06-21 08:47:52.878 INFO  [ModuleRegistry-5] - 
+2017-06-21 08:47:52.878 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 08:47:52.878 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 08:47:52.878 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 08:47:52.878 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 08:47:52.879 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 08:47:52.879 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 08:47:53.253 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - 
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 08:55:01.156 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 08:55:01.185 ERROR [ModuleRegistry-5] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage Weather Data Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weather_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-21 08:55:01.186 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-21 08:55:01.186 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-21 08:56:20.901 INFO  [ModuleRegistry-5] - 
+2017-06-21 08:56:20.902 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 08:56:20.902 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 08:56:20.902 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 08:56:20.902 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 08:56:20.902 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 08:56:20.903 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 08:56:20.926 ERROR [ModuleRegistry-5] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage Weather Data Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weather_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-21 08:56:20.927 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-21 08:56:20.929 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-21 09:02:37.345 INFO  [ModuleRegistry-5] - 
+2017-06-21 09:02:37.345 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 09:02:37.345 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 09:02:37.345 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 09:02:37.345 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 09:02:37.345 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 09:02:37.347 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 09:02:37.382 ERROR [ModuleRegistry-5] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage Weather Data Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weather_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-21 09:02:37.384 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-21 09:02:37.386 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-21 09:10:36.366 INFO  [ModuleRegistry-5] - 
+2017-06-21 09:10:36.367 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 09:10:36.367 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 09:10:36.367 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 09:10:36.367 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 09:10:36.367 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 09:10:36.367 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 09:10:36.387 ERROR [ModuleRegistry-5] - Error while starting module
+org.sensorhub.api.persistence.StorageException: Cannot instantiate underlying storage org.sensorhub.impl.persistence.perst.ObsStorageImpl
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:112) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: org.sensorhub.api.persistence.StorageException: Error while opening storage Weather Data Storage
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:103) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	at org.sensorhub.impl.persistence.GenericStreamStorage.start(GenericStreamStorage.java:108) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weather_obs.dat is already locked by the JVM
+	at org.sensorhub.impl.persistence.perst.BasicStorageImpl.start(BasicStorageImpl.java:85) ~[sensorhub-storage-perst-1.2.0.jar:na]
+	... 8 common frames omitted
+2017-06-21 09:10:36.388 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-21 09:10:36.389 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-21 10:01:44.063 INFO  [ModuleRegistry-5] - 
+2017-06-21 10:01:44.063 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 10:01:44.063 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 10:01:44.063 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 10:01:44.063 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 10:01:44.063 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 10:01:44.065 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 10:01:45.304 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-21 11:12:53.832 INFO  [ModuleRegistry-5] - 
+2017-06-21 11:12:53.832 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 11:12:53.832 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 11:12:53.832 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 11:12:53.832 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 11:12:53.833 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 11:12:53.833 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 11:12:54.848 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-21 12:21:30.122 INFO  [ModuleRegistry-5] - 
+2017-06-21 12:21:30.122 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-21 12:21:30.122 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-21 12:21:30.122 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-06-21 12:21:30.123 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-21 12:21:30.123 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-21 12:21:30.124 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-21 12:21:31.361 INFO  [ModuleRegistry-5] - Module STARTED
