@@ -87,7 +87,7 @@ function init()
     var cbrnEntity = {
         id: "simCBRN",
         name: "Sim CBRN",
-        dataSources: [alertData, gpsData]
+        dataSources: [alertData, gpsData, tempData]
     };
     console.log(cbrnEntity);
     var dataSourceController = new OSH.DataReceiver.DataReceiverController({
@@ -184,8 +184,20 @@ function init()
             styler: imageDrapingStyler
         }*/]);
 
-    // Chart View
-   /* var tempChartView = new OSH.UI.Nvd3CurveChartView("tempChart",
+    // Chart Views
+    // temperature chart view
+    var tempChartDialog = new OSH.UI.DialogView("dialog-main-container", {
+        draggable: false,
+        css: "video-dialog",
+        name: "CBRN - Temp",
+        show: true,
+        dockable: true,
+        closeable: true,
+        canDisconnect : true,
+        swapId: "main-container",
+        connectionIds: [tempData.getId()]
+    });
+    var tempChartView = new OSH.UI.Nvd3CurveChartView(tempChartDialog.popContentDiv.id,
         [{
             styler: new OSH.UI.Styler.Curve({
                 valuesFunc: {
@@ -207,6 +219,6 @@ function init()
             cssSelected: "video-selected",
             maxPoints:30
         }
-    );*/
+    );
 }
 

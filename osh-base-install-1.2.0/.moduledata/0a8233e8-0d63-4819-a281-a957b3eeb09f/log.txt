@@ -4736,3 +4736,31 @@ java.lang.Exception: No route available
 	at org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNOutputAlerts$1.run(SimCBRNOutputAlerts.java:211) [sensorhub-driver-simulatedcbrn-1.0.0.jar:na]
 	at java.util.TimerThread.mainLoop(Timer.java:555) [na:1.8.0_131]
 	at java.util.TimerThread.run(Timer.java:505) [na:1.8.0_131]
+2017-06-21 13:53:16.140 INFO  [ModuleRegistry-7] - 
+2017-06-21 13:53:16.140 INFO  [ModuleRegistry-7] - *************************************************
+2017-06-21 13:53:16.140 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-06-21 13:53:16.140 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-21 13:53:16.140 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-06-21 13:53:16.155 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-06-21 13:53:16.155 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-21 13:53:16.157 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-21 13:53:16.159 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.741016201726474,-86.6047327771184&destination=34.68703421756712,-86.601424994363
+2017-06-21 13:53:17.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68703,-86.60173&destination=34.771350281313836,-86.57106445952155
+2017-06-21 13:53:18.157 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77083,-86.57133&destination=34.76645233136938,-86.5437099019259
+2017-06-21 13:53:19.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76592,-86.54477&destination=34.6947907642653,-86.5404362975476
+2017-06-21 13:53:20.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69756,-86.54424&destination=34.76467149538486,-86.55517736809037
+2017-06-21 13:53:21.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76502,-86.55568&destination=34.741129410170636,-86.54346328059034
+2017-06-21 13:53:22.157 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74349,-86.54415&destination=34.72252305411559,-86.6197638009803
+2017-06-21 13:53:23.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72234,-86.61968&destination=34.73543695676856,-86.57496655329238
+2017-06-21 13:53:24.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73561,-86.57496&destination=34.747721279423466,-86.58785602092541
+2017-06-21 13:53:25.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74772,-86.58759&destination=34.747038415369296,-86.5510511739877
+2017-06-21 13:53:26.157 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.747,-86.55106&destination=34.698056746778924,-86.56885750241842
+2017-06-21 13:53:27.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69808,-86.56837&destination=34.697434794845435,-86.57724671726224
+2017-06-21 13:53:28.157 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69744,-86.57716&destination=34.74518856783575,-86.56842702166942
+2017-06-21 13:53:29.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74539,-86.56842&destination=34.72084493727837,-86.59960451319549
+2017-06-21 13:53:30.157 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72089,-86.5996&destination=34.70866074119743,-86.56912678486194
+2017-06-21 13:53:31.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70864,-86.56917&destination=34.76947325745655,-86.62693768314766
+2017-06-21 13:53:32.157 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76947,-86.62658&destination=34.77902538453877,-86.58175675529242
+2017-06-21 13:53:33.156 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77923,-86.58256&destination=34.6859622567103,-86.62120635116365
+2017-06-21 13:53:33.991 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-06-21 13:53:33.991 INFO  [ModuleRegistry-8] - Module STOPPED
