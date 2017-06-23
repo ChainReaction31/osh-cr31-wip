@@ -6628,3 +6628,970 @@ java.lang.Exception: No route available
 2017-06-21 16:00:48.454 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73356,-86.60938&destination=34.69745565352024,-86.58135546861641
 2017-06-21 16:01:50.472 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6973,-86.58204&destination=34.76878445914063,-86.61692324588262
 2017-06-21 16:04:29.522 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76878,-86.61675&destination=34.68934776489023,-86.57513523367624
+2017-06-22 10:59:07.151 INFO  [ModuleRegistry-2] - 
+2017-06-22 10:59:07.152 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 10:59:07.152 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 10:59:07.152 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 10:59:07.152 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 10:59:07.210 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 10:59:07.218 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 10:59:07.249 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 10:59:07.285 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7315484284137,-86.59901690846507&destination=34.68322287504164,-86.5473329018789
+2017-06-22 11:01:54.394 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68373,-86.54457&destination=34.71896515469481,-86.5886817557788
+2017-06-22 11:03:58.670 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71901,-86.58841&destination=34.76008582784002,-86.57715213076534
+2017-06-22 11:05:15.773 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76009,-86.57715&destination=34.696408436281345,-86.56149528800057
+2017-06-22 11:08:28.878 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69604,-86.56114&destination=34.7357800104988,-86.61917909153134
+2017-06-22 11:10:47.925 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73578,-86.6198&destination=34.7370284329124,-86.54734540174213
+2017-06-22 11:11:41.940 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73788,-86.55314&destination=34.75019838957299,-86.58185461291902
+2017-06-22 11:12:52.957 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75017,-86.58181&destination=34.75278900886181,-86.57495277891265
+2017-06-22 11:13:12.962 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75275,-86.57459&destination=34.69774576626072,-86.5559971706325
+2017-06-22 11:15:23.009 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69845,-86.55595&destination=34.70043940825866,-86.57706663805475
+2017-06-22 11:16:23.029 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70041,-86.57707&destination=34.75512924028532,-86.58526131898277
+2017-06-22 11:18:38.073 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75512,-86.58465&destination=34.745143573836444,-86.57981969834469
+2017-06-22 11:19:06.242 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74517,-86.5799&destination=34.69941326029718,-86.61150687943895
+2017-06-22 11:21:03.429 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69941,-86.61148&destination=34.68398243455019,-86.63242504676161
+2017-06-22 11:22:10.457 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68336,-86.63244&destination=34.71918146390011,-86.60789405007776
+2017-06-22 11:23:56.489 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71895,-86.6079&destination=34.71304489077697,-86.56466851662432
+2017-06-22 11:25:51.522 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71336,-86.56399&destination=34.710232715899735,-86.56543599711516
+2017-06-22 11:27:34.554 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71022,-86.56425&destination=34.68614661007724,-86.57774849468933
+2017-06-22 11:28:37.766 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68609,-86.57776&destination=34.77637982946131,-86.6334564824081
+2017-06-22 11:31:59.834 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77584,-86.63263&destination=34.68360718019969,-86.55033896037382
+2017-06-22 11:35:42.916 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68388,-86.55317&destination=34.746684351008525,-86.62574752717066
+2017-06-22 11:38:30.250 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74644,-86.62552&destination=34.77944209189106,-86.54101170998264
+2017-06-22 11:41:39.336 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77857,-86.54016&destination=34.767388961964954,-86.59706555878869
+2017-06-22 11:43:54.376 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76733,-86.59685&destination=34.75098566680815,-86.60453975056156
+2017-06-22 11:44:29.388 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75109,-86.60336&destination=34.707803162824895,-86.61109969522134
+2017-06-22 11:46:27.427 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70764,-86.6111&destination=34.69739139231485,-86.55980727895307
+2017-06-22 11:48:38.478 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69671,-86.56007&destination=34.71797462436272,-86.62737678527242
+2017-06-22 11:51:05.949 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71798,-86.62738&destination=34.776462440703185,-86.56834608776646
+2017-06-22 11:53:06.987 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77664,-86.56847&destination=34.77190660610866,-86.53706350585786
+2017-06-22 11:53:41.603 INFO  [ModuleRegistry-2] - 
+2017-06-22 11:53:41.604 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 11:53:41.604 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 11:53:41.604 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 11:53:41.604 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 11:53:41.680 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 11:53:41.683 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 11:53:41.690 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 11:53:41.701 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77058102397149,-86.57760257054731&destination=34.70954800526588,-86.57206806394608
+2017-06-22 11:54:28.020 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7721,-86.53708&destination=34.71049919774688,-86.56084122889129
+2017-06-22 11:56:37.771 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7097,-86.57217&destination=34.74805123405602,-86.59094471826765
+2017-06-22 11:56:56.790 INFO  [ModuleRegistry-2] - 
+2017-06-22 11:56:56.790 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 11:56:56.790 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 11:56:56.790 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 11:56:56.791 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 11:56:56.860 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 11:56:56.864 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 11:56:56.866 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 11:56:56.881 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6811983026146,-86.58768528429233&destination=34.70398564059202,-86.6100257760617
+2017-06-22 11:58:20.900 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70399,-86.6103&destination=34.73058983109209,-86.63273557074031
+2017-06-22 11:59:42.923 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7306,-86.63274&destination=34.73255383720729,-86.6279940869443
+2017-06-22 11:59:57.928 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73253,-86.628&destination=34.72544356777037,-86.6210712130273
+2017-06-22 12:00:21.934 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72535,-86.6213&destination=34.685564544058025,-86.59419630264307
+2017-06-22 12:01:48.969 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68464,-86.5933&destination=34.728759080932576,-86.61369105893323
+2017-06-22 12:01:50.652 INFO  [ModuleRegistry-12] - Module STOPPING
+2017-06-22 12:01:50.655 INFO  [ModuleRegistry-12] - Module STOPPED
+2017-06-22 12:02:01.111 INFO  [ModuleRegistry-2] - 
+2017-06-22 12:02:01.112 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 12:02:01.112 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 12:02:01.113 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 12:02:01.113 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 12:02:01.216 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 12:02:01.217 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 12:02:01.223 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 12:02:01.233 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76623660577036,-86.56340777503779&destination=34.77769437176089,-86.62748732252521
+2017-06-22 12:04:18.274 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77771,-86.62818&destination=34.7334197034867,-86.54975712830024
+2017-06-22 12:07:19.389 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73698,-86.55429&destination=34.6987673653913,-86.60656829116446
+2017-06-22 12:09:39.478 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69871,-86.6067&destination=34.75800758739114,-86.62263884901978
+2017-06-22 12:11:40.531 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75794,-86.62232&destination=34.77162291757784,-86.61331339500897
+2017-06-22 12:12:30.544 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77162,-86.61295&destination=34.75106110135253,-86.55419853491728
+2017-06-22 12:14:35.580 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75107,-86.55468&destination=34.71955369449986,-86.56480016108092
+2017-06-22 12:15:48.604 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71972,-86.56463&destination=34.700164423548955,-86.59205106577947
+2017-06-22 12:16:27.615 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70016,-86.59181&destination=34.749442847385865,-86.62249016838486
+2017-06-22 12:18:33.657 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74949,-86.62249&destination=34.720113501690605,-86.63093100359805
+2017-06-22 12:19:59.752 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72066,-86.63082&destination=34.70203615059538,-86.62547560199495
+2017-06-22 12:20:20.803 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70233,-86.62548&destination=34.698215508947236,-86.54883086903683
+2017-06-22 12:22:43.847 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69834,-86.54883&destination=34.73860980977315,-86.60610816006937
+2017-06-22 12:25:06.893 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73852,-86.6063&destination=34.75243687758458,-86.60634139783801
+2017-06-22 12:25:51.908 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75294,-86.60624&destination=34.77064006043416,-86.56318964561798
+2017-06-22 12:27:32.938 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77078,-86.56483&destination=34.717823496779616,-86.58669003955576
+2017-06-22 12:29:49.981 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71778,-86.58706&destination=34.718875023604156,-86.54633925237026
+2017-06-22 12:31:12.007 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71877,-86.54606&destination=34.72787874019564,-86.60396463221544
+2017-06-22 12:33:07.044 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7279,-86.60409&destination=34.723026374163666,-86.63104816232386
+2017-06-22 12:33:16.903 INFO  [ModuleRegistry-12] - Module STOPPING
+2017-06-22 12:33:16.912 INFO  [ModuleRegistry-12] - Module STOPPED
+2017-06-22 12:33:26.025 INFO  [ModuleRegistry-2] - 
+2017-06-22 12:33:26.025 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 12:33:26.025 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 12:33:26.025 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 12:33:26.025 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 12:33:26.114 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 12:33:26.114 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 12:33:26.116 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 12:33:26.120 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.746878607919726,-86.56670265553521&destination=34.70502071240048,-86.5718079203972
+2017-06-22 12:34:54.166 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70526,-86.57181&destination=34.706924582882465,-86.62429780012546
+2017-06-22 12:36:57.304 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70698,-86.62424&destination=34.704008686021034,-86.53591803317914
+2017-06-22 12:40:04.832 INFO  [ModuleRegistry-11] - Module STOPPING
+2017-06-22 12:40:04.833 INFO  [ModuleRegistry-11] - Module STOPPED
+2017-06-22 12:40:17.964 INFO  [ModuleRegistry-2] - 
+2017-06-22 12:40:17.966 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 12:40:17.966 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 12:40:17.966 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 12:40:17.966 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 12:40:18.052 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 12:40:18.056 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 12:40:18.074 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 12:40:18.082 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.735604126650294,-86.62247359998581&destination=34.77788127148281,-86.62946325498937
+2017-06-22 12:40:51.068 INFO  [ModuleRegistry-2] - 
+2017-06-22 12:40:51.068 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 12:40:51.068 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 12:40:51.069 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 12:40:51.070 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 12:40:51.154 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 12:40:51.155 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 12:40:51.157 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 12:40:51.163 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70340419073698,-86.60856437317344&destination=34.73596302484994,-86.61879551439154
+2017-06-22 12:42:31.234 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73624,-86.61897&destination=34.74798819634625,-86.55164291806638
+2017-06-22 12:44:20.299 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74799,-86.5517&destination=34.68241237353752,-86.60776963311955
+2017-06-22 13:07:15.735 INFO  [ModuleRegistry-2] - 
+2017-06-22 13:07:15.735 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 13:07:15.735 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 13:07:15.735 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 13:07:15.735 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 13:07:15.805 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 13:07:15.825 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 13:07:15.848 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 13:07:15.918 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70752832024221,-86.61974370226969&destination=34.71870084189104,-86.56029513166266
+2017-06-22 13:09:28.939 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71895,-86.56029&destination=34.77381452133272,-86.63161158791902
+2017-06-22 13:11:02.796 INFO  [ModuleRegistry-2] - 
+2017-06-22 13:11:02.796 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 13:11:02.796 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 13:11:02.796 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 13:11:02.796 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 13:11:02.884 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 13:11:02.885 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 13:11:02.897 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 13:11:02.931 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.727572476972455,-86.6033456359749&destination=34.74022753822902,-86.5895724602142
+2017-06-22 13:11:38.937 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74023,-86.58952&destination=34.77992866329056,-86.61015207215476
+2017-06-22 13:13:28.976 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77992,-86.60976&destination=34.72753278304981,-86.62475503477175
+2017-06-22 13:29:55.914 INFO  [ModuleRegistry-2] - 
+2017-06-22 13:29:55.915 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 13:29:55.915 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 13:29:55.915 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 13:29:55.915 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 13:29:56.028 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 13:29:56.029 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 13:29:56.031 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 13:29:56.035 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68988137978717,-86.61244730677741&destination=34.73957764764311,-86.5808660733436
+2017-06-22 13:32:29.085 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73936,-86.58086&destination=34.73088160561808,-86.5843673076667
+2017-06-22 13:32:41.088 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73112,-86.58455&destination=34.694415944910524,-86.57232811603542
+2017-06-22 13:34:06.117 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69449,-86.57245&destination=34.76971945991818,-86.55430484891349
+2017-06-22 13:38:28.266 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76848,-86.55258&destination=34.70086227176742,-86.5415307196736
+2017-06-22 13:42:15.364 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7016,-86.54294&destination=34.69163777368256,-86.5364154113765
+2017-06-22 13:43:24.397 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68932,-86.53877&destination=34.72861243247431,-86.57473413832324
+2017-06-22 13:45:27.441 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72863,-86.57429&destination=34.745587673125755,-86.54710316667843
+2017-06-22 13:46:14.589 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74553,-86.54709&destination=34.69319468933494,-86.55645229979352
+2017-06-22 13:48:49.677 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6934,-86.55642&destination=34.724389564180456,-86.54225621196781
+2017-06-22 13:51:46.977 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72435,-86.54043&destination=34.723443388003915,-86.58874371221317
+2017-06-22 13:54:02.081 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72345,-86.58878&destination=34.716253370368136,-86.56943201125576
+2017-06-22 13:54:49.102 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71624,-86.56943&destination=34.690379567200374,-86.57427803857239
+2017-06-22 13:55:54.129 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69039,-86.57415&destination=34.72237275837494,-86.54184758122574
+2017-06-22 13:57:48.174 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72224,-86.54309&destination=34.69651431136041,-86.61282677980537
+2017-06-22 13:59:49.420 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69626,-86.61284&destination=34.69607836545598,-86.62057849745165
+2017-06-22 14:00:03.462 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69608,-86.62069&destination=34.70191442783567,-86.55916873228695
+2017-06-22 14:02:03.501 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70213,-86.55916&destination=34.70184962248176,-86.54170368001076
+2017-06-22 14:02:42.514 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70224,-86.54245&destination=34.74282194053234,-86.61216577706217
+2017-06-22 14:05:31.572 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74275,-86.61217&destination=34.71884675229765,-86.54611789859196
+2017-06-22 14:07:42.661 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71881,-86.54604&destination=34.7245395201548,-86.53948543174293
+2017-06-22 14:08:47.681 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7245,-86.53927&destination=34.71851313741776,-86.59152076557427
+2017-06-22 14:10:43.721 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71847,-86.59179&destination=34.71973479577328,-86.55204636604265
+2017-06-22 14:11:49.743 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71978,-86.55238&destination=34.71245838888565,-86.63061818712352
+2017-06-22 14:14:07.790 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71245,-86.63026&destination=34.70575488222213,-86.63465454381199
+2017-06-22 14:14:24.795 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70551,-86.63117&destination=34.72854899837231,-86.58004485660572
+2017-06-22 14:15:39.830 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72875,-86.57965&destination=34.743663486566604,-86.54266530800759
+2017-06-22 14:16:48.853 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74349,-86.54415&destination=34.70412487693957,-86.5669297908387
+2017-06-22 14:18:42.892 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70427,-86.56693&destination=34.703022868590296,-86.59874311953389
+2017-06-22 14:19:50.916 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70313,-86.59885&destination=34.772205638952066,-86.58999216097918
+2017-06-22 14:22:19.967 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77214,-86.58939&destination=34.72256820040402,-86.56284908858818
+2017-06-22 15:43:21.731 INFO  [ModuleRegistry-2] - 
+2017-06-22 15:43:21.731 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-22 15:43:21.732 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-22 15:43:21.732 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-22 15:43:21.732 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-22 15:43:21.782 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-22 15:43:21.795 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-22 15:43:21.804 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-22 15:43:21.821 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76901735925685,-86.54852836260613&destination=34.738724169316505,-86.62749151504056
+2017-06-22 15:46:33.885 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73873,-86.62744&destination=34.71492395454739,-86.61673671217123
+2017-06-22 15:47:37.183 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71498,-86.61683&destination=34.745633553728446,-86.63360752827057
+2017-06-22 15:48:44.227 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74568,-86.63412&destination=34.68447770953394,-86.63006383120587
+2017-06-22 15:51:00.324 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68484,-86.63006&destination=34.70168416005125,-86.56954774090002
+2017-06-22 15:53:30.503 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70132,-86.56946&destination=34.7713243226435,-86.58220246711149
+2017-06-22 15:56:24.556 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77164,-86.58304&destination=34.71605036241477,-86.61760088107687
+2017-06-22 15:58:18.594 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71589,-86.61761&destination=34.70442410823292,-86.53917410064001
+2017-06-22 16:01:01.643 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70444,-86.5392&destination=34.756514231502074,-86.59910387731395
+2017-06-22 16:03:07.678 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75652,-86.59917&destination=34.77948412124153,-86.584611137732
+2017-06-22 16:04:15.098 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7794,-86.58429&destination=34.74563144372593,-86.54958914518171
+2017-06-22 16:06:14.148 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7459,-86.54999&destination=34.71564246319797,-86.59944483511451
+2017-06-22 16:08:40.205 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71552,-86.59945&destination=34.72032084880842,-86.57745845498148
+2017-06-22 16:09:13.216 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72008,-86.5775&destination=34.69346444738091,-86.61069875233805
+2017-06-22 16:11:03.250 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69347,-86.61096&destination=34.71768410099025,-86.56830544447244
+2017-06-22 16:13:04.343 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71765,-86.56788&destination=34.770755704851474,-86.57144977177539
+2017-06-22 16:15:28.492 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77083,-86.57145&destination=34.696225042400854,-86.57403420908348
+2017-06-22 16:18:33.590 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69621,-86.57404&destination=34.69479317463911,-86.56028713511141
+2017-06-22 16:18:33.595 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:19:33.621 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76329685760952,-86.55134959332315&destination=34.77177620107143,-86.54271697198669
+2017-06-22 16:19:33.626 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:20:33.653 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.744048778995044,-86.63180089674958&destination=34.73438985753335,-86.62268370607653
+2017-06-22 16:20:33.656 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:21:33.679 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77278743108484,-86.57084356517673&destination=34.739735527184635,-86.57823816026236
+2017-06-22 16:21:33.682 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:22:33.707 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74511652371031,-86.5350951267106&destination=34.766273549422564,-86.56152736338564
+2017-06-22 16:22:33.711 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:23:33.735 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71109359652125,-86.62368003646274&destination=34.773874263768064,-86.54732917795226
+2017-06-22 16:23:33.739 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:24:33.763 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69842713118926,-86.63249665143424&destination=34.75249314173109,-86.60153997987307
+2017-06-22 16:24:33.766 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:25:33.790 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73459818839945,-86.58774982515348&destination=34.7497471972599,-86.63082726579779
+2017-06-22 16:25:33.794 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:26:33.816 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72013905591858,-86.57542263497643&destination=34.773628425698234,-86.63318607904908
+2017-06-22 16:26:33.818 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:27:33.833 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.756646897577525,-86.60102905513558&destination=34.719408662134775,-86.59470702585338
+2017-06-22 16:27:33.836 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:28:33.860 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74857318245054,-86.61868432363747&destination=34.691237067056115,-86.58378246154295
+2017-06-22 16:28:33.863 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 16:29:33.886 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75151622380015,-86.56989957757972&destination=34.700002995618405,-86.61583046204068
+2017-06-22 16:29:33.889 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:20:49.456 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7146707757609,-86.54056896879858&destination=34.72274784130936,-86.61619792407159
+2017-06-22 17:20:49.458 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:21:49.461 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68887405367087,-86.59338681355246&destination=34.70729714556588,-86.61327695340694
+2017-06-22 17:21:49.463 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:22:49.480 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7226645851943,-86.55121113280039&destination=34.73215956033777,-86.5425501382585
+2017-06-22 17:22:49.484 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:23:49.512 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73353005313656,-86.55477217980896&destination=34.73110709799841,-86.56714454545525
+2017-06-22 17:23:49.515 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:24:49.541 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77994184034653,-86.54064555210532&destination=34.75234437173877,-86.62988992430544
+2017-06-22 17:24:49.543 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:25:49.560 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77579904251319,-86.62938589328483&destination=34.730435065851815,-86.60387276824449
+2017-06-22 17:25:49.561 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:26:49.576 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72124074379922,-86.54538994014368&destination=34.721398889528835,-86.59670082627912
+2017-06-22 17:26:49.578 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:27:49.592 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69814018519434,-86.56263418694171&destination=34.75382343840886,-86.6282653703963
+2017-06-22 17:27:49.596 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:28:49.622 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69734637706924,-86.59659935986214&destination=34.71400439117097,-86.62602061205281
+2017-06-22 17:28:49.625 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:29:49.650 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.728071903790266,-86.5796994372468&destination=34.76336632933591,-86.54560082680895
+2017-06-22 17:29:49.653 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:30:49.680 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69885348595249,-86.54848255551533&destination=34.70565043877922,-86.56575906520878
+2017-06-22 17:30:49.684 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:31:49.704 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72815995355217,-86.62355786675813&destination=34.7113231835209,-86.54261701341501
+2017-06-22 17:31:49.707 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:32:49.727 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72272913498202,-86.54510662783973&destination=34.731912071644075,-86.61123195742185
+2017-06-22 17:32:49.730 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:33:49.750 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.767631350793096,-86.5601254930606&destination=34.71987464741128,-86.59436896261944
+2017-06-22 17:33:49.753 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:34:49.773 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77624611725707,-86.59408067691919&destination=34.71533000734543,-86.62565762742825
+2017-06-22 17:34:49.776 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-22 17:35:49.796 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7059760757144,-86.53596633711962&destination=34.682517406984154,-86.6032432920217
+2017-06-22 17:35:49.800 ERROR [Timer-1] - Error while retrieving Google directions
+java.net.UnknownHostException: maps.googleapis.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at java.net.Socket.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.NetworkClient.doConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.openServer(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.<init>(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.http.HttpClient.New(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[na:1.8.0_131]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[na:1.8.0_131]
+	at java.net.URL.openStream(Unknown Source) ~[na:1.8.0_131]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:132) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]

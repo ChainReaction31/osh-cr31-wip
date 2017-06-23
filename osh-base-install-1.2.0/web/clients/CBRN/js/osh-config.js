@@ -81,6 +81,7 @@ function init()
     console.log("Printing Data Sources...");
     console.log(alertData);
     console.log(gpsData);
+    console.log(tempData);
     console.log(gpsData.id);
 
     // Entities
@@ -187,7 +188,7 @@ function init()
     // Chart Views
     // temperature chart view
     var tempChartDialog = new OSH.UI.DialogView("dialog-main-container", {
-        draggable: false,
+        draggable: true,
         css: "video-dialog",
         name: "CBRN - Temp",
         show: true,
@@ -203,9 +204,10 @@ function init()
                 valuesFunc: {
                     dataSourceIds: [tempData.getId()],
                     handler: function (rec, timeStamp) {
+                        console.log(rec);
                         return {
                             x: timeStamp,
-                            y: parseFloat(rec[2])
+                            y: parseFloat(rec)
                         };
                     }
                 }
