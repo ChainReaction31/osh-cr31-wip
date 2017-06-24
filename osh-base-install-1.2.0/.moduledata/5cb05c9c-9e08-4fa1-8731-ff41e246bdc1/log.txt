@@ -570,3 +570,539 @@ org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcb
 2017-06-22 17:27:26.879 DEBUG [qtp927734419-31] - Incoming websocket session closed (status=1001
 2017-06-22 17:27:26.964 DEBUG [pool-4-thread-1] - Data provider exited on client abort
 2017-06-22 17:27:26.964 DEBUG [pool-6-thread-1] - Data provider exited on client abort
+2017-06-23 14:26:04.987 INFO  [ModuleRegistry-6] - 
+2017-06-23 14:26:04.988 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-23 14:26:04.988 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-23 14:26:04.988 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-23 14:26:04.988 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-23 14:26:04.989 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-23 14:26:04.989 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-23 14:26:05.266 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 14:26:05.340 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 14:26:05.345 INFO  [EventBus-1] - Module STARTED
+2017-06-23 14:26:05.664 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 14:26:05.996 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 14:26:30.397 DEBUG [EventBus-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 14:26:39.840 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-23 14:26:39.845 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-23 14:26:39.846 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-23 14:26:39.847 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 14:26:39.848 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 14:26:39.848 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 14:26:39.852 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-23 14:34:41.548 INFO  [ModuleRegistry-13] - Module STOPPING
+2017-06-23 14:34:41.552 INFO  [ModuleRegistry-13] - Module STOPPED
+2017-06-23 14:41:02.516 INFO  [ModuleRegistry-6] - 
+2017-06-23 14:41:02.516 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-23 14:41:02.516 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-23 14:41:02.516 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-23 14:41:02.516 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-23 14:41:02.518 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-23 14:41:02.518 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-23 14:41:02.782 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 14:41:03.454 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 14:41:03.459 INFO  [EventBus-2] - Module STARTED
+2017-06-23 14:41:11.523 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 14:41:11.560 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 14:41:11.562 DEBUG [pool-3-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 14:41:11.563 DEBUG [pool-3-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 14:41:37.577 DEBUG [EventBus-8] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 14:41:42.479 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-23 14:41:42.487 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-23 14:41:42.487 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-23 14:41:42.489 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 14:41:42.490 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 14:41:42.490 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 14:41:42.495 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-23 14:41:46.172 DEBUG [qtp1791150536-44] - Incoming websocket session closed (status=1011
+2017-06-23 14:41:46.566 DEBUG [pool-1-thread-1] - Data provider exited on client abort
+2017-06-23 14:44:46.111 DEBUG [qtp1791150536-45] - Incoming websocket session closed (status=1001
+2017-06-23 14:44:46.111 DEBUG [qtp1791150536-44] - Incoming websocket session closed (status=1001
+2017-06-23 14:44:46.114 DEBUG [qtp1791150536-89] - Incoming websocket session closed (status=1001
+2017-06-23 14:44:46.573 DEBUG [pool-4-thread-1] - Data provider exited on client abort
+2017-06-23 14:44:46.573 DEBUG [pool-6-thread-1] - Data provider exited on client abort
+2017-06-23 14:44:46.626 DEBUG [pool-5-thread-1] - Data provider exited on client abort
+2017-06-23 14:45:36.650 DEBUG [qtp1791150536-293] - Incoming websocket session closed (status=1011
+2017-06-23 14:45:36.650 DEBUG [qtp1791150536-47] - Incoming websocket session closed (status=1011
+2017-06-23 14:45:36.650 DEBUG [qtp1791150536-44] - Incoming websocket session closed (status=1011
+2017-06-23 14:45:37.574 DEBUG [pool-8-thread-1] - Data provider exited on client abort
+2017-06-23 14:45:37.574 DEBUG [pool-9-thread-1] - Data provider exited on client abort
+2017-06-23 14:45:37.639 DEBUG [pool-7-thread-1] - Data provider exited on client abort
+2017-06-23 14:46:26.990 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-06-23 14:46:26.992 INFO  [EventBus-27] - Module STOPPED
+2017-06-23 15:10:21.282 INFO  [ModuleRegistry-6] - 
+2017-06-23 15:10:21.283 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-23 15:10:21.283 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-23 15:10:21.283 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-23 15:10:21.283 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-23 15:10:21.285 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-23 15:10:21.285 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-23 15:10:22.125 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 15:10:22.375 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 15:10:22.379 INFO  [EventBus-3] - Module STARTED
+2017-06-23 15:10:29.767 DEBUG [pool-1-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 15:10:29.771 DEBUG [pool-1-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 15:10:29.776 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 15:10:29.778 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 15:10:31.041 DEBUG [EventBus-1] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 15:10:34.917 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-23 15:10:34.923 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-23 15:10:34.923 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-23 15:10:34.925 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 15:10:34.925 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 15:10:34.926 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 15:10:34.931 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-23 15:10:58.803 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-23 15:10:58.809 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-23 15:10:58.809 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-23 15:10:58.811 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 15:10:58.811 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 15:10:58.812 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 15:10:58.819 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-23 15:11:01.485 DEBUG [qtp999480724-33] - Incoming websocket session closed (status=1011
+2017-06-23 15:11:02.306 DEBUG [pool-3-thread-1] - Data provider exited on client abort
+2017-06-23 15:24:26.427 DEBUG [qtp999480724-47] - Incoming websocket session closed (status=1011
+2017-06-23 15:24:26.427 DEBUG [qtp999480724-31] - Incoming websocket session closed (status=1011
+2017-06-23 15:24:26.429 DEBUG [qtp999480724-33] - Incoming websocket session closed (status=1011
+2017-06-23 15:24:26.542 DEBUG [pool-5-thread-1] - Data provider exited on client abort
+2017-06-23 15:24:27.036 DEBUG [pool-4-thread-1] - Data provider exited on client abort
+2017-06-23 15:24:27.036 DEBUG [pool-6-thread-1] - Data provider exited on client abort
+2017-06-23 15:29:37.676 DEBUG [qtp999480724-31] - Incoming websocket session closed (status=1011
+2017-06-23 15:29:37.676 DEBUG [qtp999480724-33] - Incoming websocket session closed (status=1011
+2017-06-23 15:29:37.676 DEBUG [qtp999480724-47] - Incoming websocket session closed (status=1011
+2017-06-23 15:29:38.036 DEBUG [pool-9-thread-1] - Data provider exited on client abort
+2017-06-23 15:29:38.036 DEBUG [pool-7-thread-1] - Data provider exited on client abort
+2017-06-23 15:29:38.639 DEBUG [pool-8-thread-1] - Data provider exited on client abort
+2017-06-23 15:31:16.473 DEBUG [qtp999480724-415] - Incoming websocket session closed (status=1011
+2017-06-23 15:31:16.473 DEBUG [qtp999480724-416] - Incoming websocket session closed (status=1011
+2017-06-23 15:31:16.473 DEBUG [qtp999480724-414] - Incoming websocket session closed (status=1011
+2017-06-23 15:31:16.667 DEBUG [pool-10-thread-1] - Data provider exited on client abort
+2017-06-23 15:31:17.036 DEBUG [pool-11-thread-1] - Data provider exited on client abort
+2017-06-23 15:31:17.036 DEBUG [pool-12-thread-1] - Data provider exited on client abort
+2017-06-23 15:33:23.364 DEBUG [qtp999480724-415] - Incoming websocket session closed (status=1011
+2017-06-23 15:33:23.364 DEBUG [qtp999480724-438] - Incoming websocket session closed (status=1011
+2017-06-23 15:33:23.364 DEBUG [qtp999480724-47] - Incoming websocket session closed (status=1011
+2017-06-23 15:33:23.705 DEBUG [pool-14-thread-1] - Data provider exited on client abort
+2017-06-23 15:33:24.036 DEBUG [pool-15-thread-1] - Data provider exited on client abort
+2017-06-23 15:33:24.036 DEBUG [pool-13-thread-1] - Data provider exited on client abort
+2017-06-23 15:33:46.973 DEBUG [qtp999480724-414] - Incoming websocket session closed (status=1011
+2017-06-23 15:33:46.975 DEBUG [qtp999480724-416] - Incoming websocket session closed (status=1011
+2017-06-23 15:33:46.975 DEBUG [qtp999480724-415] - Incoming websocket session closed (status=1011
+2017-06-23 15:33:47.036 DEBUG [pool-18-thread-1] - Data provider exited on client abort
+2017-06-23 15:33:47.036 DEBUG [pool-17-thread-1] - Data provider exited on client abort
+2017-06-23 15:33:47.714 DEBUG [pool-16-thread-1] - Data provider exited on client abort
+2017-06-23 15:34:08.113 DEBUG [qtp999480724-47] - Incoming websocket session closed (status=1011
+2017-06-23 15:34:08.113 DEBUG [qtp999480724-438] - Incoming websocket session closed (status=1011
+2017-06-23 15:34:08.113 DEBUG [qtp999480724-416] - Incoming websocket session closed (status=1011
+2017-06-23 15:34:08.720 DEBUG [pool-20-thread-1] - Data provider exited on client abort
+2017-06-23 15:34:09.036 DEBUG [pool-21-thread-1] - Data provider exited on client abort
+2017-06-23 15:34:09.036 DEBUG [pool-19-thread-1] - Data provider exited on client abort
+2017-06-23 15:34:27.440 DEBUG [qtp999480724-414] - Incoming websocket session closed (status=1011
+2017-06-23 15:34:27.440 DEBUG [qtp999480724-488] - Incoming websocket session closed (status=1011
+2017-06-23 15:34:27.440 DEBUG [qtp999480724-470] - Incoming websocket session closed (status=1011
+2017-06-23 15:34:27.726 DEBUG [pool-23-thread-1] - Data provider exited on client abort
+2017-06-23 15:34:28.037 DEBUG [pool-22-thread-1] - Data provider exited on client abort
+2017-06-23 15:34:28.037 DEBUG [pool-24-thread-1] - Data provider exited on client abort
+2017-06-23 15:41:38.375 DEBUG [qtp999480724-438] - Incoming websocket session closed (status=1011
+2017-06-23 15:41:38.375 DEBUG [qtp999480724-470] - Incoming websocket session closed (status=1011
+2017-06-23 15:41:38.376 DEBUG [qtp999480724-488] - Incoming websocket session closed (status=1011
+2017-06-23 15:41:38.861 DEBUG [pool-27-thread-1] - Data provider exited on client abort
+2017-06-23 15:41:39.036 DEBUG [pool-25-thread-1] - Data provider exited on client abort
+2017-06-23 15:41:39.036 DEBUG [pool-26-thread-1] - Data provider exited on client abort
+2017-06-23 15:42:54.595 DEBUG [qtp999480724-592] - Incoming websocket session closed (status=1011
+2017-06-23 15:42:54.595 DEBUG [qtp999480724-470] - Incoming websocket session closed (status=1011
+2017-06-23 15:42:54.596 DEBUG [qtp999480724-590] - Incoming websocket session closed (status=1011
+2017-06-23 15:42:54.890 DEBUG [pool-29-thread-1] - Data provider exited on client abort
+2017-06-23 15:42:55.037 DEBUG [pool-28-thread-1] - Data provider exited on client abort
+2017-06-23 15:42:55.037 DEBUG [pool-30-thread-1] - Data provider exited on client abort
+2017-06-23 17:03:09.712 INFO  [ModuleRegistry-6] - 
+2017-06-23 17:03:09.713 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-23 17:03:09.713 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-23 17:03:09.713 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-23 17:03:09.713 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-23 17:03:09.714 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-23 17:03:09.714 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-23 17:03:10.115 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 17:03:10.198 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 17:03:10.204 INFO  [EventBus-1] - Module STARTED
+2017-06-23 17:03:24.811 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 17:03:24.814 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 17:03:24.821 DEBUG [pool-3-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 17:03:24.822 DEBUG [pool-3-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 17:03:38.106 DEBUG [EventBus-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 17:03:42.594 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-23 17:03:42.600 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-23 17:03:42.601 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-23 17:03:42.602 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 17:03:42.603 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 17:03:42.604 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 17:03:42.611 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-23 17:04:00.124 DEBUG [qtp999480724-30] - Incoming websocket session closed (status=1011
+2017-06-23 17:04:00.741 DEBUG [pool-1-thread-1] - Data provider exited on client abort
+2017-06-23 17:10:32.653 DEBUG [qtp999480724-51] - Incoming websocket session closed (status=1011
+2017-06-23 17:10:32.653 DEBUG [qtp999480724-52] - Incoming websocket session closed (status=1011
+2017-06-23 17:10:32.656 DEBUG [qtp999480724-32] - Incoming websocket session closed (status=1011
+2017-06-23 17:10:32.856 DEBUG [pool-5-thread-1] - Data provider exited on client abort
+2017-06-23 17:10:33.104 DEBUG [pool-6-thread-1] - Data provider exited on client abort
+2017-06-23 17:10:33.104 DEBUG [pool-4-thread-1] - Data provider exited on client abort
+2017-06-23 17:11:48.011 DEBUG [qtp999480724-52] - Incoming websocket session closed (status=1011
+2017-06-23 17:11:48.011 DEBUG [qtp999480724-518] - Incoming websocket session closed (status=1011
+2017-06-23 17:11:48.013 DEBUG [qtp999480724-510] - Incoming websocket session closed (status=1011
+2017-06-23 17:11:48.104 DEBUG [pool-7-thread-1] - Data provider exited on client abort
+2017-06-23 17:11:48.104 DEBUG [pool-9-thread-1] - Data provider exited on client abort
+2017-06-23 17:11:48.879 DEBUG [pool-8-thread-1] - Data provider exited on client abort
+2017-06-23 17:11:49.098 DEBUG [pool-11-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:11:49.099 DEBUG [pool-11-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:11:58.786 INFO  [EventBus-36] - Module STOPPED
+2017-06-23 17:11:58.791 INFO  [ModuleRegistry-12] - Module STOPPING
+2017-06-23 17:11:58.795 INFO  [ModuleRegistry-12] - Module STOPPED
+2017-06-23 17:12:12.909 INFO  [ModuleRegistry-6] - 
+2017-06-23 17:12:12.909 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-23 17:12:12.909 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-23 17:12:12.909 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-23 17:12:12.909 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-23 17:12:12.911 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-23 17:12:12.912 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-23 17:12:13.194 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 17:12:13.273 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 17:12:13.278 INFO  [EventBus-1] - Module STARTED
+2017-06-23 17:12:21.166 DEBUG [pool-1-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 17:12:21.169 DEBUG [pool-1-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 17:12:21.175 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 17:12:21.177 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 17:12:21.189 DEBUG [pool-3-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-23 17:12:21.190 DEBUG [pool-3-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-23 17:12:29.019 DEBUG [EventBus-2] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 17:12:33.185 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-23 17:12:33.192 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-23 17:12:33.193 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-23 17:12:33.194 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 17:12:33.196 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 17:12:33.196 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 17:12:33.203 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-23 17:12:57.245 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-06-23 17:12:57.251 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-06-23 17:12:57.251 INFO  [ModuleRegistry-8] - Module STARTING
+2017-06-23 17:12:57.253 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-23 17:12:57.253 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-23 17:12:57.254 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-23 17:12:57.262 INFO  [ModuleRegistry-8] - Module STARTED
+2017-06-23 17:12:59.575 DEBUG [pool-5-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:12:59.577 DEBUG [pool-5-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:13:03.387 DEBUG [qtp1747396838-49] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:03.388 DEBUG [qtp1747396838-28] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:03.697 DEBUG [pool-9-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:13:03.698 DEBUG [pool-9-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:13:04.014 DEBUG [pool-4-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:04.014 DEBUG [pool-6-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:05.731 DEBUG [qtp1747396838-47] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:05.733 DEBUG [qtp1747396838-33] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:05.967 DEBUG [pool-10-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:13:05.968 DEBUG [pool-10-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:13:06.013 DEBUG [pool-8-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:06.013 DEBUG [pool-7-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:08.999 DEBUG [qtp1747396838-49] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:08.999 DEBUG [qtp1747396838-48] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:09.013 DEBUG [pool-12-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:09.013 DEBUG [pool-11-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:09.239 DEBUG [pool-14-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:13:09.240 DEBUG [pool-14-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:13:10.031 DEBUG [qtp1747396838-46] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:10.031 DEBUG [qtp1747396838-48] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:10.261 DEBUG [pool-16-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:13:10.262 DEBUG [pool-16-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:13:10.796 DEBUG [qtp1747396838-33] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:10.796 DEBUG [qtp1747396838-47] - Incoming websocket session closed (status=1011
+2017-06-23 17:13:11.014 DEBUG [pool-13-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:11.014 DEBUG [pool-15-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:11.014 DEBUG [pool-17-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:11.014 DEBUG [pool-18-thread-1] - Data provider exited on client abort
+2017-06-23 17:13:11.091 DEBUG [pool-20-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:13:11.093 DEBUG [pool-20-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:16:45.909 DEBUG [qtp1747396838-49] - Incoming websocket session closed (status=1011
+2017-06-23 17:16:45.910 DEBUG [qtp1747396838-28] - Incoming websocket session closed (status=1011
+2017-06-23 17:16:46.013 DEBUG [pool-19-thread-1] - Data provider exited on client abort
+2017-06-23 17:16:46.013 DEBUG [pool-21-thread-1] - Data provider exited on client abort
+2017-06-23 17:16:47.401 DEBUG [pool-23-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 2
+	at org.vast.data.DataBlockMixed.selectBlock(DataBlockMixed.java:162) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getStringValue(DataBlockMixed.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$StringWriter.writeValue(JsonDataWriter.java:198) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-06-23 17:16:47.402 DEBUG [pool-23-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:19:45.751 DEBUG [qtp1747396838-49] - Incoming websocket session closed (status=1011
+2017-06-23 17:19:45.752 DEBUG [qtp1747396838-169] - Incoming websocket session closed (status=1011
+2017-06-23 17:19:46.013 DEBUG [pool-24-thread-1] - Data provider exited on client abort
+2017-06-23 17:19:46.013 DEBUG [pool-22-thread-1] - Data provider exited on client abort
+2017-06-23 17:19:47.211 DEBUG [pool-26-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: null
+2017-06-23 17:19:47.212 DEBUG [pool-26-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:22:32.812 DEBUG [qtp1747396838-49] - Incoming websocket session closed (status=1011
+2017-06-23 17:22:32.812 DEBUG [qtp1747396838-228] - Incoming websocket session closed (status=1011
+2017-06-23 17:22:33.013 DEBUG [pool-27-thread-1] - Data provider exited on client abort
+2017-06-23 17:22:33.013 DEBUG [pool-25-thread-1] - Data provider exited on client abort
+2017-06-23 17:22:34.390 DEBUG [pool-29-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: null
+2017-06-23 17:22:34.391 DEBUG [pool-29-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:23:17.295 DEBUG [qtp1747396838-28] - Incoming websocket session closed (status=1011
+2017-06-23 17:23:17.297 DEBUG [qtp1747396838-278] - Incoming websocket session closed (status=1011
+2017-06-23 17:23:18.013 DEBUG [pool-28-thread-1] - Data provider exited on client abort
+2017-06-23 17:23:18.013 DEBUG [pool-30-thread-1] - Data provider exited on client abort
+2017-06-23 17:23:18.523 DEBUG [pool-32-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: null
+2017-06-23 17:23:18.524 DEBUG [pool-32-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-06-23 17:34:55.929 DEBUG [qtp1747396838-278] - Incoming websocket session closed (status=1011
+2017-06-23 17:34:55.929 DEBUG [qtp1747396838-277] - Incoming websocket session closed (status=1011
+2017-06-23 17:34:56.013 DEBUG [pool-33-thread-1] - Data provider exited on client abort
+2017-06-23 17:34:56.013 DEBUG [pool-31-thread-1] - Data provider exited on client abort
+2017-06-23 17:35:30.141 DEBUG [pool-35-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: null
+2017-06-23 17:35:30.143 DEBUG [pool-35-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record

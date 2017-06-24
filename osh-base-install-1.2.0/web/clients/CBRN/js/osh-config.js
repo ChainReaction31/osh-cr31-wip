@@ -45,7 +45,7 @@ function init()
         protocol: "ws",
         service: "SOS",
         endpointUrl: HOSTNAME + "8181/sensorhub/sos",
-        offeringID: "urn:mysos:offering02",
+        offeringID: "urn:mysos:simcbrn",
         observedProperty: "http://www.opengis.net/def/property/OGC/0/SensorLocation",
         startTime: "now",
         endTime: "2018-01-01",
@@ -79,9 +79,9 @@ function init()
     });
 
     console.log("Printing Data Sources...");
-    console.log(alertData);
+    //console.log(alertData);
     console.log(gpsData);
-    console.log(tempData);
+    //console.log(tempData);
     console.log(gpsData.id);
 
     // Entities
@@ -98,28 +98,9 @@ function init()
     dataSourceController.addEntity(cbrnEntity);
     dataSourceController.connectAll();
 
-    // Stylers
-    /* var pointMarker = new OSH.UI.Styler.PointMarker({
-     label: "Sim CBRN",
-     locationFunc : {
-     dataSourceIds : [gpsData.getId()],
-     handler : function(rec) {
-     console.log("test");
-     if (rec.alt < 1)
-     rec.alt *= 1e4; // *10^4 due to bug in Toulouse dataset
-     return {
-     x : rec.lon,
-     y : rec.lat,
-     // z : rec.alt+mslToWgs84-5. // model offset
-     z: 0
-     };
-     }
-     },
-     //orientationFunc: {},
-     icon: "./models/Drone+06B.glb"
-     //icon: "/empty"
-     });*/
-
+    //------------------------------------------------------//
+    //-----------------------STYLERS------------------------//
+    //------------------------------------------------------//
     pointMarker = new OSH.UI.Styler.PointMarker(
     {
         location:

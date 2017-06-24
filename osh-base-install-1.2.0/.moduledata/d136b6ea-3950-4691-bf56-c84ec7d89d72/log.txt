@@ -7595,3 +7595,143 @@ java.net.UnknownHostException: maps.googleapis.com
 	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
 	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_131]
 	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_131]
+2017-06-23 14:26:04.952 INFO  [ModuleRegistry-2] - 
+2017-06-23 14:26:04.952 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-23 14:26:04.952 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-23 14:26:04.952 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-23 14:26:04.952 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-23 14:26:04.996 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-23 14:26:04.998 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-23 14:26:05.000 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-23 14:26:05.007 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.717550565155804,-86.58853709430042&destination=34.73323029282916,-86.54162227992107
+2017-06-23 14:28:25.089 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73059,-86.53839&destination=34.71610802426544,-86.60922420346108
+2017-06-23 14:31:06.139 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7161,-86.60907&destination=34.71812048163736,-86.62355766900572
+2017-06-23 14:31:34.146 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71826,-86.62347&destination=34.77833635355947,-86.53596198523931
+2017-06-23 14:34:29.189 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77805,-86.53585&destination=34.71027993795693,-86.62727897629333
+2017-06-23 14:34:41.534 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-06-23 14:34:41.534 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-06-23 14:41:02.487 INFO  [ModuleRegistry-2] - 
+2017-06-23 14:41:02.488 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-23 14:41:02.488 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-23 14:41:02.488 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-23 14:41:02.488 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-23 14:41:02.529 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-23 14:41:02.529 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-23 14:41:02.533 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-23 14:41:02.540 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74670119611972,-86.60869690174762&destination=34.72828910105639,-86.59315311771327
+2017-06-23 14:41:50.567 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72796,-86.5929&destination=34.737832099897645,-86.59762517229561
+2017-06-23 14:42:25.578 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7378,-86.59686&destination=34.742468238617356,-86.62430415097272
+2017-06-23 14:43:08.589 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74263,-86.6243&destination=34.7208382790142,-86.63146540979828
+2017-06-23 14:43:58.606 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72065,-86.63147&destination=34.68971548766815,-86.53699969786412
+2017-06-23 14:46:26.986 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-06-23 14:46:26.986 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-06-23 15:10:21.248 INFO  [ModuleRegistry-2] - 
+2017-06-23 15:10:21.248 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-23 15:10:21.248 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-23 15:10:21.248 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-23 15:10:21.248 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-23 15:10:21.288 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-23 15:10:21.288 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-23 15:10:21.291 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-23 15:10:21.299 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76857844775879,-86.5497749068675&destination=34.75226532111188,-86.57677926410335
+2017-06-23 15:11:26.314 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75195,-86.57681&destination=34.71875428245879,-86.56551221169953
+2017-06-23 15:12:23.332 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71863,-86.56553&destination=34.698631493891895,-86.56636961427444
+2017-06-23 15:12:59.344 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69862,-86.56637&destination=34.739598084970055,-86.56085155119295
+2017-06-23 15:14:23.371 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73865,-86.5603&destination=34.74671198133781,-86.63388482725092
+2017-06-23 15:16:37.408 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74675,-86.6337&destination=34.75485583508763,-86.632726024573
+2017-06-23 15:16:46.411 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75496,-86.63272&destination=34.712912075123235,-86.54306103764253
+2017-06-23 15:20:14.471 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71298,-86.54328&destination=34.76633433909275,-86.61918999234074
+2017-06-23 15:23:28.526 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76675,-86.61919&destination=34.76753343068888,-86.54047100931895
+2017-06-23 15:26:05.572 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76972,-86.53922&destination=34.711067649564775,-86.53526553036812
+2017-06-23 15:29:26.635 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71164,-86.53515&destination=34.69823840759625,-86.59998632798712
+2017-06-23 15:31:57.680 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6975,-86.60076&destination=34.70392792073514,-86.62426741837689
+2017-06-23 15:32:43.693 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70394,-86.62471&destination=34.74171693941094,-86.58405377648351
+2017-06-23 15:34:25.726 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74171,-86.58405&destination=34.745080656533524,-86.62938361204405
+2017-06-23 15:36:09.754 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74507,-86.62909&destination=34.69056295353566,-86.59577757647486
+2017-06-23 15:39:18.818 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69055,-86.59536&destination=34.727652117011694,-86.61722000633443
+2017-06-23 15:40:49.844 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7275,-86.6171&destination=34.69416127293097,-86.59252333801345
+2017-06-23 15:42:16.877 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69415,-86.59199&destination=34.71801636036858,-86.63034852320153
+2017-06-23 15:44:01.907 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71823,-86.63032&destination=34.70244588886257,-86.55766078998592
+2017-06-23 15:46:56.982 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70208,-86.55769&destination=34.71025014998485,-86.53574488151317
+2017-06-23 15:47:40.002 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7096,-86.53654&destination=34.759065577721614,-86.5656526009454
+2017-06-23 15:50:38.085 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75908,-86.56576&destination=34.76950005928812,-86.5878592639999
+2017-06-23 15:53:03.153 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76884,-86.58787&destination=34.75880459986129,-86.6268599767626
+2017-06-23 15:54:17.189 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75882,-86.62722&destination=34.75715885196472,-86.62128616462203
+2017-06-23 15:54:34.198 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75716,-86.62105&destination=34.73753546658674,-86.54456793798285
+2017-06-23 15:57:11.261 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74252,-86.54839&destination=34.77744410439975,-86.53808777269963
+2017-06-23 15:58:06.287 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77743,-86.538&destination=34.7412879891898,-86.5906565318048
+2017-06-23 16:00:19.346 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74119,-86.59096&destination=34.77125420105194,-86.62539453239644
+2017-06-23 16:01:50.380 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77134,-86.62539&destination=34.760956968143,-86.61285670659075
+2017-06-23 16:02:29.396 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76085,-86.61342&destination=34.73450412304698,-86.59809751344028
+2017-06-23 16:03:22.419 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73451,-86.59818&destination=34.76232566237967,-86.60272506000223
+2017-06-23 16:06:27.500 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76251,-86.60272&destination=34.76742010659742,-86.53918078724546
+2017-06-23 16:07:46.535 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76972,-86.53922&destination=34.74338339591773,-86.57640236836536
+2017-06-23 16:09:14.571 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74344,-86.5764&destination=34.68658768684754,-86.54154097938952
+2017-06-23 16:11:37.635 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68715,-86.54164&destination=34.726635083133324,-86.63226764955247
+2017-06-23 16:15:15.730 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72667,-86.63226&destination=34.7252416392113,-86.59220791472514
+2017-06-23 16:16:45.768 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72553,-86.59176&destination=34.72381838586564,-86.59412960290365
+2017-06-23 16:16:59.775 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72376,-86.59424&destination=34.71340774833489,-86.58413555216512
+2017-06-23 16:17:29.791 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71344,-86.58446&destination=34.680111782751375,-86.57189027079357
+2017-06-23 16:18:40.825 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68008,-86.57182&destination=34.77516532690016,-86.53552181360118
+2017-06-23 16:23:37.956 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77509,-86.53553&destination=34.693406210402735,-86.53849554813581
+2017-06-23 16:28:55.102 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68938,-86.53906&destination=34.68915495629646,-86.63229040108054
+2017-06-23 16:32:36.191 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68914,-86.63084&destination=34.69862748184485,-86.60342708295019
+2017-06-23 16:33:36.219 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69896,-86.60313&destination=34.74456655134582,-86.58720061964355
+2017-06-23 16:34:48.249 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74459,-86.58706&destination=34.696941999111544,-86.54740803557976
+2017-06-23 16:37:07.312 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69763,-86.5466&destination=34.744048205309625,-86.6018114556844
+2017-06-23 16:38:41.357 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7442,-86.60173&destination=34.76889333569181,-86.5837707378912
+2017-06-23 16:39:26.374 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76902,-86.58405&destination=34.775109986169156,-86.62721668087605
+2017-06-23 16:40:47.407 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77511,-86.62732&destination=34.75467890529854,-86.59696683298253
+2017-06-23 16:42:39.453 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.755,-86.59673&destination=34.729080802079814,-86.55078426687895
+2017-06-23 16:44:45.490 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72639,-86.55046&destination=34.689421151360996,-86.53969138805209
+2017-06-23 16:47:27.534 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68929,-86.53935&destination=34.68286330569712,-86.58367691914454
+2017-06-23 16:49:28.574 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68268,-86.5835&destination=34.74538944459705,-86.53856161220514
+2017-06-23 16:53:38.649 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74592,-86.53545&destination=34.77830083701757,-86.57210659264737
+2017-06-23 16:56:47.713 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7783,-86.57233&destination=34.70513679359602,-86.58434806250249
+2017-06-23 16:59:11.757 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70531,-86.58434&destination=34.7683077928389,-86.61213211478693
+2017-06-23 17:01:27.797 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76835,-86.61214&destination=34.75934654661342,-86.61715465957722
+2017-06-23 17:01:55.805 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75935,-86.61757&destination=34.694777106275154,-86.55846850948419
+2017-06-23 17:03:09.681 INFO  [ModuleRegistry-2] - 
+2017-06-23 17:03:09.681 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-23 17:03:09.681 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-23 17:03:09.681 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-23 17:03:09.681 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-23 17:03:09.723 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-23 17:03:09.724 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-23 17:03:09.726 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-23 17:03:09.730 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69859690450115,-86.54477884224836&destination=34.752720972900164,-86.60297164427972
+2017-06-23 17:06:16.783 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75257,-86.60277&destination=34.706815127413904,-86.60671551304573
+2017-06-23 17:08:03.814 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70672,-86.60682&destination=34.711733008124185,-86.54128850969526
+2017-06-23 17:10:44.859 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71139,-86.54116&destination=34.77458399575043,-86.54139679014257
+2017-06-23 17:11:58.777 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-06-23 17:11:58.778 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-06-23 17:12:12.874 INFO  [ModuleRegistry-2] - 
+2017-06-23 17:12:12.874 INFO  [ModuleRegistry-2] - *************************************************
+2017-06-23 17:12:12.874 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-06-23 17:12:12.874 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-06-23 17:12:12.874 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-06-23 17:12:12.911 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-06-23 17:12:12.912 INFO  [ModuleRegistry-2] - Module STARTING
+2017-06-23 17:12:12.913 INFO  [ModuleRegistry-2] - Module STARTED
+2017-06-23 17:12:12.919 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72238954530241,-86.60579171147555&destination=34.73706109290964,-86.55502214348529
+2017-06-23 17:13:12.930 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73742,-86.55506&destination=34.771020528510746,-86.54246136288852
+2017-06-23 17:14:35.955 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77204,-86.54221&destination=34.74478317837535,-86.60527385296577
+2017-06-23 17:16:46.997 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74492,-86.60527&destination=34.701046998504765,-86.61760751036482
+2017-06-23 17:18:56.040 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70106,-86.61785&destination=34.689543989653146,-86.54143173265386
+2017-06-23 17:21:36.093 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68913,-86.53943&destination=34.737051690974205,-86.56572641306225
+2017-06-23 17:24:13.137 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73704,-86.56573&destination=34.71474472634861,-86.55267109125418
+2017-06-23 17:25:33.161 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71443,-86.55275&destination=34.68261365744152,-86.56640009522509
+2017-06-23 17:27:04.192 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68394,-86.5664&destination=34.72028561124383,-86.61791667899574
+2017-06-23 17:28:41.222 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72013,-86.61792&destination=34.7440498942805,-86.62621332002821
+2017-06-23 17:29:45.242 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74404,-86.62562&destination=34.71349947401022,-86.61600448428524
+2017-06-23 17:31:01.266 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71346,-86.61644&destination=34.77203754816902,-86.55200855784696
+2017-06-23 17:35:13.348 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77065,-86.55003&destination=34.7793638101595,-86.57063645824363
+2017-06-23 17:36:37.375 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77894,-86.57065&destination=34.72525292862797,-86.5691674316485
+2017-06-23 17:38:37.417 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72544,-86.56916&destination=34.76326599578499,-86.6185926515097
+2017-06-23 17:40:27.455 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76306,-86.6186&destination=34.7791784706762,-86.59153418086808
+2017-06-23 17:41:44.480 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77926,-86.59186&destination=34.72994684676351,-86.59727760647704
+2017-06-23 17:43:54.524 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72994,-86.59728&destination=34.70088804065212,-86.5901520611523
+2017-06-23 17:45:22.551 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70085,-86.59014&destination=34.71074093614551,-86.57031623848822
+2017-06-23 17:45:59.564 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71059,-86.57022&destination=34.770095088710576,-86.60213413810574
+2017-06-23 17:49:10.631 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7701,-86.60256&destination=34.77629482364098,-86.56100218484713
+2017-06-23 17:51:21.677 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77663,-86.56293&destination=34.68103047283204,-86.60396272062006
