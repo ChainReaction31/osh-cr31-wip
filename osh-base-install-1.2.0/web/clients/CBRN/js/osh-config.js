@@ -133,7 +133,7 @@ function init()
                 };
             }
         },
-        icon: 'images/cameralook.png',
+        icon: 'images/CBRN_Icons/CBRN(Green).png',
         /*iconFunc:
         {
             dataSourceIds: [gpsData.getId()],

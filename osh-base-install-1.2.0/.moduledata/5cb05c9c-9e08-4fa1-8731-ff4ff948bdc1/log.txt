@@ -484,3 +484,19 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_o
 2017-06-23 17:12:12.885 INFO  [ModuleRegistry-4] - Module INITIALIZED
 2017-06-23 17:12:12.886 INFO  [ModuleRegistry-4] - Module STARTING
 2017-06-23 17:12:13.036 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-26 12:29:51.332 INFO  [ModuleRegistry-4] - 
+2017-06-26 12:29:51.402 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-26 12:29:51.402 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-26 12:29:51.402 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-26 12:29:51.402 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-26 12:29:51.402 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-26 12:29:51.404 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-26 12:29:53.358 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-26 14:31:36.819 INFO  [ModuleRegistry-4] - 
+2017-06-26 14:31:36.820 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-26 14:31:36.820 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-26 14:31:36.820 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-26 14:31:36.820 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-26 14:31:36.820 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-26 14:31:36.821 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-26 14:31:37.159 INFO  [ModuleRegistry-4] - Module STARTED
