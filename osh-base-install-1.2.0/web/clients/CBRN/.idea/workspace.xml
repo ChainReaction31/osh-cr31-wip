@@ -4,11 +4,21 @@
     <list default="true" id="e4642838-0a05-4c11-b633-d030d4cf0f25" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../db/gps_obs.dat" afterPath="$PROJECT_DIR$/../../../db/gps_obs.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../db/weather_obs.dat" afterPath="$PROJECT_DIR$/../../../db/weather_obs.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../lib/sensorhub-driver-simulatedcbrn-1.0.0.jar" afterPath="$PROJECT_DIR$/../../../lib/sensorhub-driver-simulatedcbrn-1.0.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../osh-sensors" afterPath="$PROJECT_DIR$/../../../../osh-sensors" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/0a8233e8-0d63-4819-a281-a957b3eeb09f/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/0a8233e8-0d63-4819-a281-a957b3eeb09f/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9123-4fa1-8731-ffaa51489678/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9123-4fa1-8731-ffaa51489678/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff41e246bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff41e246bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d72/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d72/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d73/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d73/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../config.json" afterPath="$PROJECT_DIR$/../../../config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dialog-styler.css" afterPath="$PROJECT_DIR$/css/dialog-styler.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/osh-config.js" afterPath="$PROJECT_DIR$/js/osh-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/osh.js" afterPath="$PROJECT_DIR$/js/osh.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/osh.min.js" afterPath="$PROJECT_DIR$/js/osh.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,36 +36,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="osh-config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="osh-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/osh-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="844">
-              <caret line="171" column="24" lean-forward="true" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+            <state relative-caret-position="759">
+              <caret line="242" column="42" lean-forward="true" selection-start-line="242" selection-start-column="42" selection-end-line="242" selection-end-column="42" />
               <folding>
-                <element signature="e#940#1212#0" expanded="false" />
+                <element signature="e#1098#1370#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="699">
+              <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../osh-js-master/Clients/VideoDisplay/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="57848" lean-forward="false" selection-start-line="6" selection-start-column="57842" selection-end-line="6" selection-end-column="57848" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/css/dialog-styler.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -99,6 +99,8 @@
       <find>nav</find>
       <find>dialog</find>
       <find>navbar</find>
+      <find>OSH.ui.Ces</find>
+      <find>billboard</find>
     </findStrings>
     <replaceStrings>
       <replace>../../Toolkit</replace>
@@ -112,9 +114,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/viewers/CurveChart/curveChart.html" />
-        <option value="$PROJECT_DIR$/js/osh.js" />
         <option value="$PROJECT_DIR$/js/config-2.js" />
         <option value="$PROJECT_DIR$/js/osh-DataReceiver-DataSourceCBRN.js" />
+        <option value="$PROJECT_DIR$/js/osh.js" />
+        <option value="$PROJECT_DIR$/js/osh.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/dialog-styler.css" />
         <option value="$PROJECT_DIR$/js/osh-config.js" />
@@ -241,6 +244,9 @@
     <configuration default="false" name="osh-config.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="osh-config.js" working-dir="$PROJECT_DIR$/js">
       <method />
     </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/CBRN/index.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -307,12 +313,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Node.js.osh-config.js" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Node.js.osh-config.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -349,12 +357,12 @@
       <workItem from="1498057244722" duration="7680000" />
       <workItem from="1498146826476" duration="6339000" />
       <workItem from="1498246092724" duration="8752000" />
-      <workItem from="1498498413159" duration="1564000" />
+      <workItem from="1498498413159" duration="15323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98017000" />
+    <option name="totallyTimeSpent" value="111776000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,13 +375,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15989584" sideWeight="0.487315" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21458334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16041666" sideWeight="0.512685" order="2" side_tool="true" content_ui="tabs" />
@@ -395,18 +402,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/osh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7922">
-          <caret line="466" column="26" lean-forward="false" selection-start-line="466" selection-start-column="26" selection-end-line="466" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Toolkit/src/osh/osh-EventManager.js" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -423,7 +423,7 @@
         <state relative-caret-position="153">
           <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
           <folding>
-            <element signature="e#940#1212#0" expanded="false" />
+            <element signature="e#1098#1370#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,7 +452,7 @@
         <state relative-caret-position="561">
           <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
-            <element signature="e#940#1212#0" expanded="false" />
+            <element signature="e#1098#1370#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -485,7 +485,7 @@
         <state relative-caret-position="561">
           <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
-            <element signature="e#940#1212#0" expanded="false" />
+            <element signature="e#1098#1370#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -536,13 +536,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/all-in-one/vendor.js" />
     <entry file="file://$PROJECT_DIR$/viewers/CurveChart/curveChart.html" />
     <entry file="file://$PROJECT_DIR$/../../Toolkit/src/osh/osh-EventManager.js" />
-    <entry file="file://$PROJECT_DIR$/js/osh.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="466" column="26" lean-forward="false" selection-start-line="466" selection-start-column="26" selection-end-line="466" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../../osh-js/Demos/VideoDisplay/js/config-3.js" />
     <entry file="file://$PROJECT_DIR$/js/config-2.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -571,6 +564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -625,30 +619,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/dialog-styler.css">
+    <entry file="file://$PROJECT_DIR$/js/osh.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="464" column="22" lean-forward="true" selection-start-line="464" selection-start-column="22" selection-end-line="464" selection-end-column="22" />
+          <folding>
+            <marker date="1498509231036" expanded="true" signature="176673:176679" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/osh.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="42" column="5797" lean-forward="true" selection-start-line="42" selection-start-column="5797" selection-end-line="42" selection-end-column="5797" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/dialog-styler.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="41" lean-forward="false" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/osh-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="171" column="24" lean-forward="true" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+        <state relative-caret-position="759">
+          <caret line="242" column="42" lean-forward="true" selection-start-line="242" selection-start-column="42" selection-end-line="242" selection-end-column="42" />
           <folding>
-            <element signature="e#940#1212#0" expanded="false" />
+            <element signature="e#1098#1370#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="42" column="53" lean-forward="false" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

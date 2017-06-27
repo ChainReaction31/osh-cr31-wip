@@ -16,13 +16,15 @@ function init()
     console.log(OFFERING_ID);
 
 
-    // Data Source(s)
-    var alertData = new OSH.DataReceiver.JSON("Alerts", {
+    //--------------------------------------------------//
+    //------------------Data Sources--------------------//
+    //--------------------------------------------------//
+    var hazardLevel = new OSH.DataReceiver.JSON("Alerts", {
             protocol: "ws",
             service: "SOS",
             endpointUrl: HOSTNAME + "8181/sensorhub/sos",
             offeringID: OFFERING_ID,
-            observedProperty: "http://sensorml.com/ont/swe/property/AlertEvent",
+            observedProperty: "http://sensorml.com/ont/swe/property/HazardLevel",
             endTime: "2018-01-01",
             startTime: "now",
             replaySpeed: "1",
@@ -66,7 +68,7 @@ function init()
         bufferingTime: 1000
     });
 
-    var alertLevelBars = new OSH.DataReceiver.JSON("Bars", {
+    var numericalAlert = new OSH.DataReceiver.JSON("Alert Level", {
         protocol: "ws",
         service: "SOS",
         endpointUrl: HOSTNAME + "8181:/sensorhub/sos",
@@ -79,16 +81,17 @@ function init()
     });
 
     console.log("Printing Data Sources...");
-    //console.log(alertData);
-    console.log(gpsData);
+    console.log(hazardLevel);
+    //console.log(gpsData);
     //console.log(tempData);
+    console.log(numericalAlert)
     console.log(gpsData.id);
 
     // Entities
     var cbrnEntity = {
         id: "simCBRN",
         name: "Sim CBRN",
-        dataSources: [alertData, gpsData, tempData]
+        dataSources: [hazardLevel, gpsData, tempData, numericalAlert]
     };
     console.log(cbrnEntity);
     var dataSourceController = new OSH.DataReceiver.DataReceiverController({
@@ -114,7 +117,7 @@ function init()
             dataSourceIds: [gpsData.getId()],
             handler: function (rec)
             {
-                console.log(rec);
+                //console.log(rec);
                 return{
                     x: rec.location.lon,
                     y: rec.location.lat,
@@ -126,30 +129,42 @@ function init()
         {
             dataSourceIds: [gpsData.getId()],
             handler: function (rec) {
-                console.log("Entered second handler of styler");
+                //console.log("Entered second handler of styler");
                 return {
                     //heading: rec.heading
                     heading: 0
                 };
             }
         },
-        icon: 'images/CBRN_Icons/CBRN(Green).png',
-        /*iconFunc:
-        {
-            dataSourceIds: [gpsData.getId()],
-            handler: function (rec, timeStamp, options) {
-                console.log("Entered icon handler of styler");
-                if (options.selected) {
-                    return 'images/cameralook-selected.png'
-                } else {
-                    return 'images/cameralook.png';
+        icon: 'images/CBRN_Icons/CBRN(Red).png',
+
+        iconFunc:
+            {
+                dataSourceIds: [hazardLevel.getId()],
+                handler: function(rec) {
+                    console.log(String(rec.hazard_level));
+                    if(String(rec.hazard_level) === "None" || String(rec.hazard_level) === "NONE")
+                    {
+                        return 'images/CBRN_Icons/CBRN(Green).png';
+                    }
+                    else if(String(rec.hazard_level) === "Low" || String(rec.hazard_level) === "LOW")
+                    {
+                        return 'images/CBRN_Icons/CBRN(Yellow).png';
+                    }
+                    else if(String(rec.hazard_level) === "Medium" || String(rec.hazard_level) === "MEDIUM")
+                    {
+                        return 'images/CBRN_Icons/CBRN(Orange).png';
+                    }
+                    else if(String(rec.hazard_level) === "High" || String(rec.hazard_level) === "HIGH")
+                    {
+                        return 'images/CBRN_Icons/CBRN(Red).png';
+                    }
                 }
             }
-        }*/
     });
 
 
-    console.log("We've passed the styler");
+    //console.log("We've passed the styler");
 
     // Map View
     window.CESIUM_BASE_URL = "../vendor/";
@@ -197,6 +212,43 @@ function init()
         {
             name: "Temperature Chart",
             yLabel: 'Temperature (Cel)',
+            xLabel: 'Time',
+            css:"chart-view",
+            cssSelected: "video-selected",
+            maxPoints:30
+        }
+    );
+
+    var hazChartDialog = new OSH.UI.DialogView("dialog-second-container", {
+        draggable: true,
+        css: "video-dialog",
+        name: "CBRN - Hazard Level",
+        show: true,
+        dockable: true,
+        closeable: true,
+        canDisconnect : true,
+        swapId: "second-container",
+        connectionIds: [numericalAlert.getId()]
+    });
+
+    var hazChartView = new OSH.UI.Nvd3CurveChartView(hazChartDialog.popContentDiv.id,
+        [{
+            styler: new OSH.UI.Styler.Curve({
+                valuesFunc: {
+                    dataSourceIds: [numericalAlert.getId()],
+                    handler: function (rec, timeStamp) {
+                        console.log(rec);
+                        return {
+                            x: timeStamp,
+                            y: parseFloat(rec)
+                        };
+                    }
+                }
+            })
+        }],
+        {
+            name: "Hazard Level Chart",
+            yLabel: 'Level',
             xLabel: 'Time',
             css:"chart-view",
             cssSelected: "video-selected",

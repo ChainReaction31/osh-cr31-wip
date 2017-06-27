@@ -182,6 +182,12 @@
   {
     "objClass": "org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNConfig",
     "serialNumber": "BIR012345",
+    "location": {
+      "objClass": "org.sensorhub.api.sensor.PositionConfig$LLALocation",
+      "lat": 3473678.0,
+      "lon": -8656212.0,
+      "alt": 0.0
+    },
     "source1": {
       "objClass": "datasimulation.PointSource",
       "lat": 34.8308,

@@ -5526,7 +5526,8 @@ OSH.UI.CesiumView = Class.create(OSH.UI.View, {
 				billboard : {
 					image : imgIcon,
 					rotation : Cesium.Math.toRadians(0),
-					horizontalOrigin : Cesium.HorizontalOrigin.CENTER
+					horizontalOrigin : Cesium.HorizontalOrigin.CENTER,
+                    scale: 0.5
 				}
 			};
 		}
