@@ -71,7 +71,7 @@ function init()
     var numericalAlert = new OSH.DataReceiver.JSON("Alert Level", {
         protocol: "ws",
         service: "SOS",
-        endpointUrl: HOSTNAME + "8181:/sensorhub/sos",
+        endpointUrl: HOSTNAME + "8181/sensorhub/sos",
         offeringID: "urn:mysos:simcbrn",
         observedProperty: "http://sensorml.com/ont/swe/property/Level",
         startTime: "now",
@@ -84,7 +84,7 @@ function init()
     console.log(hazardLevel);
     //console.log(gpsData);
     //console.log(tempData);
-    console.log(numericalAlert)
+    console.log(numericalAlert);
     console.log(gpsData.id);
 
     // Entities
@@ -237,10 +237,10 @@ function init()
                 valuesFunc: {
                     dataSourceIds: [numericalAlert.getId()],
                     handler: function (rec, timeStamp) {
-                        console.log(rec);
+                        console.log(rec.alert_level);
                         return {
                             x: timeStamp,
-                            y: parseFloat(rec)
+                            y: parseFloat(rec.alert_level)
                         };
                     }
                 }

@@ -1984,3 +1984,174 @@ org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcb
 2017-06-26 20:43:49.132 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
 2017-06-26 20:43:49.133 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
 2017-06-26 20:43:49.139 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-27 12:29:57.402 INFO  [ModuleRegistry-6] - 
+2017-06-27 12:29:57.402 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 12:29:57.402 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 12:29:57.402 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 12:29:57.402 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 12:29:57.404 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 12:29:57.404 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 12:29:57.665 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:29:57.742 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:29:57.747 INFO  [EventBus-1] - Module STARTED
+2017-06-27 12:29:58.220 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:29:58.378 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:30:26.336 DEBUG [EventBus-2] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:30:32.512 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-27 12:30:32.518 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-27 12:30:32.518 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:30:32.521 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:30:32.522 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:30:32.522 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:30:32.527 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 12:37:22.736 INFO  [ModuleRegistry-6] - 
+2017-06-27 12:37:22.737 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 12:37:22.737 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 12:37:22.737 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 12:37:22.737 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 12:37:22.738 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 12:37:22.739 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 12:37:23.056 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:37:23.137 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:37:23.147 INFO  [EventBus-4] - Module STARTED
+2017-06-27 12:37:23.155 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:37:23.754 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:37:29.433 DEBUG [EventBus-2] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:37:33.416 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-27 12:37:33.423 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-27 12:37:33.423 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-27 12:37:33.425 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:37:33.425 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:37:33.427 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:37:33.431 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-27 12:40:11.194 DEBUG [qtp999480724-65] - Incoming websocket session closed (status=1011
+2017-06-27 12:40:11.194 DEBUG [qtp999480724-68] - Incoming websocket session closed (status=1011
+2017-06-27 12:40:11.194 DEBUG [qtp999480724-67] - Incoming websocket session closed (status=1011
+2017-06-27 12:40:11.430 DEBUG [pool-1-thread-1] - Data provider exited on client abort
+2017-06-27 12:40:11.430 DEBUG [pool-3-thread-1] - Data provider exited on client abort
+2017-06-27 12:40:11.430 DEBUG [pool-2-thread-1] - Data provider exited on client abort
+2017-06-27 12:40:23.217 INFO  [ModuleRegistry-6] - 
+2017-06-27 12:40:23.217 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 12:40:23.217 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 12:40:23.217 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 12:40:23.217 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 12:40:23.218 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 12:40:23.218 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 12:40:23.541 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:40:23.619 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:40:23.627 INFO  [EventBus-1] - Module STARTED
+2017-06-27 12:40:24.070 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:40:24.233 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:40:28.113 DEBUG [pool-1-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-27 12:40:28.118 DEBUG [pool-1-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-27 12:40:28.124 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-27 12:40:28.125 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-27 12:40:28.138 DEBUG [pool-3-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-06-27 12:40:28.138 DEBUG [pool-3-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-06-27 12:41:45.474 INFO  [ModuleRegistry-6] - 
+2017-06-27 12:41:45.474 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 12:41:45.474 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 12:41:45.474 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 12:41:45.474 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 12:41:45.475 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 12:41:45.476 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 12:41:45.768 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:41:45.837 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:41:45.842 INFO  [EventBus-2] - Module STARTED
+2017-06-27 12:41:46.318 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:41:46.475 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:41:53.245 DEBUG [EventBus-1] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:41:57.572 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-27 12:41:57.577 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-27 12:41:57.578 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-27 12:41:57.580 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:41:57.580 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:41:57.580 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:41:57.587 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-27 12:43:26.409 INFO  [ModuleRegistry-6] - 
+2017-06-27 12:43:26.409 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 12:43:26.409 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 12:43:26.409 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 12:43:26.409 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 12:43:26.411 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 12:43:26.411 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 12:43:26.683 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:43:26.761 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:43:26.767 INFO  [EventBus-1] - Module STARTED
+2017-06-27 12:43:26.789 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:43:27.236 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:43:37.432 DEBUG [EventBus-6] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:43:40.923 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-27 12:43:40.929 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-27 12:43:40.930 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:43:40.932 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:43:40.932 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:43:40.933 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:43:40.938 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 12:47:50.620 INFO  [ModuleRegistry-6] - 
+2017-06-27 12:47:50.621 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 12:47:50.621 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 12:47:50.621 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 12:47:50.621 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 12:47:50.622 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 12:47:50.622 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 12:47:50.895 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:47:50.966 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:47:50.974 INFO  [EventBus-1] - Module STARTED
+2017-06-27 12:47:51.343 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:47:51.404 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:48:08.213 DEBUG [EventBus-6] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:48:12.720 DEBUG [EventBus-5] - Offering "urn:mysos:simcbrn" removed for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:48:21.742 DEBUG [EventBus-4] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:48:26.634 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-27 12:48:26.641 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-27 12:48:26.641 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:48:26.643 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 12:48:26.645 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 12:48:26.645 DEBUG [ModuleRegistry-7] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 12:48:26.650 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 13:07:09.352 INFO  [ModuleRegistry-6] - 
+2017-06-27 13:07:09.353 INFO  [ModuleRegistry-6] - *************************************************
+2017-06-27 13:07:09.353 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-06-27 13:07:09.353 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-06-27 13:07:09.353 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-06-27 13:07:09.354 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-06-27 13:07:09.355 INFO  [ModuleRegistry-6] - Module STARTING
+2017-06-27 13:07:09.683 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 13:07:09.898 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 13:07:09.907 INFO  [EventBus-4] - Module STARTED
+2017-06-27 13:07:17.201 DEBUG [EventBus-3] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 13:07:21.239 INFO  [ModuleRegistry-5] - Module STOPPING
+2017-06-27 13:07:21.244 INFO  [ModuleRegistry-5] - Module STOPPED
+2017-06-27 13:07:21.244 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-27 13:07:21.246 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-06-27 13:07:21.246 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-06-27 13:07:21.246 DEBUG [ModuleRegistry-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-06-27 13:07:21.252 INFO  [ModuleRegistry-5] - Module STARTED

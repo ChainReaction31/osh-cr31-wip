@@ -5539,3 +5539,64 @@ java.lang.Exception: No route available
 2017-06-26 20:43:45.022 INFO  [ModuleRegistry-5] - Module STARTING
 2017-06-26 20:43:45.023 INFO  [ModuleRegistry-5] - Module STARTED
 2017-06-26 20:43:45.025 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7176326427571,-86.58116040182728&destination=34.752331558338874,-86.60177157759468
+2017-06-27 12:30:26.325 INFO  [ModuleRegistry-7] - 
+2017-06-27 12:30:26.325 INFO  [ModuleRegistry-7] - *************************************************
+2017-06-27 12:30:26.325 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-06-27 12:30:26.325 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-27 12:30:26.325 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-06-27 12:30:26.333 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-06-27 12:30:26.334 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:30:26.335 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 12:30:26.337 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68062159175264,-86.60052668404846&destination=34.69773915029557,-86.54918877474556
+2017-06-27 12:37:29.421 INFO  [ModuleRegistry-5] - 
+2017-06-27 12:37:29.421 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-27 12:37:29.421 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-27 12:37:29.421 INFO  [ModuleRegistry-5] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-27 12:37:29.421 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-27 12:37:29.429 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-27 12:37:29.430 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-27 12:37:29.431 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-27 12:37:29.433 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77117429081866,-86.58820038031664&destination=34.76114384357451,-86.56872849583564
+2017-06-27 12:41:53.233 INFO  [ModuleRegistry-5] - 
+2017-06-27 12:41:53.233 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-27 12:41:53.233 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-27 12:41:53.233 INFO  [ModuleRegistry-5] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-27 12:41:53.233 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-27 12:41:53.241 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-27 12:41:53.241 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-27 12:41:53.242 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-27 12:41:53.245 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.724496793247354,-86.59175596622838&destination=34.692593645056824,-86.59808722624169
+2017-06-27 12:43:37.419 INFO  [ModuleRegistry-7] - 
+2017-06-27 12:43:37.420 INFO  [ModuleRegistry-7] - *************************************************
+2017-06-27 12:43:37.420 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-06-27 12:43:37.420 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-27 12:43:37.420 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-06-27 12:43:37.427 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-06-27 12:43:37.428 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:43:37.429 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 12:43:37.431 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.745596907506396,-86.54678600133037&destination=34.70319636892976,-86.62869239911403
+2017-06-27 12:48:08.200 INFO  [ModuleRegistry-7] - 
+2017-06-27 12:48:08.200 INFO  [ModuleRegistry-7] - *************************************************
+2017-06-27 12:48:08.200 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-06-27 12:48:08.200 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-27 12:48:08.200 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-06-27 12:48:08.209 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-06-27 12:48:08.210 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:48:08.212 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 12:48:08.212 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74441272745987,-86.56743657703312&destination=34.75348937536583,-86.57582132284364
+2017-06-27 12:48:12.719 INFO  [ModuleRegistry-7] - Module STOPPING
+2017-06-27 12:48:12.720 INFO  [ModuleRegistry-7] - Module STOPPED
+2017-06-27 12:48:12.720 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-06-27 12:48:12.722 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-06-27 12:48:21.739 INFO  [ModuleRegistry-7] - Module STARTING
+2017-06-27 12:48:21.739 INFO  [ModuleRegistry-7] - Module STARTED
+2017-06-27 12:48:21.742 DEBUG [Timer-9] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77964123217732,-86.56191368487426&destination=34.69010761586579,-86.56603040518068
+2017-06-27 13:07:17.188 INFO  [ModuleRegistry-5] - 
+2017-06-27 13:07:17.188 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-27 13:07:17.188 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-27 13:07:17.188 INFO  [ModuleRegistry-5] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-06-27 13:07:17.188 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-27 13:07:17.197 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-27 13:07:17.197 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-27 13:07:17.199 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-27 13:07:17.199 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69526095194873,-86.56820124575894&destination=34.76149353598134,-86.63313452420388
