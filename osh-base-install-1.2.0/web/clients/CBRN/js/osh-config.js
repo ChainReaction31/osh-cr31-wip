@@ -136,26 +136,26 @@ function init()
                 };
             }
         },
-        icon: 'images/CBRN_Icons/CBRN(Red).png',
+        icon: 'images/CBRN_Icons/CBRN(Green).png',
 
         iconFunc:
             {
                 dataSourceIds: [hazardLevel.getId()],
                 handler: function(rec) {
-                    console.log(String(rec.hazard_level));
-                    if(String(rec.hazard_level) === "None" || String(rec.hazard_level) === "NONE")
+                    console.log(String(rec.hazard_level).toLowerCase());
+                    if(rec.hazard_level.toLowerCase() === "none")
                     {
                         return 'images/CBRN_Icons/CBRN(Green).png';
                     }
-                    else if(String(rec.hazard_level) === "Low" || String(rec.hazard_level) === "LOW")
+                    else if(rec.hazard_level.toLowerCase() === "low")
                     {
                         return 'images/CBRN_Icons/CBRN(Yellow).png';
                     }
-                    else if(String(rec.hazard_level) === "Medium" || String(rec.hazard_level) === "MEDIUM")
+                    else if(rec.hazard_level.toLowerCase() === "medium")
                     {
                         return 'images/CBRN_Icons/CBRN(Orange).png';
                     }
-                    else if(String(rec.hazard_level) === "High" || String(rec.hazard_level) === "HIGH")
+                    else if(rec.hazard_level.toLowerCase() === "high")
                     {
                         return 'images/CBRN_Icons/CBRN(Red).png';
                     }
@@ -180,6 +180,8 @@ function init()
             entityId: cbrnEntity.id,
             styler: imageDrapingStyler
         }*/]);
+
+    //mapView.updateMarker();
 
     // Chart Views
     // temperature chart view

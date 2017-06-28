@@ -1,2 +1,2 @@
-#Fri Jun 23 17:11:58 CDT 2017
+#Tue Jun 27 17:59:21 CDT 2017
 LastUpdatedSensorDescription=1497992999920
