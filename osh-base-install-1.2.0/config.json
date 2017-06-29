@@ -184,8 +184,8 @@
     "serialNumber": "BIR012345",
     "source1": {
       "objClass": "datasimulation.PointSource",
-      "lat": 34.8308,
-      "lon": -86.7228,
+      "lat": 34.7278,
+      "lon": -86.5887,
       "alt": 0.0,
       "intensity": 600.0,
       "agent": {
@@ -202,14 +202,14 @@
     },
     "numSources": 1,
     "googleApiUrl": "http://maps.googleapis.com/maps/api/directions/json",
-    "centerLatitude": 34.73,
-    "centerLongitude": -86.585,
-    "areaSize": 0.1,
-    "vehicleSpeed": 40.0,
-    "walkingMode": false,
+    "centerLatitude": 34.7278,
+    "centerLongitude": -86.5887,
+    "areaSize": 0.01,
+    "vehicleSpeed": 20.0,
+    "walkingMode": true,
     "id": "0a8233e8-0d63-4819-a281-a957b3eeb09f",
     "moduleClass": "org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNSensor",
     "name": "New Simulated CBRN Sensor",
-    "autoStart": false
+    "autoStart": true
   }
 ]
