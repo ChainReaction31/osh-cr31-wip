@@ -1,0 +1,23 @@
+2017-06-30 17:35:51.441 INFO  [ModuleRegistry-8] - 
+2017-06-30 17:35:51.441 INFO  [ModuleRegistry-8] - *************************************************
+2017-06-30 17:35:51.441 INFO  [ModuleRegistry-8] - SensorHub Restarted
+2017-06-30 17:35:51.441 INFO  [ModuleRegistry-8] - Starting log for 'New Simulated CBRN Sensor' [a5f05d53-0b02-434b-b64a-d5dd03782e17]
+2017-06-30 17:35:51.441 INFO  [ModuleRegistry-8] - Module INITIALIZING
+2017-06-30 17:35:51.442 INFO  [ModuleRegistry-8] - Module INITIALIZED
+2017-06-30 17:35:51.442 INFO  [ModuleRegistry-8] - Module STARTING
+2017-06-30 17:35:51.443 INFO  [ModuleRegistry-8] - Module STARTED
+2017-06-30 17:35:51.444 DEBUG [Timer-9] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.725626677045774,-86.5837694519206&destination=34.72875571919163,-86.58767597352228&mode=walking
+2017-06-30 17:37:26.635 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-06-30 17:37:26.636 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-06-30 17:37:26.641 INFO  [ModuleRegistry-10] - Module STARTING
+2017-06-30 17:37:26.641 INFO  [ModuleRegistry-10] - Module STARTED
+2017-06-30 17:38:59.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72879,-86.5876&destination=34.72884819930181,-86.59163770191475&mode=walking
+2017-06-30 17:41:53.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72868,-86.59151&destination=34.726794622179284,-86.59177028591516&mode=walking
+2017-06-30 17:43:34.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72679,-86.59177&destination=34.72707104564406,-86.59071834600425&mode=walking
+2017-06-30 17:47:13.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72707,-86.59072&destination=34.72740446325298,-86.58809052302836&mode=walking
+2017-06-30 17:50:19.642 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72751,-86.58802&destination=34.728473635580976,-86.59219695021986&mode=walking
+2017-06-30 17:53:10.642 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72836,-86.59211&destination=34.72642032337236,-86.58616033500097&mode=walking
+2017-06-30 17:58:28.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72644,-86.58618&destination=34.729540243086944,-86.58856117597242&mode=walking
+2017-06-30 18:00:05.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7297,-86.58822&destination=34.73058752934278,-86.59196075154269&mode=walking
+2017-06-30 18:02:26.641 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7305,-86.59194&destination=34.725442711007865,-86.5864727228386&mode=walking
+2017-06-30 18:08:32.642 DEBUG [Timer-14] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72544,-86.58667&destination=34.732679865476285,-86.59091371391943&mode=walking

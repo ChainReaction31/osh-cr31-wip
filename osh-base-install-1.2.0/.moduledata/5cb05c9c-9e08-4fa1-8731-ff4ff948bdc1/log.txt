@@ -1048,3 +1048,115 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_o
 2017-06-29 17:23:48.074 INFO  [ModuleRegistry-4] - Module STARTED
 2017-06-29 17:30:15.129 INFO  [ModuleRegistry-9] - Module STOPPING
 2017-06-29 17:30:15.148 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-06-30 14:16:49.813 INFO  [ModuleRegistry-4] - 
+2017-06-30 14:16:49.819 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 14:16:49.819 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 14:16:49.820 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 14:16:49.820 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 14:16:49.820 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 14:16:49.822 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 14:16:50.794 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 14:20:46.387 INFO  [ModuleRegistry-4] - 
+2017-06-30 14:20:46.387 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 14:20:46.387 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 14:20:46.387 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 14:20:46.387 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 14:20:46.388 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 14:20:46.390 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 14:20:48.098 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 14:21:43.654 INFO  [ModuleRegistry-4] - 
+2017-06-30 14:21:43.654 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 14:21:43.654 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 14:21:43.654 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 14:21:43.654 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 14:21:43.655 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 14:21:43.657 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 14:21:44.694 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 14:22:04.341 INFO  [ModuleRegistry-4] - 
+2017-06-30 14:22:04.342 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 14:22:04.342 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 14:22:04.342 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 14:22:04.342 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 14:22:04.342 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 14:22:04.343 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 14:22:05.440 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 14:38:43.791 INFO  [ModuleRegistry-4] - 
+2017-06-30 14:38:43.791 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 14:38:43.791 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 14:38:43.791 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 14:38:43.791 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 14:38:43.791 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 14:38:43.792 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 14:38:44.212 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 14:47:58.919 INFO  [ModuleRegistry-4] - 
+2017-06-30 14:47:58.920 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 14:47:58.920 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 14:47:58.920 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 14:47:58.920 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 14:47:58.920 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 14:47:58.921 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 14:47:59.334 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 15:18:20.805 INFO  [ModuleRegistry-4] - 
+2017-06-30 15:18:20.805 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 15:18:20.805 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 15:18:20.806 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 15:18:20.806 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 15:18:20.806 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 15:18:20.807 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 15:18:21.086 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 15:24:10.614 INFO  [ModuleRegistry-4] - 
+2017-06-30 15:24:10.614 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 15:24:10.614 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 15:24:10.615 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 15:24:10.615 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 15:24:10.615 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 15:24:10.617 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 15:24:10.876 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 17:02:44.216 INFO  [ModuleRegistry-5] - 
+2017-06-30 17:02:44.253 INFO  [ModuleRegistry-5] - *************************************************
+2017-06-30 17:02:44.254 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-06-30 17:02:44.254 INFO  [ModuleRegistry-5] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 17:02:44.254 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-06-30 17:02:44.262 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-06-30 17:02:44.262 INFO  [ModuleRegistry-5] - Module STARTING
+2017-06-30 17:02:44.713 INFO  [ModuleRegistry-5] - Module STARTED
+2017-06-30 17:08:33.745 INFO  [ModuleRegistry-4] - 
+2017-06-30 17:08:33.745 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 17:08:33.745 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 17:08:33.745 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 17:08:33.745 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 17:08:33.745 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 17:08:33.746 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 17:08:34.023 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 17:19:40.453 INFO  [ModuleRegistry-4] - 
+2017-06-30 17:19:40.454 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 17:19:40.454 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 17:19:40.454 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 17:19:40.454 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 17:19:40.455 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 17:19:40.457 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 17:19:40.880 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 17:26:07.105 INFO  [ModuleRegistry-4] - 
+2017-06-30 17:26:07.105 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 17:26:07.105 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 17:26:07.105 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 17:26:07.105 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 17:26:07.106 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 17:26:07.106 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 17:26:07.369 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 17:26:54.959 INFO  [ModuleRegistry-4] - 
+2017-06-30 17:26:54.959 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 17:26:54.959 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 17:26:54.959 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 17:26:54.959 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 17:26:54.960 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 17:26:54.960 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 17:26:55.248 INFO  [ModuleRegistry-4] - Module STARTED
+2017-06-30 17:33:44.860 INFO  [ModuleRegistry-4] - 
+2017-06-30 17:33:44.860 INFO  [ModuleRegistry-4] - *************************************************
+2017-06-30 17:33:44.860 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-06-30 17:33:44.860 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-06-30 17:33:44.860 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-06-30 17:33:44.860 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-06-30 17:33:44.861 INFO  [ModuleRegistry-4] - Module STARTING
+2017-06-30 17:33:45.161 INFO  [ModuleRegistry-4] - Module STARTED

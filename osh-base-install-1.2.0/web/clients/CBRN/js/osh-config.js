@@ -80,6 +80,18 @@ function init()
         bufferingTime: 1000
     });
 
+    var continuousLevel = new OSH.DataReceiver.JSON("Continuous Alert Level", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + "8181/sensorhub/sos",
+        offeringID: "urn:mysos:simcbrn",
+        observedProperty: "http://sensorml.com/ont/swe/property/Continuous",
+        startTime: "now",
+        endTime: "2055-01-01Z",
+        syncMasterTime: true,
+        bufferingTime: 1000
+});
+
     console.log("Printing Data Sources...");
     console.log(hazardLevel);
     //console.log(gpsData);
@@ -91,7 +103,7 @@ function init()
     var cbrnEntity = {
         id: "simCBRN",
         name: "Sim CBRN",
-        dataSources: [hazardLevel, gpsData, tempData, numericalAlert]
+        dataSources: [hazardLevel, gpsData, tempData, numericalAlert, continuousLevel]
     };
     console.log(cbrnEntity);
     var dataSourceController = new OSH.DataReceiver.DataReceiverController({
@@ -149,15 +161,15 @@ function init()
                     }
                     else if(rec.hazard_level.toLowerCase() === "low")
                     {
-                        return 'images/CBRN_Icons/CBRN(Yellow).png';
+                        return 'images/CBRN_Icons/CBRN(Green).png';
                     }
                     else if(rec.hazard_level.toLowerCase() === "medium")
                     {
-                        return 'images/CBRN_Icons/CBRN(Orange).png';
+                        return 'images/CBRN_Icons/CBRN(Green).png';
                     }
                     else if(rec.hazard_level.toLowerCase() === "high")
                     {
-                        return 'images/CBRN_Icons/CBRN(Red).png';
+                        return 'images/CBRN_Icons/CBRN(Green).png';
                     }
                 }
             }
@@ -185,35 +197,35 @@ function init()
 
     // Chart Views
     // temperature chart view
-    var tempChartDialog = new OSH.UI.DialogView("dialog-main-container", {
+    var contChartDialog = new OSH.UI.DialogView("dialog-main-container", {
         draggable: true,
         css: "video-dialog",
-        name: "CBRN - Temp",
+        name: "CBRN - Intensity",
         show: true,
         dockable: true,
         closeable: true,
         canDisconnect : true,
         swapId: "main-container",
-        connectionIds: [tempData.getId()]
+        connectionIds: [continuousLevel.getId()]
     });
-    var tempChartView = new OSH.UI.Nvd3CurveChartView(tempChartDialog.popContentDiv.id,
+    var contChartView = new OSH.UI.Nvd3CurveChartView(contChartDialog.popContentDiv.id,
         [{
             styler: new OSH.UI.Styler.Curve({
                 valuesFunc: {
-                    dataSourceIds: [tempData.getId()],
+                    dataSourceIds: [continuousLevel.getId()],
                     handler: function (rec, timeStamp) {
-                        console.log(rec);
+                        console.log(rec.continuous);
                         return {
                             x: timeStamp,
-                            y: parseFloat(rec)
+                            y: parseFloat(rec.continuous)
                         };
                     }
                 }
             })
         }],
         {
-            name: "Temperature Chart",
-            yLabel: 'Temperature (Cel)',
+            name: "Intensity Chart",
+            yLabel: 'Source Intensity',
             xLabel: 'Time',
             css:"chart-view",
             cssSelected: "video-selected",
