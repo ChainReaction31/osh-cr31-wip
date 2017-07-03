@@ -1237,3 +1237,252 @@ Caused by: java.net.BindException: Address already in use: bind
 2017-06-30 17:33:44.834 INFO  [ModuleRegistry-1] - Module INITIALIZED
 2017-06-30 17:33:44.834 INFO  [ModuleRegistry-1] - Module STARTING
 2017-06-30 17:33:45.080 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 10:55:24.311 INFO  [ModuleRegistry-1] - 
+2017-07-03 10:55:24.312 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 10:55:24.312 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 10:55:24.312 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 10:55:24.313 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 10:55:24.325 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 10:55:24.327 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 10:55:25.186 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:10:26.974 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:10:26.974 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:10:26.974 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:10:26.974 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:10:26.974 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:10:26.976 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:10:26.976 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:10:27.554 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:19:38.890 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:19:38.891 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:19:38.891 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:19:38.891 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:19:38.891 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:19:38.893 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:19:38.893 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:19:39.352 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:28:15.408 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:28:15.409 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:28:15.409 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:28:15.409 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:28:15.409 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:28:15.411 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:28:15.411 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:28:15.995 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:32:57.773 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:32:57.774 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:32:57.774 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:32:57.774 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:32:57.774 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:32:57.776 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:32:57.776 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:32:58.325 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:37:17.355 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:37:17.355 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:37:17.355 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:37:17.355 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:37:17.355 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:37:17.356 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:37:17.357 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:37:17.781 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:38:37.777 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:38:37.777 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:38:37.777 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:38:37.777 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:38:37.777 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:38:37.779 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:38:37.779 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:38:38.251 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 13:57:30.159 INFO  [ModuleRegistry-1] - 
+2017-07-03 13:57:30.159 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 13:57:30.159 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 13:57:30.159 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 13:57:30.159 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 13:57:30.161 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 13:57:30.161 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 13:57:30.735 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:00:45.363 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:00:45.363 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:00:45.363 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:00:45.363 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:00:45.363 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:00:45.364 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:00:45.365 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:00:45.949 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:01:52.278 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:01:52.278 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:01:52.278 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:01:52.278 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:01:52.279 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:01:52.282 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:01:52.282 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:01:52.746 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:18:38.852 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:18:38.852 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:18:38.852 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:18:38.852 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:18:38.852 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:18:38.854 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:18:38.855 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:18:39.462 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:21:03.118 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:21:03.118 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:21:03.119 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:21:03.119 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:21:03.119 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:21:03.122 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:21:03.122 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:21:03.701 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:23:01.891 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:23:01.892 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:23:01.892 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:23:01.892 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:23:01.892 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:23:01.894 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:23:01.894 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:23:02.416 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:31:36.547 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:31:36.548 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:31:36.548 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:31:36.548 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:31:36.548 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:31:36.551 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:31:36.552 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:31:37.001 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:38:41.396 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:38:41.396 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:38:41.396 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:38:41.396 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:38:41.396 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:38:41.398 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:38:41.399 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:38:41.632 ERROR [ModuleRegistry-1] - Error while starting module
+org.sensorhub.api.common.SensorHubException: Error while starting SensorHub embedded HTTP server
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:247) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.requestStart(AbstractModule.java:448) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$2.run(ModuleRegistry.java:497) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_131]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.ServerConnector.open(ServerConnector.java:321) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.ServerConnector.doStart(ServerConnector.java:236) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:366) ~[jetty-server-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68) ~[jetty-util-9.2.7.v20150116.jar:9.2.7.v20150116]
+	at org.sensorhub.impl.service.HttpServer.start(HttpServer.java:240) ~[sensorhub-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-07-03 14:38:41.633 INFO  [ModuleRegistry-1] - Module STOPPING
+2017-07-03 14:38:41.642 INFO  [ModuleRegistry-1] - Module STOPPED
+2017-07-03 14:40:28.361 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:40:28.361 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:40:28.361 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:40:28.361 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:40:28.361 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:40:28.364 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:40:28.365 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:40:28.839 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:42:32.367 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:42:32.367 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:42:32.367 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:42:32.368 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:42:32.368 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:42:32.369 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:42:32.370 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:42:32.989 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 14:49:37.931 INFO  [ModuleRegistry-1] - 
+2017-07-03 14:49:37.932 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 14:49:37.932 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 14:49:37.932 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 14:49:37.932 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 14:49:37.934 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 14:49:37.934 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 14:49:38.398 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:01:00.447 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:01:00.447 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:01:00.447 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:01:00.447 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:01:00.447 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:01:00.449 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:01:00.450 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:01:00.962 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:07:30.044 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:07:30.045 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:07:30.045 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:07:30.045 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:07:30.045 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:07:30.047 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:07:30.047 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:07:30.541 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:31:21.872 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:31:21.872 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:31:21.872 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:31:21.872 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:31:21.872 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:31:21.874 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:31:21.875 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:31:22.347 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:37:48.149 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:37:48.150 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:37:48.150 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:37:48.150 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:37:48.150 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:37:48.152 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:37:48.152 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:37:48.618 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:44:07.168 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:44:07.168 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:44:07.169 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:44:07.169 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:44:07.169 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:44:07.171 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:44:07.171 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:44:07.678 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:45:00.079 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:45:00.080 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:45:00.080 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:45:00.080 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:45:00.080 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:45:00.082 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:45:00.083 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:45:00.613 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:47:18.561 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:47:18.561 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:47:18.561 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:47:18.561 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:47:18.561 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:47:18.563 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:47:18.563 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:47:19.151 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 15:56:44.024 INFO  [ModuleRegistry-1] - 
+2017-07-03 15:56:44.025 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 15:56:44.025 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 15:56:44.025 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 15:56:44.025 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 15:56:44.027 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 15:56:44.027 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 15:56:44.520 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 16:05:33.709 INFO  [ModuleRegistry-1] - 
+2017-07-03 16:05:33.710 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 16:05:33.710 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 16:05:33.710 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 16:05:33.710 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 16:05:33.711 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 16:05:33.712 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 16:05:34.291 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-03 16:08:36.981 INFO  [ModuleRegistry-1] - 
+2017-07-03 16:08:36.981 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-03 16:08:36.981 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-03 16:08:36.981 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-03 16:08:36.981 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-03 16:08:36.983 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-03 16:08:36.983 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-03 16:08:37.676 INFO  [ModuleRegistry-1] - Module STARTED

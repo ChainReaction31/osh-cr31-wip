@@ -118,6 +118,7 @@ function init()
     //------------------------------------------------------//
     pointMarker = new OSH.UI.Styler.PointMarker(
     {
+        label: "CBRN",
         location:
             {
                 x: 1.42376557,
@@ -137,7 +138,7 @@ function init()
                 };
             }
         },
-        orientationFunc:
+        /*orientationFunc:
         {
             dataSourceIds: [gpsData.getId()],
             handler: function (rec) {
@@ -147,10 +148,14 @@ function init()
                     heading: 0
                 };
             }
+        },*/
+        orientation: {
+            heading: 0
         },
-        icon: 'images/CBRN_Icons/CBRN(Green).png',
+        icon: './images/CBRN_Icons/cbrn_cube_green.glb',
+        // icon: './images/CBRN_Icons/CBRN(Green).png',
 
-        iconFunc:
+        /*iconFunc:
             {
                 dataSourceIds: [hazardLevel.getId()],
                 handler: function(rec) {
@@ -172,7 +177,7 @@ function init()
                         return 'images/CBRN_Icons/CBRN(Green).png';
                     }
                 }
-            }
+            }*/
     });
 
 
@@ -180,7 +185,6 @@ function init()
 
     // Map View
     window.CESIUM_BASE_URL = "../vendor/";
-    //window.CESIUM_BASE_URL = "vendor/vendor";
     var mapView = new OSH.UI.CesiumView("mapView", [
 
         {
@@ -208,6 +212,8 @@ function init()
         swapId: "main-container",
         connectionIds: [continuousLevel.getId()]
     });
+
+
     var contChartView = new OSH.UI.Nvd3CurveChartView(contChartDialog.popContentDiv.id,
         [{
             styler: new OSH.UI.Styler.Curve({
