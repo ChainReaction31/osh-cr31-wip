@@ -5581,7 +5581,7 @@ OSH.UI.CesiumView = Class.create(OSH.UI.View, {
     	    }
     		
     		// update icon or models
-    		//marker.billboard.image = imgIcon;
+            if(isModel) { marker.model.uri.setValue(imgIcon); // Updates icon model } else { marker.billboard.image = imgIcon; // Updates icon billboard image }
     		
     		// zoom map if first marker update
     		if (this.first) {
@@ -5593,7 +5593,7 @@ OSH.UI.CesiumView = Class.create(OSH.UI.View, {
     			 this.viewer.selectedEntity = marker;
     		}
         }
-	},
+	}
 
 	/**
 	 *

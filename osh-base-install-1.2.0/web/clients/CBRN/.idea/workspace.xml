@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4642838-0a05-4c11-b633-d030d4cf0f25" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Assets/CBRN_Icons/cbrn3d_gr.dae" afterPath="$PROJECT_DIR$/../../../../Assets/CBRN_Icons/cbrn3d_gr.dae" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../Assets/CBRN_Icons/sphereGreen.dae" afterPath="$PROJECT_DIR$/../../../../Assets/CBRN_Icons/sphereGreen.dae" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/osh3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../db/gps_obs.dat" afterPath="$PROJECT_DIR$/../../../db/gps_obs.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../db/weather_obs.dat" afterPath="$PROJECT_DIR$/../../../db/weather_obs.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/0a8233e8-0d63-4819-a281-a957b3eeb09f/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/0a8233e8-0d63-4819-a281-a957b3eeb09f/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9123-4fa1-8731-ffaa51489678/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9123-4fa1-8731-ffaa51489678/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff41e246bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff41e246bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d72/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d72/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d73/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d73/log.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/osh-config.js" afterPath="$PROJECT_DIR$/js/osh-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/osh.js" afterPath="$PROJECT_DIR$/js/osh.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,13 +34,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="osh-config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="osh-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/osh-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+            <state relative-caret-position="1025">
+              <caret line="148" column="12" lean-forward="false" selection-start-line="146" selection-start-column="8" selection-end-line="148" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="osh3.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/osh3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="6675" column="27" lean-forward="true" selection-start-line="6675" selection-start-column="27" selection-end-line="6675" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="osh2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/osh2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="963">
+              <caret line="1836" column="6" lean-forward="false" selection-start-line="1836" selection-start-column="6" selection-end-line="1836" selection-end-column="6" />
               <folding>
-                <element signature="e#1098#1370#0" expanded="false" />
+                <marker date="1499283404103" expanded="true" signature="110057:110063" ph="©" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="osh.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/osh.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="5489" column="6" lean-forward="true" selection-start-line="5439" selection-start-column="4" selection-end-line="5489" selection-end-column="6" />
+              <folding>
+                <marker date="1499281608313" expanded="true" signature="176791:176797" ph="©" />
               </folding>
             </state>
           </provider>
@@ -38,18 +81,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <marker date="1499124342717" expanded="true" signature="993:1069" ph="..." />
-                <marker date="1499124342717" expanded="true" signature="1144:1923" ph="..." />
-                <marker date="1499124342717" expanded="true" signature="1196:1645" ph="..." />
-                <marker date="1499124342717" expanded="true" signature="1230:1638" ph="..." />
-                <marker date="1499124342717" expanded="true" signature="1266:1627" ph="..." />
-                <marker date="1499124342717" expanded="true" signature="1340:1612" ph="..." />
-                <marker date="1499124342717" expanded="true" signature="1443:1578" ph="..." />
-                <marker date="1499124342717" expanded="false" signature="1472:1577" ph="..." />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,24 +98,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config-3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../../../osh-js-master/Demos/VideoDisplay/js/config-3.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3281">
-              <caret line="193" column="16" lean-forward="false" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -97,6 +121,10 @@
       <find>iconFunc</find>
       <find>styler</find>
       <find>Styler</find>
+      <find>updateMarker</find>
+      <find>updateMapMarker</find>
+      <find>beforeAddingItems</find>
+      <find>isModel</find>
     </findStrings>
     <replaceStrings>
       <replace>../../Toolkit</replace>
@@ -112,11 +140,13 @@
         <option value="$PROJECT_DIR$/viewers/CurveChart/curveChart.html" />
         <option value="$PROJECT_DIR$/js/config-2.js" />
         <option value="$PROJECT_DIR$/js/osh-DataReceiver-DataSourceCBRN.js" />
-        <option value="$PROJECT_DIR$/js/osh.js" />
         <option value="$PROJECT_DIR$/js/osh.min.js" />
         <option value="$PROJECT_DIR$/css/dialog-styler.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/osh.js" />
+        <option value="$PROJECT_DIR$/js/osh2.js" />
         <option value="$PROJECT_DIR$/js/osh-config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/osh3.js" />
       </list>
     </option>
   </component>
@@ -170,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,6 +222,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CBRN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CBRN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -200,6 +243,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +253,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimWeather" />
     <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenSensorHub\osh-cr31-wip\osh-base-install-1.2.0\web\clients\CBRN\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -345,11 +394,13 @@
       <workItem from="1498860100106" duration="2816000" />
       <workItem from="1499104086411" duration="10719000" />
       <workItem from="1499133531361" duration="3674000" />
+      <workItem from="1499273956606" duration="5044000" />
+      <workItem from="1499281943460" duration="4183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145819000" />
+    <option name="totallyTimeSpent" value="155046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,6 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13382508" sideWeight="0.487315" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -412,17 +464,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/osh-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#1098#1370#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewers/CurveChart/curveChart.html" />
     <entry file="file://$PROJECT_DIR$/js/osh.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7922">
@@ -435,16 +476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2278">
           <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
-          <folding>
-            <marker date="1499124342717" expanded="true" signature="993:1069" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1144:1923" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1196:1645" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1230:1638" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1266:1627" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1340:1612" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1443:1578" ph="..." />
-            <marker date="1499124342717" expanded="false" signature="1472:1577" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -452,9 +484,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="e#1098#1370#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -462,16 +492,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <marker date="1499124342717" expanded="true" signature="993:1069" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1144:1923" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1196:1645" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1230:1638" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1266:1627" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1340:1612" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1443:1578" ph="..." />
-            <marker date="1499124342717" expanded="false" signature="1472:1577" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -492,9 +513,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="e#1098#1370#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,16 +533,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <marker date="1499124342717" expanded="true" signature="993:1069" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1144:1923" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1196:1645" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1230:1638" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1266:1627" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1340:1612" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1443:1578" ph="..." />
-            <marker date="1499124342717" expanded="false" signature="1472:1577" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,16 +541,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <marker date="1499124342717" expanded="true" signature="993:1069" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1144:1923" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1196:1645" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1230:1638" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1266:1627" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1340:1612" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1443:1578" ph="..." />
-            <marker date="1499124342717" expanded="false" signature="1472:1577" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3281">
           <caret line="193" column="16" lean-forward="false" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,42 +662,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/osh.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="488" lean-forward="false" selection-start-line="42" selection-start-column="488" selection-end-line="42" selection-end-column="488" />
+        <state relative-caret-position="119">
+          <caret line="42" column="3514" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="2253" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/osh.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59840">
-          <caret line="3520" column="40" lean-forward="false" selection-start-line="3520" selection-start-column="40" selection-end-line="3520" selection-end-column="40" />
+        <state relative-caret-position="621">
+          <caret line="5489" column="6" lean-forward="true" selection-start-line="5439" selection-start-column="4" selection-end-line="5489" selection-end-column="6" />
+          <folding>
+            <marker date="1499281608313" expanded="true" signature="176791:176797" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/osh2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="963">
+          <caret line="1836" column="6" lean-forward="false" selection-start-line="1836" selection-start-column="6" selection-end-line="1836" selection-end-column="6" />
           <folding>
-            <marker date="1499124342717" expanded="true" signature="993:1069" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1144:1923" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1196:1645" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1230:1638" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1266:1627" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1340:1612" ph="..." />
-            <marker date="1499124342717" expanded="true" signature="1443:1578" ph="..." />
-            <marker date="1499124342717" expanded="false" signature="1472:1577" ph="..." />
+            <marker date="1499283404103" expanded="true" signature="110057:110063" ph="©" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/osh-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-          <folding>
-            <element signature="e#1098#1370#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="1025">
+          <caret line="148" column="12" lean-forward="false" selection-start-line="146" selection-start-column="8" selection-end-line="148" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/osh3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="6675" column="27" lean-forward="true" selection-start-line="6675" selection-start-column="27" selection-end-line="6675" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

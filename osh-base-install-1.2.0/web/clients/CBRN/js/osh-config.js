@@ -34,14 +34,6 @@ function init()
         }
     );
 
-    /* var gpsData = new OSH.DataReceiver.JSON("Location", {
-     protocol: "ws",
-     service: "SOS",
-     endpointUrl: HOSTNAME + "8181/sensorhub/sos",
-     offeringID: OFFERING_ID,
-     observedProperty: "http://www.opengis.net/def/property/OGC/0/SensorLocation"
-     });*/
-
 
     var gpsData = new OSH.DataReceiver.JSON("Location", {
         protocol: "ws",
@@ -99,7 +91,10 @@ function init()
     console.log(numericalAlert);
     console.log(gpsData.id);
 
-    // Entities
+    //-------------------------------------------------------//
+    //-----------------------ENTITIES------------------------//
+    //-------------------------------------------------------//
+
     var cbrnEntity = {
         id: "simCBRN",
         name: "Sim CBRN",
@@ -149,10 +144,10 @@ function init()
                 };
             }
         },*/
-        orientation: {
+        /*orientation: {
             heading: 0
-        },
-        icon: './images/CBRN_Icons/sphereYellow.glb',
+        },*/
+        icon: './images/CBRN_Icons/sphereGreen.glb',
 
         iconFunc:
             {
@@ -179,8 +174,9 @@ function init()
             }
     });
 
-
-    //console.log("We've passed the styler");
+    //-------------------------------------------------//
+    //----------------------VIEWS----------------------//
+    //-------------------------------------------------//
 
     // Map View
     window.CESIUM_BASE_URL = "../vendor/";
@@ -270,5 +266,48 @@ function init()
             maxPoints:30
         }
     );
+
+    //--------------------------------------------------------------//
+    //------------------------ Tree View ---------------------------//
+    //--------------------------------------------------------------//
+   /* var entityTreeDialog = new OSH.UI.DialogView(document.body.id, {
+        css: "tree-dialog",
+        name: "Entities",
+        show: true,
+        draggable: true,
+        dockable: false,
+        closeable: true
+    });
+
+    var entityTreeView = new OSH.UI.EntityTreeView(entityTreeDialog.popContentDiv.id,
+        cbrnEntity,
+        { css: "tree-container" }
+    );
+
+    // time slider view
+    var mainContainer = document.getElementById("main-container");
+    var currentClassName = mainContainer.className;
+
+    if (startTime !== "now") {
+        var rangeSlider = new OSH.UI.RangeSlider("rangeSlider",{
+            startTime: gpsData.properties.startTime,
+            endTime: gpsData.properties.endTime,
+            dataSourcesId: [gpsData.id]
+        });
+
+        if(typeof currentClassName !== "undefined") {
+            currentClassName += " main-view-range-slider";
+        } else {
+            currentClassName = "main-view-range-slider";
+        }
+        mainContainer.setAttribute("class",currentClassName);
+    } else {
+        if(typeof currentClassName !== "undefined") {
+            currentClassName += " main-view";
+        } else {
+            currentClassName = "main-view";
+        }
+        mainContainer.setAttribute("class",currentClassName);
+    }*/
 }
 
