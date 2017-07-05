@@ -152,32 +152,31 @@ function init()
         orientation: {
             heading: 0
         },
-        icon: './images/CBRN_Icons/cbrn_cube_green.glb',
-        // icon: './images/CBRN_Icons/CBRN(Green).png',
+        icon: './images/CBRN_Icons/sphereYellow.glb',
 
-        /*iconFunc:
+        iconFunc:
             {
                 dataSourceIds: [hazardLevel.getId()],
                 handler: function(rec) {
                     console.log(String(rec.hazard_level).toLowerCase());
                     if(rec.hazard_level.toLowerCase() === "none")
                     {
-                        return 'images/CBRN_Icons/CBRN(Green).png';
+                        return 'images/CBRN_Icons/sphereGreen.glb';
                     }
                     else if(rec.hazard_level.toLowerCase() === "low")
                     {
-                        return 'images/CBRN_Icons/CBRN(Green).png';
+                        return 'images/CBRN_Icons/sphereYellow.glb';
                     }
                     else if(rec.hazard_level.toLowerCase() === "medium")
                     {
-                        return 'images/CBRN_Icons/CBRN(Green).png';
+                        return 'images/CBRN_Icons/sphereOrange.glb';
                     }
                     else if(rec.hazard_level.toLowerCase() === "high")
                     {
-                        return 'images/CBRN_Icons/CBRN(Green).png';
+                        return 'images/CBRN_Icons/sphereRed.glb';
                     }
                 }
-            }*/
+            }
     });
 
 
@@ -191,11 +190,7 @@ function init()
             name: "Sim CBRN",
             entityId: cbrnEntity.id,
             styler: pointMarker
-        }/*, {
-            name: "Geolocated Imagery",
-            entityId: cbrnEntity.id,
-            styler: imageDrapingStyler
-        }*/]);
+        }]);
 
     //mapView.updateMarker();
 

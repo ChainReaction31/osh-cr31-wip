@@ -1409,3 +1409,51 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weath
 2017-07-03 16:08:37.030 INFO  [ModuleRegistry-5] - Module INITIALIZED
 2017-07-03 16:08:37.033 INFO  [ModuleRegistry-5] - Module STARTING
 2017-07-03 16:08:37.614 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-03 21:35:59.459 INFO  [ModuleRegistry-5] - 
+2017-07-03 21:35:59.459 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-03 21:35:59.459 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-03 21:35:59.459 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-03 21:35:59.459 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-03 21:35:59.459 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-03 21:35:59.461 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-03 21:36:00.918 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-03 21:36:49.850 INFO  [ModuleRegistry-5] - 
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-03 21:36:49.854 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-03 21:36:50.844 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-5] - 
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-04 09:01:06.267 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-04 09:01:06.267 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-04 09:01:06.269 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-04 09:01:07.301 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-04 09:01:59.668 INFO  [ModuleRegistry-5] - 
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-04 09:01:59.671 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-04 09:02:00.819 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-04 09:06:35.671 INFO  [ModuleRegistry-5] - 
+2017-07-04 09:06:35.672 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-04 09:06:35.672 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-04 09:06:35.672 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-04 09:06:35.672 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-04 09:06:35.673 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-04 09:06:35.674 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-04 09:06:36.665 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-5] - 
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-04 09:07:22.632 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-04 09:07:23.633 INFO  [ModuleRegistry-5] - Module STARTED

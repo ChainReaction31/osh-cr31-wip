@@ -1402,3 +1402,51 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_o
 2017-07-03 16:08:37.036 INFO  [ModuleRegistry-4] - Module INITIALIZED
 2017-07-03 16:08:37.058 INFO  [ModuleRegistry-4] - Module STARTING
 2017-07-03 16:08:37.445 INFO  [ModuleRegistry-4] - Module STARTED
+2017-07-03 21:35:59.427 INFO  [ModuleRegistry-4] - 
+2017-07-03 21:35:59.428 INFO  [ModuleRegistry-4] - *************************************************
+2017-07-03 21:35:59.428 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-07-03 21:35:59.428 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-07-03 21:35:59.428 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-07-03 21:35:59.428 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-07-03 21:35:59.429 INFO  [ModuleRegistry-4] - Module STARTING
+2017-07-03 21:36:00.316 INFO  [ModuleRegistry-4] - Module STARTED
+2017-07-03 21:36:49.850 INFO  [ModuleRegistry-4] - 
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-4] - *************************************************
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-07-03 21:36:49.851 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-07-03 21:36:49.852 INFO  [ModuleRegistry-4] - Module STARTING
+2017-07-03 21:36:50.701 INFO  [ModuleRegistry-4] - Module STARTED
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-4] - 
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-4] - *************************************************
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-07-04 09:01:06.266 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-07-04 09:01:06.267 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-07-04 09:01:06.267 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-07-04 09:01:06.268 INFO  [ModuleRegistry-4] - Module STARTING
+2017-07-04 09:01:07.152 INFO  [ModuleRegistry-4] - Module STARTED
+2017-07-04 09:01:59.668 INFO  [ModuleRegistry-4] - 
+2017-07-04 09:01:59.668 INFO  [ModuleRegistry-4] - *************************************************
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-07-04 09:01:59.669 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-07-04 09:01:59.670 INFO  [ModuleRegistry-4] - Module STARTING
+2017-07-04 09:02:00.502 INFO  [ModuleRegistry-4] - Module STARTED
+2017-07-04 09:06:35.670 INFO  [ModuleRegistry-4] - 
+2017-07-04 09:06:35.670 INFO  [ModuleRegistry-4] - *************************************************
+2017-07-04 09:06:35.671 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-07-04 09:06:35.671 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-07-04 09:06:35.671 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-07-04 09:06:35.671 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-07-04 09:06:35.672 INFO  [ModuleRegistry-4] - Module STARTING
+2017-07-04 09:06:36.490 INFO  [ModuleRegistry-4] - Module STARTED
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-4] - 
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-4] - *************************************************
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-4] - SensorHub Restarted
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-4] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-4] - Module INITIALIZING
+2017-07-04 09:07:22.630 INFO  [ModuleRegistry-4] - Module INITIALIZED
+2017-07-04 09:07:22.634 INFO  [ModuleRegistry-4] - Module STARTING
+2017-07-04 09:07:23.448 INFO  [ModuleRegistry-4] - Module STARTED
