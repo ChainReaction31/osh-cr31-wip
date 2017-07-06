@@ -9703,3 +9703,135 @@ java.net.UnknownHostException: maps.googleapis.com
 2017-07-05 15:42:44.565 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70119,-86.56492&destination=34.71736639060214,-86.59302941629299
 2017-07-05 15:43:49.585 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71737,-86.59303&destination=34.697919816584246,-86.5420966380304
 2017-07-05 15:44:16.594 DEBUG [Timer-1] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69857,-86.54415&destination=34.76750376666499,-86.61920519034955
+2017-07-06 10:08:20.981 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:08:20.981 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:08:20.981 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:08:20.981 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:08:20.981 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:08:21.066 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:08:21.067 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:08:21.079 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:08:21.106 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.769858355667694,-86.6059649952599&destination=34.770901171885235,-86.58749253495432
+2017-07-06 10:08:54.193 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77104,-86.58749&destination=34.75162767383304,-86.62964967645277
+2017-07-06 10:10:29.238 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7518,-86.62987&destination=34.743479312720915,-86.60165351837045
+2017-07-06 10:11:42.268 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74344,-86.60165&destination=34.69969116502662,-86.56635719987537
+2017-07-06 10:13:30.309 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69919,-86.56581&destination=34.77460454398022,-86.53879827270426
+2017-07-06 10:13:38.957 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:13:38.957 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:13:38.958 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:13:38.958 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:13:38.958 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:13:39.087 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:13:39.087 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:13:39.091 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:13:39.105 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.736482452168886,-86.56722298466734&destination=34.746067562125035,-86.54887393251074
+2017-07-06 10:14:22.113 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74631,-86.54894&destination=34.7660877392475,-86.55636041320409
+2017-07-06 10:15:22.138 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76564,-86.55573&destination=34.74704741222701,-86.59131458503533
+2017-07-06 10:16:40.193 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74704,-86.59131&destination=34.744344605775076,-86.53606473189123
+2017-07-06 10:19:01.245 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74532,-86.53496&destination=34.764568369746556,-86.55470882973903
+2017-07-06 10:19:18.345 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:19:18.346 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:19:18.346 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:19:18.346 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:19:18.346 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:19:18.445 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:19:18.445 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:19:18.451 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:19:18.497 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.696371790831805,-86.6145955435797&destination=34.74217846376246,-86.56145101931867
+2017-07-06 10:30:41.952 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:30:41.953 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:30:41.954 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:30:41.954 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:30:41.954 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:30:42.059 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:30:42.060 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:30:42.061 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:30:42.077 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70463673177371,-86.58786117295357&destination=34.6966158920119,-86.55619343610938
+2017-07-06 10:31:49.034 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:31:49.035 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:31:49.035 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:31:49.035 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:31:49.035 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:31:49.113 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:31:49.121 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:31:49.124 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:31:49.138 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70349920721174,-86.57450200535395&destination=34.68090859345427,-86.61393588530633
+2017-07-06 10:33:23.305 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:33:23.305 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:33:23.306 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:33:23.307 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:33:23.307 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:33:23.409 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:33:23.438 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:33:23.461 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:33:23.502 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69037979082877,-86.59456416359563&destination=34.69404674317144,-86.60415820190167
+2017-07-06 10:33:47.520 DEBUG [Timer-4] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6937,-86.60402&destination=34.69434229199355,-86.54796737590024
+2017-07-06 10:34:28.564 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:34:28.566 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:34:28.566 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:34:28.566 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:34:28.566 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:34:28.675 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:34:28.676 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:34:28.680 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:34:28.694 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77887795888779,-86.54300942804439&destination=34.73382673674512,-86.60207130772766
+2017-07-06 10:36:09.807 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:36:09.809 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:36:09.809 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:36:09.810 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:36:09.810 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:36:09.930 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:36:09.935 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:36:09.945 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:36:09.954 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72687632709912,-86.60747961424468&destination=34.68312165215094,-86.6120866415215
+2017-07-06 10:37:22.224 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:37:22.224 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:37:22.225 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:37:22.226 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:37:22.226 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:37:22.304 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:37:22.305 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:37:22.324 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:37:22.363 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70888769686594,-86.60856171695738&destination=34.77176989687094,-86.54324255225433
+2017-07-06 10:40:58.628 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77228,-86.54293&destination=34.7425323971092,-86.56504073318229
+2017-07-06 10:41:30.021 INFO  [ModuleRegistry-2] - 
+2017-07-06 10:41:30.021 INFO  [ModuleRegistry-2] - *************************************************
+2017-07-06 10:41:30.021 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-07-06 10:41:30.021 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 10:41:30.021 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-07-06 10:41:30.090 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-07-06 10:41:30.095 INFO  [ModuleRegistry-2] - Module STARTING
+2017-07-06 10:41:30.098 INFO  [ModuleRegistry-2] - Module STARTED
+2017-07-06 10:41:30.106 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69106802842105,-86.58030282793455&destination=34.769908837296036,-86.56455492135495
+2017-07-06 10:44:30.205 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77078,-86.56483&destination=34.732422825806445,-86.56532587006528
+2017-07-06 10:46:00.295 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73315,-86.56549&destination=34.76631742810024,-86.55197831776957
+2017-07-06 10:46:41.307 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76665,-86.55111&destination=34.68367201918981,-86.58332657085894
+2017-07-06 10:50:07.392 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68332,-86.58263&destination=34.6838270746019,-86.57715146773228
+2017-07-06 10:50:21.399 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68384,-86.57716&destination=34.76495020401486,-86.53565226711366
+2017-07-06 10:54:19.541 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76296,-86.53156&destination=34.68908129489651,-86.55353368822014
+2017-07-06 10:59:04.682 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68877,-86.55356&destination=34.75931590755202,-86.56000455741876
+2017-07-06 11:02:50.808 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75921,-86.55984&destination=34.705816542570496,-86.60357045800433
+2017-07-06 11:05:30.043 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7054,-86.60357&destination=34.709535746041084,-86.59572671576598
+2017-07-06 11:05:48.051 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70962,-86.59573&destination=34.69328024934759,-86.57337409819266
+2017-07-06 11:06:47.076 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69328,-86.57345&destination=34.7654851456801,-86.56922539306818
+2017-07-06 11:07:09.055 INFO  [ModuleRegistry-3] - 
+2017-07-06 11:07:09.056 INFO  [ModuleRegistry-3] - *************************************************
+2017-07-06 11:07:09.056 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-07-06 11:07:09.056 INFO  [ModuleRegistry-3] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-07-06 11:07:09.056 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-07-06 11:07:09.156 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-07-06 11:07:09.158 INFO  [ModuleRegistry-3] - Module STARTING
+2017-07-06 11:07:09.173 INFO  [ModuleRegistry-3] - Module STARTED
+2017-07-06 11:07:09.191 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.751600563871975,-86.59529549751859&destination=34.76981356289372,-86.53992654500838
+2017-07-06 11:08:53.291 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76996,-86.53931&destination=34.74220943214667,-86.6212010256338
+2017-07-06 11:11:01.341 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74262,-86.62119&destination=34.764293606575556,-86.58662134751081
+2017-07-06 11:12:28.382 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76429,-86.58743&destination=34.76766790991982,-86.57030573096834
+2017-07-06 11:12:58.395 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.768,-86.57055&destination=34.76442665021815,-86.54034344224418
+2017-07-06 11:13:52.430 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7644,-86.54379&destination=34.75227563752164,-86.60345913578753
+2017-07-06 11:16:03.486 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75227,-86.60332&destination=34.76125176041965,-86.62608234142738
+2017-07-06 11:17:01.507 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76125,-86.62587&destination=34.74426423594307,-86.5661275504999
+2017-07-06 11:19:07.788 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74433,-86.56613&destination=34.68525765042955,-86.56417578477932
+2017-07-06 11:21:27.853 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68521,-86.56412&destination=34.75484005720769,-86.55418550725088
+2017-07-06 11:24:48.942 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75502,-86.55417&destination=34.7621867720355,-86.5424068241735
+2017-07-06 11:25:46.962 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76221,-86.54384&destination=34.68942977115893,-86.55766596529773
+2017-07-06 11:30:00.056 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68933,-86.55803&destination=34.6892011523619,-86.57078780990571

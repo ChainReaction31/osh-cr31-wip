@@ -310,6 +310,34 @@ function init()
         mainContainer.setAttribute("class",currentClassName);
     }*/
 
-   
+    // Create a circle.
+    var circle = new Cesium.GeometryInstance({
+        geometry: new Cesium.CircleGeometry({
+            center: Cesium.Cartesian3.fromDegrees(-86.589159, 34.726681 ),
+            radius: 1000.0
+        }),
+        id: "circle",
+        attributes: {
+            color: new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.5)
+        }
+    });
+    //var geometry = Cesium.CircleGeometry.createGeometry(circle);
+    mapView.viewer.scene.primitives.add(new Cesium.GroundPrimitive({
+        geometryInstances : circle
+    }));
+
+   /* // Example 1: Create primitive with a single instance
+    var rectangleInstance = new Cesium.GeometryInstance({
+        geometry : new Cesium.RectangleGeometry({
+            rectangle : Cesium.Rectangle.fromDegrees(-140.0, 30.0, -100.0, 40.0)
+        }),
+        id : 'rectangle',
+        attributes : {
+            color : new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.5)
+        }
+    });
+    mapView.viewer.scene.primitives.add(new Cesium.GroundPrimitive({
+        geometryInstances : rectangleInstance
+    }));*/
 }
 

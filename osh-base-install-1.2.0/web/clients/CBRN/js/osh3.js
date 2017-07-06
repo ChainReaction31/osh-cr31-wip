@@ -6694,7 +6694,7 @@ OSH.UI.CesiumView = OSH.UI.View.extend({
 			showRenderLoopErrors: true,
 			animation: false,
 			targetFrameRate: 10,
-      sceneMode: Cesium.SceneMode.SCENE2D, // Added 4-17-17 --> Sets default view to 2D
+      // sceneMode: Cesium.SceneMode.SCENE2D, // Added 4-17-17 --> Sets default view to 2D
       sceneModePicker: false // Removes scene mode button from UI
 	    });
 
