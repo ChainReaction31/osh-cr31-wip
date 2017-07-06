@@ -6924,3 +6924,13 @@ java.lang.Exception: No route available
 2017-07-06 11:58:42.316 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72713392575539,-86.58547804052216&destination=34.73040878751075,-86.58749739013139&mode=walking
 2017-07-06 12:00:13.301 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73037,-86.58746&destination=34.724736441913045,-86.58540742363243&mode=walking
 2017-07-06 12:02:22.301 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72486,-86.58561&destination=34.723399773216094,-86.58948901435748&mode=walking
+2017-07-06 12:31:01.087 INFO  [ModuleRegistry-7] - 
+2017-07-06 12:31:01.087 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-06 12:31:01.087 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-06 12:31:01.087 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-06 12:31:01.087 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-06 12:31:01.117 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-06 12:31:01.118 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-06 12:31:01.128 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-06 12:31:01.153 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72700096242464,-86.58803561488352&destination=34.73212674134959,-86.59020941871678&mode=walking
+2017-07-06 12:33:26.129 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73188,-86.59002&destination=34.727318988203706,-86.58941002053493&mode=walking

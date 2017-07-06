@@ -1705,3 +1705,11 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weath
 2017-07-06 11:58:42.208 INFO  [ModuleRegistry-5] - Module INITIALIZED
 2017-07-06 11:58:42.218 INFO  [ModuleRegistry-5] - Module STARTING
 2017-07-06 11:58:42.637 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-06 12:31:01.042 INFO  [ModuleRegistry-5] - 
+2017-07-06 12:31:01.042 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-06 12:31:01.042 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-06 12:31:01.042 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-06 12:31:01.042 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-06 12:31:01.043 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-06 12:31:01.044 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-06 12:31:01.423 INFO  [ModuleRegistry-5] - Module STARTED

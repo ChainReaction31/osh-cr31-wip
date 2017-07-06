@@ -226,7 +226,12 @@ function init()
             xLabel: 'Time',
             css:"chart-view",
             cssSelected: "video-selected",
-            maxPoints:30
+            maxPoints:30,
+            axisControl: {
+                constrainAxes: true,
+                minY: 0,
+                maxY: 600
+            }
         }
     );
 
@@ -263,7 +268,12 @@ function init()
             xLabel: 'Time',
             css:"chart-view",
             cssSelected: "video-selected",
-            maxPoints:30
+            maxPoints:30,
+            axisControl: {
+                constrainAxes: true,
+                minY: 0,
+                maxY: 6
+            }
         }
     );
 

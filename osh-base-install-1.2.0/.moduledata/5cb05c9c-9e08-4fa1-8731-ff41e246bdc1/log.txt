@@ -5178,3 +5178,14 @@ Caused by: java.lang.NumberFormatException: For input string: "V_Agent"
 2017-07-06 12:01:04.302 DEBUG [pool-3-thread-1] - Data provider exited on client abort
 2017-07-06 12:01:04.302 DEBUG [pool-1-thread-1] - Data provider exited on client abort
 2017-07-06 12:01:04.302 DEBUG [pool-2-thread-1] - Data provider exited on client abort
+2017-07-06 12:31:01.073 INFO  [ModuleRegistry-6] - 
+2017-07-06 12:31:01.073 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-06 12:31:01.074 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-06 12:31:01.074 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-06 12:31:01.074 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-06 12:31:01.080 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-06 12:31:01.084 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-06 12:31:01.590 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-06 12:31:01.593 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-06 12:31:01.595 DEBUG [EventBus-4] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-06 12:31:01.620 INFO  [EventBus-4] - Module STARTED
