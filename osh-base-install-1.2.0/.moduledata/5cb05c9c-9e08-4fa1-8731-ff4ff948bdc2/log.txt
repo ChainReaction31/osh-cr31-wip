@@ -1673,3 +1673,35 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/weath
 2017-07-06 11:07:09.081 INFO  [ModuleRegistry-5] - Module INITIALIZED
 2017-07-06 11:07:09.085 INFO  [ModuleRegistry-5] - Module STARTING
 2017-07-06 11:07:09.625 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-06 11:37:17.052 INFO  [ModuleRegistry-5] - 
+2017-07-06 11:37:17.053 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-06 11:37:17.053 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-06 11:37:17.053 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-06 11:37:17.053 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-06 11:37:17.053 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-06 11:37:17.054 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-06 11:37:17.442 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-06 11:39:16.821 INFO  [ModuleRegistry-5] - 
+2017-07-06 11:39:16.821 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-06 11:39:16.821 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-06 11:39:16.821 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-06 11:39:16.821 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-06 11:39:16.840 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-06 11:39:16.843 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-06 11:39:17.236 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-06 11:46:54.707 INFO  [ModuleRegistry-5] - 
+2017-07-06 11:46:54.708 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-06 11:46:54.708 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-06 11:46:54.708 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-06 11:46:54.708 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-06 11:46:54.708 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-06 11:46:54.709 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-06 11:46:55.269 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-06 11:58:42.199 INFO  [ModuleRegistry-5] - 
+2017-07-06 11:58:42.200 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-06 11:58:42.200 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-06 11:58:42.200 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-06 11:58:42.200 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-06 11:58:42.208 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-06 11:58:42.218 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-06 11:58:42.637 INFO  [ModuleRegistry-5] - Module STARTED

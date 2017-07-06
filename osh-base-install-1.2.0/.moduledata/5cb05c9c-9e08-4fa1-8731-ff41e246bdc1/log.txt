@@ -5102,3 +5102,79 @@ Caused by: java.lang.NumberFormatException: For input string: "NONE"
 2017-07-06 11:07:09.820 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
 2017-07-06 11:07:09.823 DEBUG [EventBus-2] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
 2017-07-06 11:07:09.864 INFO  [EventBus-2] - Module STARTED
+2017-07-06 11:37:17.083 INFO  [ModuleRegistry-6] - 
+2017-07-06 11:37:17.083 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-06 11:37:17.083 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-06 11:37:17.083 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-06 11:37:17.083 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-06 11:37:17.085 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-06 11:37:17.088 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-06 11:37:17.628 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-06 11:37:17.630 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-06 11:37:17.633 DEBUG [EventBus-2] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-06 11:37:17.656 INFO  [EventBus-2] - Module STARTED
+2017-07-06 11:39:16.846 INFO  [ModuleRegistry-6] - 
+2017-07-06 11:39:16.847 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-06 11:39:16.847 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-06 11:39:16.847 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-06 11:39:16.847 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-06 11:39:16.851 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-06 11:39:16.855 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-06 11:39:17.397 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-06 11:39:17.401 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-06 11:39:17.403 DEBUG [EventBus-4] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-06 11:39:17.431 INFO  [EventBus-4] - Module STARTED
+2017-07-06 11:39:38.913 DEBUG [pool-2-thread-1] - Data provider exited on error
+java.io.IOException: Error while writing text record
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:65) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter.write(JsonDataWriter.java:462) ~[swe-common-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1183) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_131]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: java.lang.NumberFormatException: For input string: "V_Agent"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source) ~[na:1.8.0_131]
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source) ~[na:1.8.0_131]
+	at java.lang.Double.parseDouble(Unknown Source) ~[na:1.8.0_131]
+	at org.vast.data.DataBlockString.getDoubleValue(DataBlockString.java:154) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.data.DataBlockMixed.getDoubleValue(DataBlockMixed.java:276) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$DecimalWriter.writeValue(JsonDataWriter.java:140) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$ValueWriter.process(JsonDataWriter.java:81) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.JsonDataWriter$RecordWriter.process(JsonDataWriter.java:282) ~[swe-common-core-1.2.0.jar:na]
+	at org.vast.swe.fast.AbstractDataWriter.write(AbstractDataWriter.java:60) ~[swe-common-core-1.2.0.jar:na]
+	... 7 common frames omitted
+2017-07-06 11:39:38.958 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Error while writing text record
+2017-07-06 11:46:54.752 INFO  [ModuleRegistry-6] - 
+2017-07-06 11:46:54.753 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-06 11:46:54.753 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-06 11:46:54.753 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-06 11:46:54.753 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-06 11:46:54.754 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-06 11:46:54.755 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-06 11:46:55.418 DEBUG [EventBus-5] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-06 11:46:55.423 DEBUG [EventBus-5] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-06 11:46:55.428 DEBUG [EventBus-5] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-06 11:46:55.460 INFO  [EventBus-5] - Module STARTED
+2017-07-06 11:58:42.229 INFO  [ModuleRegistry-6] - 
+2017-07-06 11:58:42.229 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-06 11:58:42.229 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-06 11:58:42.229 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-06 11:58:42.229 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-06 11:58:42.231 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-06 11:58:42.233 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-06 11:58:42.776 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-06 11:58:42.786 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-06 11:58:42.791 DEBUG [EventBus-3] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-06 11:58:42.836 INFO  [EventBus-3] - Module STARTED
+2017-07-06 12:01:03.511 DEBUG [qtp1878138962-49] - Incoming websocket session closed (status=1011
+2017-07-06 12:01:03.511 DEBUG [qtp1878138962-31] - Incoming websocket session closed (status=1011
+2017-07-06 12:01:03.511 DEBUG [qtp1878138962-34] - Incoming websocket session closed (status=1011
+2017-07-06 12:01:03.511 DEBUG [qtp1878138962-35] - Incoming websocket session closed (status=1011
+2017-07-06 12:01:03.511 DEBUG [qtp1878138962-36] - Incoming websocket session closed (status=1011
+2017-07-06 12:01:04.302 DEBUG [pool-5-thread-1] - Data provider exited on client abort
+2017-07-06 12:01:04.302 DEBUG [pool-4-thread-1] - Data provider exited on client abort
+2017-07-06 12:01:04.302 DEBUG [pool-3-thread-1] - Data provider exited on client abort
+2017-07-06 12:01:04.302 DEBUG [pool-1-thread-1] - Data provider exited on client abort
+2017-07-06 12:01:04.302 DEBUG [pool-2-thread-1] - Data provider exited on client abort
