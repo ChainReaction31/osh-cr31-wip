@@ -277,48 +277,7 @@ function init()
         }
     );
 
-    //--------------------------------------------------------------//
-    //------------------------ Tree View ---------------------------//
-    //--------------------------------------------------------------//
-   /* var entityTreeDialog = new OSH.UI.DialogView(document.body.id, {
-        css: "tree-dialog",
-        name: "Entities",
-        show: true,
-        draggable: true,
-        dockable: false,
-        closeable: true
-    });
 
-    var entityTreeView = new OSH.UI.EntityTreeView(entityTreeDialog.popContentDiv.id,
-        cbrnEntity,
-        { css: "tree-container" }
-    );
-
-    // time slider view
-    var mainContainer = document.getElementById("main-container");
-    var currentClassName = mainContainer.className;
-
-    if (startTime !== "now") {
-        var rangeSlider = new OSH.UI.RangeSlider("rangeSlider",{
-            startTime: gpsData.properties.startTime,
-            endTime: gpsData.properties.endTime,
-            dataSourcesId: [gpsData.id]
-        });
-
-        if(typeof currentClassName !== "undefined") {
-            currentClassName += " main-view-range-slider";
-        } else {
-            currentClassName = "main-view-range-slider";
-        }
-        mainContainer.setAttribute("class",currentClassName);
-    } else {
-        if(typeof currentClassName !== "undefined") {
-            currentClassName += " main-view";
-        } else {
-            currentClassName = "main-view";
-        }
-        mainContainer.setAttribute("class",currentClassName);
-    }*/
 
     // Create a circle.
     var circle = new Cesium.GeometryInstance({
@@ -349,5 +308,59 @@ function init()
     mapView.viewer.scene.primitives.add(new Cesium.GroundPrimitive({
         geometryInstances : rectangleInstance
     }));*/
+
+    //--------------------------------------------------------------//
+    //------------------------ Tree View ---------------------------//
+    //--------------------------------------------------------------//
+    var entityTreeDialog = new OSH.UI.DialogView(document.body.id, {
+        css: "tree-dialog",
+        name: "Entities",
+        show: true,
+        draggable: true,
+        dockable: false,
+        closeable: true
+    });
+
+
+    var entityTreeView = new OSH.UI.EntityTreeView("tree-container",
+        [{
+            entity: cbrnEntity,
+            path: "Sensors/CBRN",
+            treeIcon: "images/CBRN_Icons/CBRN(Green).png"
+        }],
+        { css: "tree-container" }
+    );
+    // add item to tree
+    /*treeItems.push({
+        entity : entity,
+        path: "Task Sources",
+        treeIcon : "images/gpsSrc24.png",
+        contextMenuId: treeMenuId + entity.id })*/
+
+   /* // time slider view
+    var treeContainer = document.getElementById("tree-container");
+    var currentClassName = treeContainer.className;
+
+    if (startTime !== "now") {
+        var rangeSlider = new OSH.UI.RangeSlider("rangeSlider",{
+            startTime: gpsData.properties.startTime,
+            endTime: gpsData.properties.endTime,
+            dataSourcesId: [gpsData.id]
+        });
+
+        if(typeof currentClassName !== "undefined") {
+            currentClassName += " main-view-range-slider";
+        } else {
+            currentClassName = "main-view-range-slider";
+        }
+        treeContainer.setAttribute("class",currentClassName);
+    } else {
+        if(typeof currentClassName !== "undefined") {
+            currentClassName += " main-view";
+        } else {
+            currentClassName = "main-view";
+        }
+        treeContainer.setAttribute("class",currentClassName);
+    }*/
 }
 
