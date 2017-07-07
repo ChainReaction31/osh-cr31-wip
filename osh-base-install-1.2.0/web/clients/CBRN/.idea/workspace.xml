@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4642838-0a05-4c11-b633-d030d4cf0f25" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../config.json.bak.20170620162949" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../config.json.bak.20170622123434" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../config.json.bak.20170623171248" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../config.json.bak.20170626151150" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../config.json.bak.20170626152648" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../config.json.bak.20170627172305" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../db/gps_obs.dat" afterPath="$PROJECT_DIR$/../../../db/gps_obs.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../db/weather_obs.dat" afterPath="$PROJECT_DIR$/../../../db/weather_obs.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../config.json" afterPath="$PROJECT_DIR$/../../../config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../lib/sensorhub-driver-simulatedcbrn-1.0.0.jar" afterPath="$PROJECT_DIR$/../../../lib/sensorhub-driver-simulatedcbrn-1.0.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../osh-sensors" afterPath="$PROJECT_DIR$/../../../../osh-sensors" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/4249f500-d5d8-4656-aa6f-f7422cf0cacb/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/4249f500-d5d8-4656-aa6f-f7422cf0cacb/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9123-4fa1-8731-ffaa51489678/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9123-4fa1-8731-ffaa51489678/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff41e246bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff41e246bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d72/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d72/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d73/log.txt" afterPath="$PROJECT_DIR$/../../../.moduledata/d136b6ea-3950-4691-bf56-c84ec7d89d73/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dialog-styler.css" afterPath="$PROJECT_DIR$/css/dialog-styler.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +37,8 @@
       <file leaf-file-name="osh-config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/osh-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5202">
-              <caret line="306" column="6" lean-forward="false" selection-start-line="306" selection-start-column="6" selection-end-line="306" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -48,22 +54,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="osh.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/osh.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93313">
-              <caret line="5489" column="6" lean-forward="false" selection-start-line="5439" selection-start-column="4" selection-end-line="5489" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="3" lean-forward="false" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +69,8 @@
       <file leaf-file-name="dialog-styler.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/dialog-styler.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,7 +140,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -185,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,44 +219,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBRN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBRN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBRN_Icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBRN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CBRN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -417,11 +383,13 @@
       <workItem from="1499382908199" duration="1215000" />
       <workItem from="1499446216331" duration="3333000" />
       <workItem from="1499453297880" duration="23000" />
+      <workItem from="1499454180814" duration="2460000" />
+      <workItem from="1499463140715" duration="670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174423000" />
+    <option name="totallyTimeSpent" value="177553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,17 +401,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13382508" sideWeight="0.487315" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2170706" sideWeight="0.48494983" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2170706" sideWeight="0.5150502" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -489,7 +457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2278">
           <caret line="134" column="6" lean-forward="true" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,7 +475,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -546,7 +518,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -554,7 +528,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,24 +680,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/dialog-styler.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="3" lean-forward="false" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/osh-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5202">
-          <caret line="306" column="6" lean-forward="false" selection-start-line="306" selection-start-column="6" selection-end-line="306" selection-end-column="6" />
+        <state relative-caret-position="345">
+          <caret line="272" column="50" lean-forward="true" selection-start-line="272" selection-start-column="50" selection-end-line="272" selection-end-column="60" />
           <folding />
         </state>
       </provider>
