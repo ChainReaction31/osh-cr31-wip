@@ -20,19 +20,18 @@ function init()
     //------------------Data Sources--------------------//
     //--------------------------------------------------//
     var hazardLevel = new OSH.DataReceiver.JSON("Alerts", {
-            protocol: "ws",
-            service: "SOS",
-            endpointUrl: HOSTNAME + "8181/sensorhub/sos",
-            offeringID: OFFERING_ID,
-            observedProperty: "http://sensorml.com/ont/swe/property/HazardLevel",
-            endTime: "2018-01-01",
-            startTime: "now",
-            replaySpeed: "1",
-            syncMasterTime: true,
-            bufferingTime: 60000,
-            timeOut: 60000
-        }
-    );
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + "8181/sensorhub/sos",
+        offeringID: OFFERING_ID,
+        observedProperty: "http://sensorml.com/ont/swe/property/HazardLevel",
+        endTime: "2018-01-01",
+        startTime: "now",
+        replaySpeed: "1",
+        syncMasterTime: true,
+        bufferingTime: 60000,
+        timeOut: 60000
+    });
 
 
     var gpsData = new OSH.DataReceiver.JSON("Location", {
@@ -120,6 +119,7 @@ function init()
                 y: 43.61758626,
                 z: 100
             },
+
         locationFunc:
         {
             dataSourceIds: [gpsData.getId()],
@@ -133,20 +133,7 @@ function init()
                 };
             }
         },
-        /*orientationFunc:
-        {
-            dataSourceIds: [gpsData.getId()],
-            handler: function (rec) {
-                //console.log("Entered second handler of styler");
-                return {
-                    //heading: rec.heading
-                    heading: 0
-                };
-            }
-        },*/
-        /*orientation: {
-            heading: 0
-        },*/
+
         icon: './images/CBRN_Icons/sphereGreen.glb',
 
         iconFunc:
@@ -180,13 +167,12 @@ function init()
 
     // Map View
     window.CESIUM_BASE_URL = "../vendor/";
-    var mapView = new OSH.UI.CesiumView("mapView", [
-
-        {
-            name: "Sim CBRN",
-            entityId: cbrnEntity.id,
-            styler: pointMarker
-        }]);
+    var mapView = new OSH.UI.CesiumView("mapView",
+    [{
+        name: "Sim CBRN",
+        entityId: cbrnEntity.id,
+        styler: pointMarker
+    }]);
 
     //mapView.updateMarker();
 
@@ -277,7 +263,9 @@ function init()
         }
     );
 
-
+    //--------------------------------------------------------------------------//
+    //--------------------------GROUND PRIMITIVE(S)-----------------------------//
+    //--------------------------------------------------------------------------//
 
     // Create a circle.
     var circle = new Cesium.GeometryInstance({
@@ -295,19 +283,6 @@ function init()
         geometryInstances : circle
     }));
 
-   /* // Example 1: Create primitive with a single instance
-    var rectangleInstance = new Cesium.GeometryInstance({
-        geometry : new Cesium.RectangleGeometry({
-            rectangle : Cesium.Rectangle.fromDegrees(-140.0, 30.0, -100.0, 40.0)
-        }),
-        id : 'rectangle',
-        attributes : {
-            color : new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.5)
-        }
-    });
-    mapView.viewer.scene.primitives.add(new Cesium.GroundPrimitive({
-        geometryInstances : rectangleInstance
-    }));*/
 
     //--------------------------------------------------------------//
     //------------------------ Tree View ---------------------------//
@@ -322,7 +297,7 @@ function init()
     });
 
 
-    var entityTreeView = new OSH.UI.EntityTreeView("tree-container",
+    var entityTreeView = new OSH.UI.EntityTreeView(entityTreeDialog.popContentDiv.id,
         [{
             entity: cbrnEntity,
             path: "Sensors/CBRN",
@@ -330,37 +305,5 @@ function init()
         }],
         { css: "tree-container" }
     );
-    // add item to tree
-    /*treeItems.push({
-        entity : entity,
-        path: "Task Sources",
-        treeIcon : "images/gpsSrc24.png",
-        contextMenuId: treeMenuId + entity.id })*/
-
-   /* // time slider view
-    var treeContainer = document.getElementById("tree-container");
-    var currentClassName = treeContainer.className;
-
-    if (startTime !== "now") {
-        var rangeSlider = new OSH.UI.RangeSlider("rangeSlider",{
-            startTime: gpsData.properties.startTime,
-            endTime: gpsData.properties.endTime,
-            dataSourcesId: [gpsData.id]
-        });
-
-        if(typeof currentClassName !== "undefined") {
-            currentClassName += " main-view-range-slider";
-        } else {
-            currentClassName = "main-view-range-slider";
-        }
-        treeContainer.setAttribute("class",currentClassName);
-    } else {
-        if(typeof currentClassName !== "undefined") {
-            currentClassName += " main-view";
-        } else {
-            currentClassName = "main-view";
-        }
-        treeContainer.setAttribute("class",currentClassName);
-    }*/
 }
 

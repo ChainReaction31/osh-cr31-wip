@@ -7132,3 +7132,87 @@ java.lang.Exception: No route available
 2017-07-06 14:34:50.030 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72632,-86.59333&destination=34.72492421701192,-86.58632320211574&mode=walking
 2017-07-06 14:38:40.029 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72496,-86.58641&destination=34.72367711964402,-86.59097358746268&mode=walking
 2017-07-06 14:40:41.030 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72374,-86.59088&destination=34.73054872499386,-86.58515660281049&mode=walking
+2017-07-07 12:16:50.191 INFO  [ModuleRegistry-7] - 
+2017-07-07 12:16:50.192 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 12:16:50.192 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 12:16:50.192 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 12:16:50.192 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 12:16:50.338 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 12:16:50.338 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 12:16:50.339 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 12:16:50.352 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.730173926874585,-86.59127280741563&destination=34.72640170160304,-86.58908313171668&mode=walking
+2017-07-07 12:18:13.339 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72639,-86.58912&destination=34.724647343512586,-86.58652559316499&mode=walking
+2017-07-07 12:18:31.516 INFO  [ModuleRegistry-7] - 
+2017-07-07 12:18:31.516 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 12:18:31.516 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 12:18:31.516 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 12:18:31.516 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 12:18:31.545 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 12:18:31.546 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 12:18:31.547 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 12:18:31.550 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72833861640385,-86.5855441229619&destination=34.72458482970403,-86.5864286884612&mode=walking
+2017-07-07 12:20:08.547 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72458,-86.58643&destination=34.72942935913754,-86.58676824304288&mode=walking
+2017-07-07 12:22:00.547 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72945,-86.58674&destination=34.72810487439193,-86.58753583211838&mode=walking
+2017-07-07 12:22:29.631 INFO  [ModuleRegistry-7] - 
+2017-07-07 12:22:29.631 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 12:22:29.631 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 12:22:29.631 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 12:22:29.631 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 12:22:29.653 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 12:22:29.653 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 12:22:29.656 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 12:22:29.660 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.727024552106975,-86.58407478405272&destination=34.724556966382586,-86.59112664386322&mode=walking
+2017-07-07 12:24:25.092 INFO  [ModuleRegistry-7] - 
+2017-07-07 12:24:25.092 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 12:24:25.093 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 12:24:25.093 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 12:24:25.093 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 12:24:25.127 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 12:24:25.128 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 12:24:25.129 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 12:24:25.130 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7320827679657,-86.58420832251795&destination=34.73117770153223,-86.59087012617665&mode=walking
+2017-07-07 12:26:47.129 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73134,-86.59043&destination=34.72653143041996,-86.5847496410105&mode=walking
+2017-07-07 12:55:33.371 INFO  [ModuleRegistry-7] - 
+2017-07-07 12:55:33.371 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 12:55:33.371 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 12:55:33.371 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 12:55:33.371 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 12:55:33.391 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 12:55:33.392 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 12:55:33.395 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 12:55:33.398 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73020296069593,-86.59143699824111&destination=34.72785038114647,-86.58400340161664&mode=walking
+2017-07-07 12:58:04.929 INFO  [ModuleRegistry-7] - 
+2017-07-07 12:58:04.929 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 12:58:04.929 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 12:58:04.929 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 12:58:04.929 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 12:58:04.959 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 12:58:04.961 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 12:58:04.962 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 12:58:04.964 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.726598048640454,-86.58712376654162&destination=34.727561729195116,-86.58566032829154&mode=walking
+2017-07-07 12:58:43.961 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72746,-86.58586&destination=34.7309739653812,-86.58683414197431&mode=walking
+2017-07-07 13:00:25.961 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73108,-86.58691&destination=34.72598117485383,-86.5917146341483&mode=walking
+2017-07-07 13:03:03.961 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72583,-86.59204&destination=34.72900738020762,-86.59001483556311&mode=walking
+2017-07-07 13:03:09.875 INFO  [ModuleRegistry-7] - 
+2017-07-07 13:03:09.875 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 13:03:09.875 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 13:03:09.875 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 13:03:09.875 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 13:03:09.913 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 13:03:09.914 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 13:03:09.915 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 13:03:09.921 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73221876564218,-86.5901755406723&destination=34.73273864729738,-86.59153705054183&mode=walking
+2017-07-07 13:04:33.915 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7326,-86.59147&destination=34.726397713703555,-86.58605105168415&mode=walking
+2017-07-07 13:05:09.670 INFO  [ModuleRegistry-7] - 
+2017-07-07 13:05:09.670 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 13:05:09.670 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 13:05:09.670 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [0a8233e8-0d63-4819-a281-a957b3eeb09f]
+2017-07-07 13:05:09.670 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 13:05:09.700 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 13:05:09.700 INFO  [ModuleRegistry-7] - Module STARTING
+2017-07-07 13:05:09.701 INFO  [ModuleRegistry-7] - Module STARTED
+2017-07-07 13:05:09.702 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72373859889906,-86.58672630620651&destination=34.72305191130323,-86.59090393694098&mode=walking
+2017-07-07 13:06:29.702 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72293,-86.59057&destination=34.72797570785212,-86.59018309733165&mode=walking
+2017-07-07 13:08:23.702 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72807,-86.59016&destination=34.730441975557525,-86.58827058803361&mode=walking
+2017-07-07 13:09:36.701 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73036,-86.58826&destination=34.73224364932293,-86.59009364539497&mode=walking
+2017-07-07 13:10:18.701 DEBUG [Timer-3] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73241,-86.58973&destination=34.72400362924411,-86.58460863273773&mode=walking

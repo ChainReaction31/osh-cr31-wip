@@ -53,9 +53,8 @@ a.navbar-brand {
 
 .tree-container {
     position: absolute;
-    width: calc(10%) !important;
-    height: calc(10% - 50px) !important;
-    background-color: rgba(0,0,0,0);
+    width: calc(100%) !important;
+    height: calc(100% - 50px) !important;
     padding: 4px;
 }
 
