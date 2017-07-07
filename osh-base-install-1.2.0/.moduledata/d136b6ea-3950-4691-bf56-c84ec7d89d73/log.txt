@@ -1706,3 +1706,19 @@
 2017-07-07 13:05:09.687 INFO  [ModuleRegistry-3] - Module INITIALIZED
 2017-07-07 13:05:09.687 INFO  [ModuleRegistry-3] - Module STARTING
 2017-07-07 13:05:09.689 INFO  [ModuleRegistry-3] - Module STARTED
+2017-07-07 13:44:25.521 INFO  [ModuleRegistry-3] - 
+2017-07-07 13:44:25.521 INFO  [ModuleRegistry-3] - *************************************************
+2017-07-07 13:44:25.521 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-07-07 13:44:25.521 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-07-07 13:44:25.521 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-07-07 13:44:25.568 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-07-07 13:44:25.569 INFO  [ModuleRegistry-3] - Module STARTING
+2017-07-07 13:44:25.578 INFO  [ModuleRegistry-3] - Module STARTED
+2017-07-07 13:48:44.149 INFO  [ModuleRegistry-3] - 
+2017-07-07 13:48:44.149 INFO  [ModuleRegistry-3] - *************************************************
+2017-07-07 13:48:44.149 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-07-07 13:48:44.149 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-07-07 13:48:44.149 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-07-07 13:48:44.204 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-07-07 13:48:44.204 INFO  [ModuleRegistry-3] - Module STARTING
+2017-07-07 13:48:44.208 INFO  [ModuleRegistry-3] - Module STARTED

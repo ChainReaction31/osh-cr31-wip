@@ -2006,3 +2006,19 @@ Caused by: java.net.BindException: Address already in use: bind
 2017-07-07 13:05:09.615 INFO  [ModuleRegistry-1] - Module INITIALIZED
 2017-07-07 13:05:09.615 INFO  [ModuleRegistry-1] - Module STARTING
 2017-07-07 13:05:09.867 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-07 13:44:25.498 INFO  [ModuleRegistry-1] - 
+2017-07-07 13:44:25.498 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-07 13:44:25.498 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-07 13:44:25.498 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-07 13:44:25.498 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-07 13:44:25.499 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-07 13:44:25.499 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-07 13:44:25.789 INFO  [ModuleRegistry-1] - Module STARTED
+2017-07-07 13:48:44.122 INFO  [ModuleRegistry-1] - 
+2017-07-07 13:48:44.122 INFO  [ModuleRegistry-1] - *************************************************
+2017-07-07 13:48:44.122 INFO  [ModuleRegistry-1] - SensorHub Restarted
+2017-07-07 13:48:44.122 INFO  [ModuleRegistry-1] - Starting log for 'HTTP Server' [5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1]
+2017-07-07 13:48:44.122 INFO  [ModuleRegistry-1] - Module INITIALIZING
+2017-07-07 13:48:44.124 INFO  [ModuleRegistry-1] - Module INITIALIZED
+2017-07-07 13:48:44.124 INFO  [ModuleRegistry-1] - Module STARTING
+2017-07-07 13:48:44.428 INFO  [ModuleRegistry-1] - Module STARTED

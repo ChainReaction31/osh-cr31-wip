@@ -1,0 +1,11 @@
+2017-07-07 13:45:29.233 INFO  [ModuleRegistry-7] - 
+2017-07-07 13:45:29.233 INFO  [ModuleRegistry-7] - *************************************************
+2017-07-07 13:45:29.233 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-07-07 13:45:29.233 INFO  [ModuleRegistry-7] - Starting log for 'New Simulated CBRN Sensor' [fdae2b5a-b6a5-4a92-a0e9-f20c381dc1c0]
+2017-07-07 13:45:29.233 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 13:45:29.243 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 13:45:33.620 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-07-07 13:45:33.621 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-07-07 13:46:58.058 INFO  [ModuleRegistry-9] - Module STARTING
+2017-07-07 13:46:58.059 INFO  [ModuleRegistry-9] - Module STARTED
+2017-07-07 13:46:58.062 DEBUG [Timer-5] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.729342184743594,-86.58777254537259&destination=34.723279141681736,-86.58927807485836&mode=walking

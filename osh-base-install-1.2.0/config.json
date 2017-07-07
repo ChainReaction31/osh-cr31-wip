@@ -120,7 +120,7 @@
       },
       {
         "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
-        "sensorID": "0a8233e8-0d63-4819-a281-a957b3eeb09f",
+        "sensorID": "4249f500-d5d8-4656-aa6f-f7422cf0cacb",
         "hiddenOutputs": [],
         "liveDataTimeout": 10.0,
         "maxFois": 10,
@@ -182,32 +182,19 @@
   {
     "objClass": "org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNConfig",
     "serialNumber": "BIR012345",
-    "source1": {
-      "objClass": "datasimulation.PointSource",
-      "lat": 34.7278,
-      "lon": -86.5887,
-      "alt": 0.0,
-      "intensity": 600.0,
-      "agent": {
-        "objClass": "datasimulation.ChemAgent",
-        "rand": {
-          "objClass": "java.util.Random",
-          "seed": 28778169327719,
-          "nextNextGaussian": 0.0,
-          "haveNextNextGaussian": false
-        },
-        "agentID": "VX",
-        "agentClass": "V_Agent"
-      }
-    },
     "numSources": 1,
     "googleApiUrl": "http://maps.googleapis.com/maps/api/directions/json",
-    "centerLatitude": 34.7278,
-    "centerLongitude": -86.5887,
+    "centerLatitude": 34.728,
+    "centerLongitude": -86.589,
     "areaSize": 0.01,
-    "vehicleSpeed": 20.0,
+    "vehicleSpeed": 10.0,
     "walkingMode": true,
-    "id": "0a8233e8-0d63-4819-a281-a957b3eeb09f",
+    "src1_lat": 34.728,
+    "src1_lon": -86.589,
+    "src1_alt": 0.0,
+    "src1_intensity": 600.0,
+    "src1_type": "VX",
+    "id": "4249f500-d5d8-4656-aa6f-f7422cf0cacb",
     "moduleClass": "org.sensorhub.impl.sensor.simulatedcbrn.SimCBRNSensor",
     "name": "New Simulated CBRN Sensor",
     "autoStart": true

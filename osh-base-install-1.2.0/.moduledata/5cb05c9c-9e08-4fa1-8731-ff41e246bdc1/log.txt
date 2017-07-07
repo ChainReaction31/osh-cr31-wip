@@ -5814,3 +5814,341 @@ Caused by: java.lang.NumberFormatException: For input string: "V_Agent"
 2017-07-07 13:10:39.701 DEBUG [pool-6-thread-1] - Data provider exited on client abort
 2017-07-07 13:10:39.701 DEBUG [pool-9-thread-1] - Data provider exited on client abort
 2017-07-07 13:10:39.701 DEBUG [pool-7-thread-1] - Data provider exited on client abort
+2017-07-07 13:44:25.554 INFO  [ModuleRegistry-6] - 
+2017-07-07 13:44:25.555 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-07 13:44:25.555 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-07 13:44:25.555 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-07 13:44:25.555 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-07 13:44:25.556 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-07 13:44:25.557 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-07 13:44:25.925 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:44:26.026 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:44:26.029 ERROR [EventBus-2] - Error while initializing provider urn:mysos:simcbrn
+org.sensorhub.api.common.SensorHubException: Unknown module 0a8233e8-0d63-4819-a281-a957b3eeb09f
+	at org.sensorhub.impl.module.ModuleRegistry.getModuleById(ModuleRegistry.java:806) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:95) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:36) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderFactory.<init>(SensorDataProviderFactory.java:40) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderConfig.getFactory(SensorDataProviderConfig.java:53) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.generateCapabilities(SOSServlet.java:326) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.start(SOSServlet.java:197) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.start(SOSService.java:98) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.handleEvent(SOSService.java:168) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.common.AsyncEventHandler$ListenerQueue$1.run(AsyncEventHandler.java:80) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:44:26.037 INFO  [EventBus-2] - Module STARTED
+2017-07-07 13:44:26.535 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:44:26.798 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:46:36.927 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-07-07 13:46:36.936 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-07-07 13:46:36.937 INFO  [ModuleRegistry-8] - Module INITIALIZING
+2017-07-07 13:46:36.939 INFO  [ModuleRegistry-8] - Module INITIALIZED
+2017-07-07 13:46:36.939 INFO  [ModuleRegistry-8] - Module STARTING
+2017-07-07 13:46:36.941 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:46:36.941 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:46:36.947 INFO  [ModuleRegistry-8] - Module STARTED
+2017-07-07 13:46:41.009 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-07-07 13:46:41.017 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-07-07 13:46:41.017 INFO  [ModuleRegistry-8] - Module STARTING
+2017-07-07 13:46:41.019 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:46:41.021 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:46:41.027 INFO  [ModuleRegistry-8] - Module STARTED
+2017-07-07 13:46:52.735 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-07-07 13:46:52.742 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-07-07 13:46:52.742 INFO  [ModuleRegistry-9] - Module STARTING
+2017-07-07 13:46:52.744 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:46:52.745 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:46:52.750 INFO  [ModuleRegistry-9] - Module STARTED
+2017-07-07 13:46:58.062 DEBUG [EventBus-7] - Offering "urn:mysos:simcbnrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-07 13:47:18.745 DEBUG [pool-1-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:18.748 DEBUG [pool-1-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:18.755 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:18.757 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:18.769 DEBUG [pool-3-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:18.770 DEBUG [pool-3-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:18.783 DEBUG [pool-4-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:18.784 DEBUG [pool-4-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:18.796 DEBUG [pool-5-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:18.796 DEBUG [pool-5-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:42.154 DEBUG [pool-6-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:42.156 DEBUG [pool-6-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:42.168 DEBUG [pool-7-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:42.170 DEBUG [pool-7-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:42.181 DEBUG [pool-8-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:42.182 DEBUG [pool-8-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:42.194 DEBUG [pool-9-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:42.196 DEBUG [pool-9-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:47:42.212 DEBUG [pool-10-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:47:42.214 DEBUG [pool-10-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:48:44.182 INFO  [ModuleRegistry-6] - 
+2017-07-07 13:48:44.182 INFO  [ModuleRegistry-6] - *************************************************
+2017-07-07 13:48:44.182 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-07-07 13:48:44.182 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-07-07 13:48:44.182 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-07-07 13:48:44.184 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-07-07 13:48:44.184 INFO  [ModuleRegistry-6] - Module STARTING
+2017-07-07 13:48:44.596 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:48:44.732 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:48:44.736 ERROR [EventBus-1] - Error while initializing provider urn:mysos:simcbrn
+org.sensorhub.api.common.SensorHubException: Unknown module 0a8233e8-0d63-4819-a281-a957b3eeb09f
+	at org.sensorhub.impl.module.ModuleRegistry.getModuleById(ModuleRegistry.java:806) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:95) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:36) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderFactory.<init>(SensorDataProviderFactory.java:40) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderConfig.getFactory(SensorDataProviderConfig.java:53) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.generateCapabilities(SOSServlet.java:326) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.start(SOSServlet.java:197) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.start(SOSService.java:98) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.handleEvent(SOSService.java:168) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.common.AsyncEventHandler$ListenerQueue$1.run(AsyncEventHandler.java:80) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:48:44.743 INFO  [EventBus-1] - Module STARTED
+2017-07-07 13:48:54.543 DEBUG [pool-1-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:48:54.547 DEBUG [pool-1-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:48:54.555 DEBUG [pool-2-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:48:54.556 DEBUG [pool-2-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:48:54.569 DEBUG [pool-3-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:48:54.570 DEBUG [pool-3-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:48:54.583 DEBUG [pool-4-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:48:54.584 DEBUG [pool-4-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:48:54.597 DEBUG [pool-5-thread-1] - Data provider exited on error
+org.vast.ows.sos.SOSException: Invalid Parameter Value: offering=urn:mysos:simcbrn
+	at org.sensorhub.impl.service.sos.SOSServlet.checkAndGetOffering(SOSServlet.java:1867) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.checkQueryObservables(SOSServlet.java:1721) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.handleRequest(SOSServlet.java:1096) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.vast.ows.sos.SOSServlet.handleRequest(SOSServlet.java:72) ~[ows-framework-bindings-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSWebSocketOut.run(SOSWebSocketOut.java:98) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:48:54.598 DEBUG [pool-5-thread-1] - Incoming websocket session closed (status=1002, reason=Invalid Parameter Value: offering=urn:mysos:simcbrn
+2017-07-07 13:49:58.578 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-07-07 13:49:58.587 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-07-07 13:49:58.589 INFO  [ModuleRegistry-8] - Module INITIALIZING
+2017-07-07 13:49:58.590 INFO  [ModuleRegistry-8] - Module INITIALIZED
+2017-07-07 13:49:58.590 INFO  [ModuleRegistry-8] - Module STARTING
+2017-07-07 13:49:58.593 ERROR [ModuleRegistry-8] - Error while initializing provider urn:mysos:offering02
+org.sensorhub.api.common.SensorHubException: Storage GPS Sensor Storage doesn't contain data for sensor New Simulated CBRN Sensor
+	at org.sensorhub.impl.service.sos.SensorWithStorageProviderFactory.<init>(SensorWithStorageProviderFactory.java:50) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderConfig.getFactory(SensorDataProviderConfig.java:51) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.generateCapabilities(SOSServlet.java:326) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.start(SOSServlet.java:197) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.start(SOSService.java:98) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.handleEvent(SOSService.java:168) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.registerListener(AbstractModule.java:537) [sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.requestStart(SOSService.java:54) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.updateConfig(AbstractModule.java:131) [sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$5.run(ModuleRegistry.java:686) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:49:58.593 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:49:58.594 ERROR [ModuleRegistry-8] - Error while initializing provider urn:mysos:simcbrn
+org.sensorhub.api.common.SensorHubException: Unknown module 0a8233e8-0d63-4819-a281-a957b3eeb09f
+	at org.sensorhub.impl.module.ModuleRegistry.getModuleById(ModuleRegistry.java:806) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:95) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:36) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderFactory.<init>(SensorDataProviderFactory.java:40) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderConfig.getFactory(SensorDataProviderConfig.java:53) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.generateCapabilities(SOSServlet.java:326) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.start(SOSServlet.java:197) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.start(SOSService.java:98) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.handleEvent(SOSService.java:168) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.registerListener(AbstractModule.java:537) [sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.requestStart(SOSService.java:54) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.updateConfig(AbstractModule.java:131) [sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$5.run(ModuleRegistry.java:686) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:49:58.601 INFO  [ModuleRegistry-8] - Module STARTED
+2017-07-07 13:50:01.863 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-07-07 13:50:01.869 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-07-07 13:50:01.869 INFO  [ModuleRegistry-8] - Module STARTING
+2017-07-07 13:50:01.871 ERROR [ModuleRegistry-8] - Error while initializing provider urn:mysos:offering02
+org.sensorhub.api.common.SensorHubException: Storage GPS Sensor Storage doesn't contain data for sensor New Simulated CBRN Sensor
+	at org.sensorhub.impl.service.sos.SensorWithStorageProviderFactory.<init>(SensorWithStorageProviderFactory.java:50) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderConfig.getFactory(SensorDataProviderConfig.java:51) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.generateCapabilities(SOSServlet.java:326) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.start(SOSServlet.java:197) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.start(SOSService.java:98) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.handleEvent(SOSService.java:168) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.registerListener(AbstractModule.java:537) [sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.requestStart(SOSService.java:54) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$4.run(ModuleRegistry.java:637) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:50:01.872 DEBUG [ModuleRegistry-8] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:50:01.872 ERROR [ModuleRegistry-8] - Error while initializing provider urn:mysos:simcbrn
+org.sensorhub.api.common.SensorHubException: Unknown module 0a8233e8-0d63-4819-a281-a957b3eeb09f
+	at org.sensorhub.impl.module.ModuleRegistry.getModuleById(ModuleRegistry.java:806) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:95) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.sensor.SensorManagerImpl.getModuleById(SensorManagerImpl.java:36) ~[sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderFactory.<init>(SensorDataProviderFactory.java:40) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SensorDataProviderConfig.getFactory(SensorDataProviderConfig.java:53) ~[sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.generateCapabilities(SOSServlet.java:326) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSServlet.start(SOSServlet.java:197) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.start(SOSService.java:98) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.handleEvent(SOSService.java:168) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.AbstractModule.registerListener(AbstractModule.java:537) [sensorhub-core-1.2.0.jar:na]
+	at org.sensorhub.impl.service.sos.SOSService.requestStart(SOSService.java:54) [sensorhub-service-swe-1.2.0.jar:na]
+	at org.sensorhub.impl.module.ModuleRegistry$4.run(ModuleRegistry.java:637) [sensorhub-core-1.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-07 13:50:01.878 INFO  [ModuleRegistry-8] - Module STARTED
+2017-07-07 13:50:19.973 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-07-07 13:50:19.979 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-07-07 13:50:19.980 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-07-07 13:50:19.980 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-07-07 13:50:19.980 INFO  [ModuleRegistry-9] - Module STARTING
+2017-07-07 13:50:19.983 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:50:19.984 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:50:19.985 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-07 13:50:19.991 INFO  [ModuleRegistry-9] - Module STARTED
+2017-07-07 13:50:25.567 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-07-07 13:50:25.573 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-07-07 13:50:25.573 INFO  [ModuleRegistry-9] - Module STARTING
+2017-07-07 13:50:25.575 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-07-07 13:50:25.575 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-07-07 13:50:25.575 DEBUG [ModuleRegistry-9] - Offering "urn:mysos:simcbrn" added for procedure urn:osh:sensor:simcbrn:BIR012345
+2017-07-07 13:50:25.580 INFO  [ModuleRegistry-9] - Module STARTED
