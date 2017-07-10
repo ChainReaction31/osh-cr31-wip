@@ -11,7 +11,7 @@ function init()
     const ENTITY_NAME = "Simulated CBRN";
     const OFFERING_ID = "urn:mysos:simcbrn";
     const START_TIME = "2017-06-01T19:00:40Z";
-    const END_TIME = "2017-06-30T19:22:00Z";
+    const END_TIME = "2017-08-30T19:22:00Z";
     console.log("Test init");
     console.log(OFFERING_ID);
 

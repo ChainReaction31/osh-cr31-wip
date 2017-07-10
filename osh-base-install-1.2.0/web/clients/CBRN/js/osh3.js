@@ -6760,7 +6760,7 @@ OSH.UI.CesiumView = OSH.UI.View.extend({
 				position : Cesium.Cartesian3.fromDegrees(0, 0, 0),
 				model : {
 					uri: imgIcon,
-					scale: 3,
+					scale: 1,
 					modelM: Cesium.Matrix4.IDENTITY.clone()
 				}
 			};
@@ -6814,7 +6814,7 @@ OSH.UI.CesiumView = OSH.UI.View.extend({
 
     //---------------------- Model Scaling ---------------------------//
     var isModel = imgIcon.endsWith(".glb");
-    var modelScale = 3; // initial icon (model) scale
+    var modelScale = 1; // initial icon (model) scale
     //---------------------------------------------------------------//
 
     if (!isNaN(lon) && !isNaN(lat)) {
@@ -6832,7 +6832,8 @@ OSH.UI.CesiumView = OSH.UI.View.extend({
     //---------------------- Model Scaling ---------------------------//
     // update model scale based on distance calculated above (zoom)
     if (this.viewer.scene.mode == 3) {
-      modelScale = distance3d*(99/4800) + 1;
+      //modelScale = distance3d*(99/4800) + 1;
+        modelScale = distance3d*(33/4800) + 1;
     }
 
     if (this.viewer.scene.mode == 2) {
