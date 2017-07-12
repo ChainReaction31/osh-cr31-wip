@@ -83,6 +83,18 @@ function init()
         bufferingTime: 1000
 });
 
+    var sourceString = new OSH.DataReceiver.JSON("Source String", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + "8181/sensorhub/sos",
+        offeringID: "urn:mysos:simcbrn",
+        observedProperty: "http://sensorml.com/ont/swe/property/SourceStrings",
+        startTime: "now",
+        endTime: "2055-01-01Z",
+        syncMasterTime: true,
+        bufferingTime: 1000
+});
+
     console.log("Printing Data Sources...");
     console.log(hazardLevel);
     //console.log(gpsData);
@@ -97,7 +109,7 @@ function init()
     var cbrnEntity = {
         id: "simCBRN",
         name: "Sim CBRN",
-        dataSources: [hazardLevel, gpsData, tempData, numericalAlert, continuousLevel]
+        dataSources: [hazardLevel, gpsData, tempData, numericalAlert, continuousLevel, sourceString]
     };
     console.log(cbrnEntity);
     var dataSourceController = new OSH.DataReceiver.DataReceiverController({
@@ -266,7 +278,24 @@ function init()
     //--------------------------------------------------------------------------//
     //--------------------------GROUND PRIMITIVE(S)-----------------------------//
     //--------------------------------------------------------------------------//
+    var testObj = sourceString.onData();
+    //var psMainString;
+    var sourceArray;
 
+    sourceString.onData = function (rec, sourceArray) {
+    let test = rec.data.source_string;
+    console.log(test);
+    test;
+    //console.log(psMainString);
+    sourceArray = parseSourceString(test);
+    };
+
+
+     function parseSourceString(psMainString) {
+         console.log(psMainString);
+         return psMainString.split(";");
+     }
+     console.log(sourceArray);
     // Create a circle.
     var circle = new Cesium.GeometryInstance({
         geometry: new Cesium.CircleGeometry({
@@ -282,6 +311,8 @@ function init()
     mapView.viewer.scene.primitives.add(new Cesium.GroundPrimitive({
         geometryInstances : circle
     }));
+
+
 
 
     //--------------------------------------------------------------//
