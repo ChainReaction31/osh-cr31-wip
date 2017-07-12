@@ -1,0 +1,16 @@
+2017-07-12 15:37:21.343 INFO  [ModuleRegistry-10] - 
+2017-07-12 15:37:21.343 INFO  [ModuleRegistry-10] - *************************************************
+2017-07-12 15:37:21.343 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-07-12 15:37:21.343 INFO  [ModuleRegistry-10] - Starting log for 'New Simulated CBRN Sensor' [f390cf16-74c9-4067-9483-b0ae6bca9236]
+2017-07-12 15:37:21.344 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-07-12 15:37:21.344 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-07-12 15:37:26.395 INFO  [ModuleRegistry-10] - Module STARTING
+2017-07-12 15:37:26.397 INFO  [ModuleRegistry-10] - Module STARTED
+2017-07-12 15:37:26.399 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72407244912806,-86.58451593848925&destination=34.72784091754859,-86.58697648140941&mode=walking
+2017-07-12 15:37:52.396 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72783,-86.58697&destination=34.728230673036265,-86.58438074118567&mode=walking
+2017-07-12 15:37:58.396 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72824,-86.58429&destination=34.72623461594313,-86.5869057238826&mode=walking
+2017-07-12 15:38:12.397 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72613,-86.58682&destination=34.72491928683238,-86.58922789000091&mode=walking
+2017-07-12 15:38:23.396 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72493,-86.58926&destination=34.72971720391344,-86.58583412663519&mode=walking
+2017-07-12 15:38:40.397 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7298,-86.58574&destination=34.72925752436492,-86.58465376026837&mode=walking
+2017-07-12 15:38:43.397 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72909,-86.58496&destination=34.72312771696004,-86.59183889245982&mode=walking
+2017-07-12 15:39:24.396 DEBUG [Timer-18] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72245,-86.5921&destination=34.72645497442925,-86.58718234290194&mode=walking

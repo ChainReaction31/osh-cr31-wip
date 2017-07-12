@@ -2356,3 +2356,427 @@ java.lang.NullPointerException: null
 2017-07-11 20:10:42.445 INFO  [ModuleRegistry-5] - Module INITIALIZED
 2017-07-11 20:10:42.445 INFO  [ModuleRegistry-5] - Module STARTING
 2017-07-11 20:10:42.985 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:01:52.387 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:01:52.387 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:01:52.387 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:01:52.387 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:01:52.387 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:01:52.392 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:01:52.400 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:01:52.887 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:04:21.806 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:04:21.806 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:04:21.806 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:04:21.806 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:04:21.806 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:04:21.820 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:04:21.834 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:04:22.531 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:08:14.091 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:08:14.092 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:08:14.092 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:08:14.092 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:08:14.092 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:08:14.105 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:08:14.107 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:08:15.142 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:26:37.307 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:26:37.307 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:26:37.307 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:26:37.308 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:26:37.308 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:26:37.308 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:26:37.309 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:26:37.756 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:27:18.533 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:27:18.534 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:27:18.534 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:27:18.534 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:27:18.534 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:27:18.550 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:27:18.561 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:27:18.985 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:29:00.221 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:29:00.222 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:29:00.222 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:29:00.223 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:29:00.224 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:29:00.232 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:29:00.237 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:29:00.816 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:30:58.954 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:30:58.954 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:30:58.955 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:30:58.956 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:30:58.956 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:30:58.958 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:30:59.012 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:31:00.439 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:33:34.610 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:33:34.610 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:33:34.610 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:33:34.610 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:33:34.610 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:33:34.611 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:33:34.632 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:33:35.300 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:35:04.570 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:35:04.571 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:35:04.572 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:35:04.573 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:35:04.573 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:35:04.638 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:35:04.643 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:35:06.088 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:37:25.047 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:37:25.048 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:37:25.048 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:37:25.048 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:37:25.048 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:37:25.052 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:37:25.052 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:37:25.591 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:44:59.801 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:44:59.802 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:44:59.802 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:44:59.802 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:44:59.802 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:44:59.802 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:44:59.803 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:45:00.233 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:48:11.487 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:48:11.487 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:48:11.487 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:48:11.487 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:48:11.487 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:48:11.487 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:48:11.517 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:48:11.961 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:50:20.123 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:50:20.123 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:50:20.123 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:50:20.123 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:50:20.123 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:50:20.126 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:50:20.128 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:50:20.557 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:57:21.356 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:57:21.356 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:57:21.356 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:57:21.356 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:57:21.357 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:57:21.360 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:57:21.365 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:57:21.805 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - 
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 10:59:53.883 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 10:59:54.385 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:06:17.369 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:06:17.369 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:06:17.369 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:06:17.369 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:06:17.369 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:06:17.370 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:06:17.372 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:06:17.758 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:06:58.599 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:06:58.599 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:06:58.599 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:06:58.599 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:06:58.599 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:06:58.600 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:06:58.602 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:06:59.086 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:09:11.274 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:09:11.275 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:09:11.275 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:09:11.276 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:09:11.276 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:09:11.277 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:09:11.277 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:09:11.744 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:29:24.692 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:29:24.693 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:29:24.693 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:29:24.693 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:29:24.693 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:29:24.693 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:29:24.694 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:29:25.230 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:30:05.601 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:30:05.601 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:30:05.601 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:30:05.601 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:30:05.601 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:30:05.602 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:30:05.609 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:30:06.112 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:30:48.155 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:30:48.156 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:30:48.156 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:30:48.156 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:30:48.156 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:30:48.157 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:30:48.158 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:30:48.598 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:48:43.821 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:48:43.824 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:48:43.824 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:48:43.824 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:48:43.824 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:48:43.824 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:48:43.824 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:48:44.265 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:50:45.507 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:50:45.931 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:52:19.431 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:52:19.431 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:52:19.431 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:52:19.431 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:52:19.432 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:52:19.432 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:52:19.432 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:52:20.034 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:54:02.066 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:54:02.067 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:54:02.067 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:54:02.067 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:54:02.067 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:54:02.067 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:54:02.069 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:54:02.515 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 11:58:55.922 INFO  [ModuleRegistry-5] - 
+2017-07-12 11:58:55.922 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 11:58:55.922 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 11:58:55.922 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 11:58:55.922 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 11:58:55.926 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 11:58:55.931 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 11:58:56.403 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:04:14.078 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:04:14.078 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:04:14.078 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:04:14.078 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:04:14.078 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:04:14.079 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:04:14.080 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:04:14.527 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:06:52.070 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:06:52.070 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:06:52.070 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:06:52.070 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:06:52.070 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:06:52.072 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:06:52.073 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:06:52.487 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:09:01.453 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:09:01.453 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:09:01.453 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:09:01.453 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:09:01.453 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:09:01.454 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:09:01.454 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:09:02.001 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:41:09.910 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:41:09.911 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:41:09.911 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:41:09.911 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:41:09.911 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:41:09.915 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:41:09.917 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:41:10.472 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:43:15.194 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:43:15.194 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:43:15.194 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:43:15.194 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:43:15.194 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:43:15.195 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:43:15.196 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:43:15.695 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:44:42.901 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:44:42.901 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:44:42.901 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:44:42.901 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:44:42.901 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:44:42.902 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:44:42.903 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:44:43.347 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:46:20.812 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:46:20.813 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:46:20.813 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:46:20.813 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:46:20.813 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:46:20.813 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:46:20.816 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:46:21.317 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:56:41.953 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:56:41.953 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:56:41.953 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:56:41.953 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:56:41.953 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:56:41.966 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:56:41.976 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:56:42.439 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 12:57:27.085 INFO  [ModuleRegistry-5] - 
+2017-07-12 12:57:27.087 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 12:57:27.087 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 12:57:27.087 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 12:57:27.087 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 12:57:27.089 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 12:57:27.091 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 12:57:27.719 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:02:59.334 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:02:59.334 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:02:59.334 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:02:59.334 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:02:59.334 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:02:59.336 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:02:59.337 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:02:59.846 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:13:53.053 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:13:53.053 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:13:53.053 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:13:53.054 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:13:53.054 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:13:53.056 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:13:53.057 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:13:53.542 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:21:59.850 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:21:59.850 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:21:59.850 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:21:59.850 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:21:59.850 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:21:59.851 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:21:59.852 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:22:00.392 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:26:22.751 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:26:22.751 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:26:22.751 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:26:22.752 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:26:22.752 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:26:22.755 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:26:22.759 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:26:23.245 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:32:39.584 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:32:39.585 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:32:39.585 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:32:39.585 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:32:39.585 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:32:39.594 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:32:39.597 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:32:40.076 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:33:44.471 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:33:44.471 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:33:44.471 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:33:44.471 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:33:44.471 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:33:44.471 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:33:44.477 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:33:44.944 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - 
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 14:45:29.975 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 14:45:30.452 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:01:42.242 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:01:42.244 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:01:42.244 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:01:42.244 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:01:42.244 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:01:42.245 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:01:42.246 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:01:42.724 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:13:23.096 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:13:23.096 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:13:23.096 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:13:23.096 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:13:23.096 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:13:23.096 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:13:23.097 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:13:23.564 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:15:15.397 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:15:15.397 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:15:15.398 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:15:15.398 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:15:15.398 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:15:15.402 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:15:15.404 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:15:16.000 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:33:20.264 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:33:20.265 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:33:20.265 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:33:20.265 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:33:20.265 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:33:20.265 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:33:20.278 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:33:20.802 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:43:07.766 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:43:07.767 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:43:07.767 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:43:07.767 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:43:07.767 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:43:07.768 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:43:07.769 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:43:08.196 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:51:35.110 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:51:35.547 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:53:03.634 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:53:03.634 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:53:03.634 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:53:03.634 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:53:03.634 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:53:03.635 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:53:03.637 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:53:04.121 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 15:57:12.550 INFO  [ModuleRegistry-5] - 
+2017-07-12 15:57:12.550 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 15:57:12.550 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 15:57:12.550 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 15:57:12.550 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 15:57:12.551 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 15:57:12.552 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 15:57:12.973 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 16:00:04.255 INFO  [ModuleRegistry-5] - 
+2017-07-12 16:00:04.255 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 16:00:04.255 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 16:00:04.255 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 16:00:04.255 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 16:00:04.255 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 16:00:04.256 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 16:00:04.691 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 16:13:28.164 INFO  [ModuleRegistry-5] - 
+2017-07-12 16:13:28.164 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 16:13:28.164 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 16:13:28.164 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 16:13:28.164 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 16:13:28.165 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 16:13:28.165 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 16:13:28.602 INFO  [ModuleRegistry-5] - Module STARTED
+2017-07-12 16:16:04.303 INFO  [ModuleRegistry-5] - 
+2017-07-12 16:16:04.303 INFO  [ModuleRegistry-5] - *************************************************
+2017-07-12 16:16:04.304 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-07-12 16:16:04.304 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-07-12 16:16:04.304 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-07-12 16:16:04.304 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-07-12 16:16:04.305 INFO  [ModuleRegistry-5] - Module STARTING
+2017-07-12 16:16:04.786 INFO  [ModuleRegistry-5] - Module STARTED

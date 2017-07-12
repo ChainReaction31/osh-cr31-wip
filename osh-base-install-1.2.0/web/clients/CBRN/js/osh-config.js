@@ -15,6 +15,11 @@ function init()
     console.log("Test init");
     console.log(OFFERING_ID);
 
+    var groundPrims = {};
+    var sourceArray = {};
+    var compSourceArray = {};
+    this.srcData;
+
 
     //--------------------------------------------------//
     //------------------Data Sources--------------------//
@@ -83,7 +88,7 @@ function init()
         bufferingTime: 1000
 });
 
-    var sourceString = new OSH.DataReceiver.JSON("Source String", {
+    /*var sourceString = new OSH.DataReceiver.JSON("Source String", {
         protocol: "ws",
         service: "SOS",
         endpointUrl: HOSTNAME + "8181/sensorhub/sos",
@@ -94,6 +99,30 @@ function init()
         syncMasterTime: true,
         bufferingTime: 1000
 });
+
+    var sourceRadii = new OSH.DataReceiver.JSON("Source Radii", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + "8181/sensorhub/sos",
+        offeringID: "urn:mysos:simcbrn",
+        observedProperty: "http://sensorml.com/ont/swe/property/SourceRadii",
+        startTime: "now",
+        endTime: "2055-01-01Z",
+        syncMasterTime: true,
+        bufferingTime: 1000
+    });*/
+
+    var pointSourceData = new OSH.DataReceiver.JSON("Source Radii", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + "8181/sensorhub/sos",
+        offeringID: "urn:mysos:simcbrn",
+        observedProperty: "http://sensorml.com/ont/swe/property/PointSource",
+        startTime: "now",
+        endTime: "2055-01-01Z",
+        syncMasterTime: true,
+        bufferingTime: 1000
+    });
 
     console.log("Printing Data Sources...");
     console.log(hazardLevel);
@@ -109,7 +138,7 @@ function init()
     var cbrnEntity = {
         id: "simCBRN",
         name: "Sim CBRN",
-        dataSources: [hazardLevel, gpsData, tempData, numericalAlert, continuousLevel, sourceString]
+        dataSources: [hazardLevel, gpsData, tempData, numericalAlert, continuousLevel, pointSourceData]
     };
     console.log(cbrnEntity);
     var dataSourceController = new OSH.DataReceiver.DataReceiverController({
@@ -278,39 +307,110 @@ function init()
     //--------------------------------------------------------------------------//
     //--------------------------GROUND PRIMITIVE(S)-----------------------------//
     //--------------------------------------------------------------------------//
-    var testObj = sourceString.onData();
-    //var psMainString;
-    var sourceArray;
 
-    sourceString.onData = function (rec, sourceArray) {
-    let test = rec.data.source_string;
-    console.log(test);
-    test;
-    //console.log(psMainString);
-    sourceArray = parseSourceString(test);
+    function areaOfEffect(coordArray, radiusArray)
+    {
+        console.log(this.srcData);
+        mapView.viewer.scene.primitives.remove(groundPrims[0]);
+        // Create a circle.
+            var circle1 = new Cesium.GeometryInstance({
+                geometry: new Cesium.CircleGeometry({
+                    center: Cesium.Cartesian3.fromDegrees(parseFloat(coordArray[1]), parseFloat(coordArray[0])),
+                    //radius: 1000.0
+                    radius: 1000 * parseFloat(radiusArray[0])
+                }),
+                id: "circle",
+                attributes: {
+                    color: new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.3)
+                }
+            });
+        var circle2 = new Cesium.GeometryInstance({
+            geometry: new Cesium.CircleGeometry({
+                center: Cesium.Cartesian3.fromDegrees(parseFloat(coordArray[4]), parseFloat(coordArray[3])),
+                radius: 1000 * parseFloat(radiusArray[1])
+            }),
+            id: "circle",
+            attributes: {
+                color: new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.3)
+            }
+        });
+        var circle3 = new Cesium.GeometryInstance({
+            geometry: new Cesium.CircleGeometry({
+                center: Cesium.Cartesian3.fromDegrees(parseFloat(coordArray[7]), parseFloat(coordArray[6])),
+                radius: 1000 * parseFloat(radiusArray[2])
+            }),
+            id: "circle",
+            attributes: {
+                color: new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.3)
+            }
+        });
+
+            groundPrims[0] = new Cesium.GroundPrimitive({
+                geometryInstances: [circle1, circle2, circle3]
+            });
+            // TODO: add check to see if we're changing coords
+            // TODO: Change logic to not perform this action every time
+
+            addGroundPrims();
+    }
+
+    function addGroundPrims() {
+        //var geometry = Cesium.CircleGeometry.createGeometry(circle);
+        console.log(mapView.viewer.scene.primitives);
+        mapView.viewer.scene.primitives.add(groundPrims[0]);
+    }
+
+
+    /*OSH.EventManager.observe(OSH.EventManager.EVENT.DATA+"-"+sourceRadii.getId(),
+        function (event)
+        {
+            this.srcData = event.data;
+            console.dir(this.srcData);
+        }.bind(this));
+    console.dir(this.srcData);*/
+
+    pointSourceData.onData = function (rec) {
+        console.log(rec.data);
+        let test = rec.data.PointSource;
+
+        //test;
+        //console.log(psMainString);
+
+        sourceArray.sourceString = parseSourceString(test.source_string);
+        sourceArray.sourceRadii= parseSourceString(test.source_radii);
+        var coordsDidChange = true;
+        for (i = 0; i<9;i++)
+        {
+            if(!(sourceArray.sourceString[i] === compSourceArray[i]))
+            {
+                coordsDidChange = true;
+            }
+            else
+            {
+                coordsDidChange = false;
+            }
+        }
+        compSourceArray = sourceArray.sourceString;
+
+        if(coordsDidChange)
+        {
+            areaOfEffect(sourceArray.sourceString, sourceArray.sourceRadii);
+        }
     };
+
+   /* sourceRadii.onData = function (rec) {
+      let data = rec.data.source_radii;
+
+    };*/
 
 
      function parseSourceString(psMainString) {
-         console.log(psMainString);
-         return psMainString.split(";");
+
+         return psMainString.split(",");
      }
-     console.log(sourceArray);
-    // Create a circle.
-    var circle = new Cesium.GeometryInstance({
-        geometry: new Cesium.CircleGeometry({
-            center: Cesium.Cartesian3.fromDegrees(-86.589159, 34.726681 ),
-            radius: 1000.0
-        }),
-        id: "circle",
-        attributes: {
-            color: new Cesium.ColorGeometryInstanceAttribute(0.0, 1.0, 1.0, 0.5)
-        }
-    });
-    //var geometry = Cesium.CircleGeometry.createGeometry(circle);
-    mapView.viewer.scene.primitives.add(new Cesium.GroundPrimitive({
-        geometryInstances : circle
-    }));
+
+
+
 
 
 
