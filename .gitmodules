@@ -1,0 +1,3 @@
+[submodule "osh-smarthome"]
+	path = osh-smarthome
+	url = https://github.com/opensensorhub/osh-smarthome.git
