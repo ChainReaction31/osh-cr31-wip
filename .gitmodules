@@ -1,3 +1,14 @@
 [submodule "osh-smarthome"]
 	path = osh-smarthome
 	url = https://github.com/opensensorhub/osh-smarthome.git
+[submodule "osh-comm"]
+	url = https://github.com/opensensorhub/osh-comm.git
+[submodule "osh-core"]
+	url = https://github.com/opensensorhub/osh-core.git
+[submodule "osh-processing"]
+	url = https://github.com/opensensorhub/osh-processing.git
+[submodule "osh-sensors"]
+	url = https://github.com/ChainReaction31/osh-sensors.git
+[submodule "osh-video"]
+	path = osh-video
+	url = https://github.com/opensensorhub/osh-video.git
