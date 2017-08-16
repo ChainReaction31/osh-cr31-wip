@@ -94,7 +94,16 @@ function init()
 
 function generateMapView(){}
 
-function () {
+function displaySensorInfo() {
 
+    var scene = mapView.viewer.scene;
+    var handler = new Cesium.ScreenSpaceEventHandler(scene.canvas);
+    handler.setInputAction(function(click){
+       var pickedObject = scene.pick(click.position);
+       if(Cesium.defined(pickedObject) && (pickedObject.id === entity)){
+           // TODO: entity will be some entity from the instance as opposed to a specific one
+           // TODO: create pop up dialog on when the handler executes
+       }
+    });
 }
 
