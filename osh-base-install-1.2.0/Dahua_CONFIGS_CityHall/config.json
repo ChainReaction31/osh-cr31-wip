@@ -1,0 +1,590 @@
+[
+  {
+    "objClass": "org.sensorhub.impl.service.HttpServerConfig",
+    "httpPort": 8181,
+    "httpsPort": 0,
+    "staticDocRootUrl": "web",
+    "servletsRootUrl": "/sensorhub",
+    "maxRequestsPerSecond": 20,
+    "authMethod": "NONE",
+    "keyStorePath": ".keystore/ssl_keys",
+    "trustStorePath": ".keystore/ssl_trust",
+    "id": "5cb05c9c-9e08-4fa1-8731-ffaa5846bdc1",
+    "moduleClass": "org.sensorhub.impl.service.HttpServer",
+    "name": "HTTP Server",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.ui.AdminUIConfig",
+    "widgetSet": "org.sensorhub.ui.SensorHubWidgetSet",
+    "customPanels": [],
+    "customForms": [],
+    "id": "5cb05c9c-9123-4fa1-8731-ffaa51489678",
+    "moduleClass": "org.sensorhub.ui.AdminUIModule",
+    "name": "Admin UI",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.dahua.DahuaCameraConfig",
+    "http": {
+      "objClass": "org.sensorhub.impl.comm.HTTPConfig",
+      "remotePort": 80,
+      "user": "admin",
+      "password": "admin",
+      "enableTLS": false,
+      "remoteHost": "172.31.255.1",
+      "localAddress": "AUTO"
+    },
+    "rtsp": {
+      "objClass": "org.sensorhub.impl.sensor.rtpcam.RTSPConfig",
+      "videoPath": "/cam/realmonitor?channel=1&subtype=0",
+      "localUdpPort": 20000,
+      "onlyConnectRtsp": false,
+      "remotePort": 554,
+      "user": "admin",
+      "password": "admin",
+      "enableTLS": false,
+      "remoteHost": "172.31.255.1",
+      "localAddress": "AUTO"
+    },
+    "connection": {
+      "objClass": "org.sensorhub.impl.comm.RobustIPConnectionConfig",
+      "checkReachability": true,
+      "connectTimeout": 5000,
+      "reconnectPeriod": 10000,
+      "reconnectAttempts": 0
+    },
+    "video": {
+      "objClass": "org.sensorhub.impl.sensor.dahua.DahuaCameraConfig$VideoConfig",
+      "resolution": "HD_720P",
+      "frameRate": 30,
+      "grayscale": false
+    },
+    "ptz": {
+      "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzConfig",
+      "presets": [
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Home",
+          "pan": 0.0,
+          "tilt": 0.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos1",
+          "pan": 30.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos1Zoom1",
+          "pan": 30.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos2",
+          "pan": 60.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos2Zoom1",
+          "pan": 60.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos2Zoom2",
+          "pan": 60.0,
+          "tilt": 20.0,
+          "zoom": 160.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos3",
+          "pan": 310.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos3Zoom1",
+          "pan": 90.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos4",
+          "pan": 120.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos4Zoom1",
+          "pan": 120.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos5",
+          "pan": 340.0,
+          "tilt": 60.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos5Zoom1",
+          "pan": 340.0,
+          "tilt": 60.0,
+          "zoom": 80.0
+        }
+      ]
+    },
+    "position": {
+      "objClass": "org.sensorhub.api.sensor.PositionConfig",
+      "location": {
+        "objClass": "org.sensorhub.api.sensor.PositionConfig$LLALocation",
+        "lat": 34.728587,
+        "lon": -86.586514,
+        "alt": 238.0
+      },
+      "orientation": {
+        "objClass": "org.sensorhub.api.sensor.PositionConfig$EulerOrientation",
+        "heading": 0.0,
+        "pitch": 0.0,
+        "roll": 0.0
+      }
+    },
+    "exclusiveControl": true,
+    "id": "urn:cityhall:dahua:01",
+    "moduleClass": "org.sensorhub.impl.sensor.dahua.DahuaCameraDriver",
+    "name": "City Hall Dahua Camera",
+    "autoStart": false
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.dahua.DahuaCameraConfig",
+    "http": {
+      "objClass": "org.sensorhub.impl.comm.HTTPConfig",
+      "remotePort": 80,
+      "user": "admin",
+      "password": "op3nsaysam3",
+      "enableTLS": false,
+      "remoteHost": "192.168.0.37",
+      "localAddress": "AUTO"
+    },
+    "rtsp": {
+      "objClass": "org.sensorhub.impl.sensor.rtpcam.RTSPConfig",
+      "videoPath": "/cam/realmonitor?channel=1&subtype=0",
+      "localUdpPort": 20000,
+      "onlyConnectRtsp": false,
+      "remotePort": 554,
+      "user": "admin",
+      "password": "op3nsaysam3",
+      "enableTLS": false,
+      "remoteHost": "192.168.0.37",
+      "localAddress": "AUTO"
+    },
+    "connection": {
+      "objClass": "org.sensorhub.impl.comm.RobustIPConnectionConfig",
+      "checkReachability": true,
+      "connectTimeout": 5000,
+      "reconnectPeriod": 10000,
+      "reconnectAttempts": 0
+    },
+    "video": {
+      "objClass": "org.sensorhub.impl.sensor.dahua.DahuaCameraConfig$VideoConfig",
+      "resolution": "HD_720P",
+      "frameRate": 30,
+      "grayscale": false
+    },
+    "ptz": {
+      "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzConfig",
+      "presets": [
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Home",
+          "pan": 0.0,
+          "tilt": 0.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos1",
+          "pan": 30.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos1Zoom1",
+          "pan": 30.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos2",
+          "pan": 60.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos2Zoom1",
+          "pan": 60.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos2Zoom2",
+          "pan": 60.0,
+          "tilt": 20.0,
+          "zoom": 160.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos3",
+          "pan": 310.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos3Zoom1",
+          "pan": 90.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos4",
+          "pan": 120.0,
+          "tilt": 20.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos4Zoom1",
+          "pan": 120.0,
+          "tilt": 20.0,
+          "zoom": 80.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos5",
+          "pan": 340.0,
+          "tilt": 60.0,
+          "zoom": 1.0
+        },
+        {
+          "objClass": "org.sensorhub.impl.sensor.videocam.ptz.PtzPreset",
+          "name": "Pos5Zoom1",
+          "pan": 340.0,
+          "tilt": 60.0,
+          "zoom": 80.0
+        }
+      ]
+    },
+    "position": {
+      "objClass": "org.sensorhub.api.sensor.PositionConfig",
+      "location": {
+        "objClass": "org.sensorhub.api.sensor.PositionConfig$LLALocation",
+        "lat": 34.729,
+        "lon": -86.587,
+        "alt": 238.0
+      },
+      "orientation": {
+        "objClass": "org.sensorhub.api.sensor.PositionConfig$EulerOrientation",
+        "heading": 0.0,
+        "pitch": 0.0,
+        "roll": 0.0
+      }
+    },
+    "exclusiveControl": true,
+    "id": "urn:office:dahua:01",
+    "moduleClass": "org.sensorhub.impl.sensor.dahua.DahuaCameraDriver",
+    "name": "Office Dahua Camera",
+    "autoStart": false
+  },
+  {
+    "objClass": "org.sensorhub.process.cam.CamPtzGeoPointingConfig",
+    "camSensorUID": "urn:dahua:cam:1G0215CGAK00046",
+    "fixedCameraPosLLA": [
+      34.728587,
+      -86.586514,
+      238.0
+    ],
+    "fixedCameraRotENU": [
+      0.0,
+      0.0,
+      66.0
+    ],
+    "cameraMinFocalLength": 4.5,
+    "cameraMaxFocalLength": 135.0,
+    "cameraSensorSize": 8.47,
+    "desiredViewSize": 60.0,
+    "dataSources": [
+      {
+        "objClass": "org.sensorhub.api.processing.StreamingDataSourceConfig",
+        "producerID": "urn:osh:client:locationsource",
+        "decimFactor": 0,
+        "inputConnections": [
+          {
+            "objClass": "org.sensorhub.api.processing.DataSourceConfig$InputLinkConfig",
+            "source": "output0",
+            "destination": "targetLocation"
+          }
+        ]
+      }
+    ],
+    "id": "5cb4569c-9e08-4fa1-1458-fead58900051",
+    "moduleClass": "org.sensorhub.process.cam.CamPtzGeoPointingProcess",
+    "name": "Camera Geo-Pointing Process",
+    "autoStart": false
+  },
+  {
+    "objClass": "org.sensorhub.impl.service.sps.SPSServiceConfig",
+    "enableTransactional": false,
+    "connectors": [
+      {
+        "objClass": "org.sensorhub.impl.service.sps.SensorConnectorConfig",
+        "sensorID": "urn:cityhall:dahua:01",
+        "hiddenCommands": [],
+        "Offering ID": "urn:dahua:cam:WT1J033A7PAN00005",
+        "name": "Dahua PTZ",
+        "description": "PTZ tasking for office dahua camera",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sps.SensorConnectorConfig",
+        "sensorID": "urn:office:dahua:01",
+        "hiddenCommands": [],
+        "Offering ID": "urn:dahua:cam:1G0215CGAK00046",
+        "name": "Office Dahua PTZ",
+        "description": "Office Dahua PTZ Camera",
+        "enabled": true
+      }
+    ],
+    "security": {
+      "objClass": "org.sensorhub.api.security.SecurityConfig",
+      "enableAccessControl": false,
+      "requireAuth": false
+    },
+    "ogcCapabilitiesInfo": {
+      "objClass": "org.sensorhub.impl.service.ogc.OGCServiceConfig$CapabilitiesInfo",
+      "serviceProvider": {
+        "objClass": "org.vast.util.ResponsibleParty",
+        "voiceNumbers": [],
+        "faxNumbers": [],
+        "deliveryPoints": [],
+        "emails": [],
+        "hrefPresent": false
+      }
+    },
+    "enableHttpGET": true,
+    "enableHttpPOST": true,
+    "enableSOAP": true,
+    "endPoint": "/sps",
+    "id": "3044dd71-34b0-4cd2-82f3-12667522a625",
+    "moduleClass": "org.sensorhub.impl.service.sps.SPSService",
+    "name": "SPS Service",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.service.sos.SOSServiceConfig",
+    "enableTransactional": true,
+    "maxObsCount": 100,
+    "maxRecordCount": 100000,
+    "dataProviders": [
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "312afe3c-94ad-462d-8c37-296952098392",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 10.0,
+        "maxFois": 10,
+        "Offering ID": "urn:osh:sim:gps01-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "bbdefa13-6f4f-4b7f-9801-84390dcf4665",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 10.0,
+        "maxFois": 10,
+        "Offering ID": "urn:osh:sim:gps02-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "e7df0c21-f86b-4d18-b2c9-24bbf8205709",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 10.0,
+        "maxFois": 10,
+        "Offering ID": "urn:osh:sim:gps03-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "urn:office:dahua:01",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 86400.0,
+        "maxFois": 10,
+        "Offering ID": "urn:office:dahua:01-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "urn:cityhall:dahua:01",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 86400.0,
+        "maxFois": 10,
+        "Offering ID": "urn:cityhall:dahua:01-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "urn:osh:client:locationsource",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 10.0,
+        "maxFois": 10,
+        "Offering ID": "urn:osh:client:locationsource-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorDataProviderConfig",
+        "sensorID": "urn:android:device:89845ed469b7edc7",
+        "hiddenOutputs": [],
+        "liveDataTimeout": 10.0,
+        "maxFois": 10,
+        "Offering ID": "urn:android:device:89845ed469b7edc7-sos",
+        "enabled": true
+      }
+    ],
+    "dataConsumers": [
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorConsumerConfig",
+        "sensorID": "urn:osh:client:locationsource",
+        "Offering ID": "urn:osh:client:locationsource-sos",
+        "enabled": true
+      },
+      {
+        "objClass": "org.sensorhub.impl.service.sos.SensorConsumerConfig",
+        "sensorID": "urn:android:device:89845ed469b7edc7",
+        "Offering ID": "urn:android:device:89845ed469b7edc7-sos",
+        "enabled": true
+      }
+    ],
+    "customFormats": [],
+    "security": {
+      "objClass": "org.sensorhub.api.security.SecurityConfig",
+      "enableAccessControl": false,
+      "requireAuth": true
+    },
+    "ogcCapabilitiesInfo": {
+      "objClass": "org.sensorhub.impl.service.ogc.OGCServiceConfig$CapabilitiesInfo",
+      "title": "Test SOS Service",
+      "description": "An SOS service automatically deployed by OpenSensorHub",
+      "keywords": [
+        "SensorHub",
+        "GPS",
+        "weather"
+      ],
+      "fees": "NONE",
+      "accessConstraints": "NONE",
+      "serviceProvider": {
+        "objClass": "org.vast.util.ResponsibleParty",
+        "individualName": "Bobby Jones",
+        "organizationName": "Bobby Jones Inc.",
+        "positionName": "CEO",
+        "voiceNumbers": [
+          "+1 800 123 4567"
+        ],
+        "faxNumbers": [
+          "+1 800 123 4568"
+        ],
+        "deliveryPoints": [
+          "1 Main Street"
+        ],
+        "city": "Portland",
+        "administrativeArea": "OR",
+        "postalCode": "97209",
+        "country": "France",
+        "emails": [
+          "admin@bobby.com"
+        ],
+        "hrefPresent": false
+      }
+    },
+    "enableHttpGET": true,
+    "enableHttpPOST": true,
+    "enableSOAP": true,
+    "endPoint": "/sos",
+    "id": "5cb05c9c-9e08-4fa1-8731-ff41e246bdc1",
+    "moduleClass": "org.sensorhub.impl.service.sos.SOSService",
+    "name": "SOS Service",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.fakegps.FakeGpsConfig",
+    "googleApiUrl": "http://maps.googleapis.com/maps/api/directions/json",
+    "centerLatitude": 34.727,
+    "centerLongitude": -86.59,
+    "areaSize": 0.01,
+    "vehicleSpeed": 30.0,
+    "walkingMode": true,
+    "id": "312afe3c-94ad-462d-8c37-296952098392",
+    "moduleClass": "org.sensorhub.impl.sensor.fakegps.FakeGpsSensor",
+    "name": "Simulated GPS Sensor 01",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.fakegps.FakeGpsConfig",
+    "googleApiUrl": "http://maps.googleapis.com/maps/api/directions/json",
+    "centerLatitude": 34.727,
+    "centerLongitude": -86.59,
+    "areaSize": 0.003,
+    "vehicleSpeed": 20.0,
+    "walkingMode": true,
+    "id": "bbdefa13-6f4f-4b7f-9801-84390dcf4665",
+    "moduleClass": "org.sensorhub.impl.sensor.fakegps.FakeGpsSensor",
+    "name": "Simulated GPS Sensor 02",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.fakegps.FakeGpsConfig",
+    "googleApiUrl": "http://maps.googleapis.com/maps/api/directions/json",
+    "centerLatitude": 34.727,
+    "centerLongitude": -86.59,
+    "areaSize": 0.005,
+    "vehicleSpeed": 15.0,
+    "walkingMode": true,
+    "id": "e7df0c21-f86b-4d18-b2c9-24bbf8205709",
+    "moduleClass": "org.sensorhub.impl.sensor.fakegps.FakeGpsSensor",
+    "name": "Simulated GPS Sensor 03",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.swe.SWETransactionalSensorConfig",
+    "id": "urn:osh:client:locationsource",
+    "moduleClass": "org.sensorhub.impl.sensor.swe.SWETransactionalSensor",
+    "name": "Location Task Source",
+    "autoStart": true
+  },
+  {
+    "objClass": "org.sensorhub.impl.sensor.swe.SWETransactionalSensorConfig",
+    "id": "urn:android:device:89845ed469b7edc7",
+    "moduleClass": "org.sensorhub.impl.sensor.swe.SWETransactionalSensor",
+    "name": "Android Sensors [Mike's Nexus5]",
+    "autoStart": true
+  }
+]
