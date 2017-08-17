@@ -6,14 +6,14 @@ function init()
 {
     // Constants
     var pointMarker;
-    const HOSTNAME = "localhost:";
-    const ENTITY_ID = "simcbrn";
-    const ENTITY_NAME = "Simulated CBRN";
-    const OFFERING_ID = "urn:mysos:simcbrn";
-    const START_TIME = "2017-06-01T19:00:40Z";
-    const END_TIME = "2017-08-30T19:22:00Z";
+    const HOSTNAME = "http://146.148.39.135";
+    /*const ENTITY_ID = "simcbrn";
+    const ENTITY_NAME = "Simulated CBRN";*/
+    //const OFFERING_ID = "urn:mysos:simcbrn";
+    const START_TIME = "now";
+    const END_TIME = "2017-09-30T19:22:00Z";
     console.log("Test init");
-    console.log(OFFERING_ID);
+    //console.log(OFFERING_ID);
 
     // Menu IDs
     var treeMenuId = "tree-menu-";
@@ -40,6 +40,61 @@ function init()
     //------------------Data Sources--------------------//
     //--------------------------------------------------//
     // Add sources for each sensor
+    var motion1 = new OSH.DataReceiver.JSON("Aeon MS6", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + ":8181/sensorhub/sos",
+        offeringID: "urn:osh:client:Aeon_Labs_MultiSensor_6-sos",
+        observedProperty: "http://sensorml.com/ont/swe/property/MotionSensor",
+        endTime: END_TIME,
+        startTime: START_TIME,
+        replaySpeed: "1",
+        syncMasterTime: true,
+        bufferingTime: 60000,
+        timeOut: 60000
+    });
+
+    var motion2 = new OSH.DataReceiver.JSON("Aeon MS6", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + ":8181/sensorhub/sos",
+        offeringID: OFFERING_ID,
+        observedProperty: "http://sensorml.com/ont/swe/property/HazardLevel",
+        endTime: END_TIME,
+        startTime: START_TIME,
+        replaySpeed: "1",
+        syncMasterTime: true,
+        bufferingTime: 60000,
+        timeOut: 60000
+    });
+
+    var motion3 = new OSH.DataReceiver.JSON("Aeon MS6", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + ":8181/sensorhub/sos",
+        offeringID: OFFERING_ID,
+        observedProperty: "http://sensorml.com/ont/swe/property/HazardLevel",
+        endTime: END_TIME,
+        startTime: START_TIME,
+        replaySpeed: "1",
+        syncMasterTime: true,
+        bufferingTime: 60000,
+        timeOut: 60000
+    });
+
+    var contact1 = new OSH.DataReceiver.JSON("Door 1", {
+        protocol: "ws",
+        service: "SOS",
+        endpointUrl: HOSTNAME + ":8181/sensorhub/sos",
+        offeringID: OFFERING_ID,
+        observedProperty: "http://sensorml.com/ont/swe/property/ContactSensor",
+        endTime: END_TIME,
+        startTime: START_TIME,
+        replaySpeed: "1",
+        syncMasterTime: true,
+        bufferingTime: 60000,
+        timeOut: 60000
+    });
 
 
     //-------------------------------------------------------//
