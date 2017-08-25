@@ -100,7 +100,7 @@
  * @namespace {object} OSH
  */
 var OSH = {
-	version: 'dev'
+	version: '1.2'
 };
 
 window.OSH = OSH;
@@ -158,6 +158,8 @@ window.OSH.Utils = {};
  * @memberof OSH
  */
 window.OSH.DataSender = {};
+
+window.OSH.BASE_WORKER_URL = "js/workers";
 
 // HELPER FUNCTION
 function isUndefined(object) {
@@ -1351,7 +1353,7 @@ OSH.DataConnector.AjaxConnector = OSH.DataConnector.DataConnector.extend({
             xmlhttp.onreadystatechange = function() {
                 if (xmlhttp.readyState < 4) {
                     // while waiting response from server
-                }  else if (xmlhttp.readyState === 4) {                // 4 = Response from server has been completely loaded.
+                }  else if (xmlhttp.readyState == 4) {                // 4 = Response from server has been completely loaded.
                     if (xmlhttp.status == 200 && xmlhttp.status < 300) { // http status between 200 to 299 are all successful
                         this.onSuccess(xmlhttp.responseText);
                     } else {
@@ -8824,7 +8826,7 @@ OSH.UI.FFMPEGView = OSH.UI.View.extend({
      * @param callback
      */
     initFFMPEG_DECODER_WORKER: function (callback) {
-        this.worker = new Worker('js/workers/osh-UI-FFMPEGViewWorker.js');
+        this.worker = new Worker(window.OSH.BASE_WORKER_URL+'/osh-UI-FFMPEGViewWorker.js');
 
         var self = this;
         var decodedFrame;

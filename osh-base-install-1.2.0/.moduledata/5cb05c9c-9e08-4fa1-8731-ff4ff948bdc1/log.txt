@@ -2766,3 +2766,11 @@ Caused by: org.sensorhub.api.persistence.StorageException: Storage file db/gps_o
 2017-07-12 16:16:04.331 INFO  [ModuleRegistry-4] - Module INITIALIZED
 2017-07-12 16:16:04.332 INFO  [ModuleRegistry-4] - Module STARTING
 2017-07-12 16:16:04.607 INFO  [ModuleRegistry-4] - Module STARTED
+2017-08-25 14:34:43.665 INFO  [ModuleRegistry-5] - 
+2017-08-25 14:34:43.702 INFO  [ModuleRegistry-5] - *************************************************
+2017-08-25 14:34:43.702 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-08-25 14:34:43.702 INFO  [ModuleRegistry-5] - Starting log for 'GPS Sensor Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc1]
+2017-08-25 14:34:43.702 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-08-25 14:34:43.703 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-08-25 14:34:43.703 INFO  [ModuleRegistry-5] - Module STARTING
+2017-08-25 14:34:46.061 INFO  [ModuleRegistry-5] - Module STARTED

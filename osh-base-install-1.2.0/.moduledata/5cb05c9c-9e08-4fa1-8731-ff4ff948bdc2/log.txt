@@ -2780,3 +2780,11 @@ java.lang.NullPointerException: null
 2017-07-12 16:16:04.304 INFO  [ModuleRegistry-5] - Module INITIALIZED
 2017-07-12 16:16:04.305 INFO  [ModuleRegistry-5] - Module STARTING
 2017-07-12 16:16:04.786 INFO  [ModuleRegistry-5] - Module STARTED
+2017-08-25 14:34:43.731 INFO  [ModuleRegistry-6] - 
+2017-08-25 14:34:43.784 INFO  [ModuleRegistry-6] - *************************************************
+2017-08-25 14:34:43.784 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-08-25 14:34:43.785 INFO  [ModuleRegistry-6] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-08-25 14:34:43.785 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-08-25 14:34:43.785 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-08-25 14:34:43.787 INFO  [ModuleRegistry-6] - Module STARTING
+2017-08-25 14:34:45.758 INFO  [ModuleRegistry-6] - Module STARTED

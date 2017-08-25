@@ -3,50 +3,55 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>Sim CBRN</title>
-
-    <!--<link href="vendor/vendor.min.css" rel="stylesheet">-->
-    <link href="vendor/vendor-debug.css" rel="stylesheet">
-    <!--<script src="vendor/vendor.min.js"></script>-->
-    <script src="vendor/vendor-debug.js"></script>
-    <link href="css/osh.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>SmartThings Demo</title>
+    <link rel="icon" type="image/png" href="images/sensorhub_logo_128.png">
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link href="css/dialog-styler.css" rel="stylesheet">
-    <!--<script src="js/osh.min.js"></script>-->
-    <script src="js/osh3.js"></script>
 
-    <!--Include JS Config File here-->
+    <!-- VENDOR -->
+    <link rel="stylesheet" type="text/css" href="vendor/vendor.min.css">
+    <script type="text/javascript" src="vendor/vendor.min.js"></script>
 
+    <!-- OSH -->
+    <link rel="stylesheet" type="text/css" href="css/osh.min.css">
+    <script type="text/javascript" src="js/osh-debug.js"></script>
+
+    <script>
+        window.CESIUM_BASE_URL = 'vendor/';
+        window.OSH.BASE_WORKER_URL = "js/workers";
+    </script>
+
+    <!-- This client configuration -->
+    <link rel="stylesheet" type="text/css" href="css/client.css">
     <script type="text/javascript" src="js/osh-config.js"></script>
-
-    <style>
-        .container-fluid {
-            z-index:9999;
-        }
-    </style>
 </head>
 
-<!--<body ng-app="app" onload="init()">-->
-<body onload="init()" style="height: 100%; width: 100%">
+<body onload="init()" id="body">
 <nav class="navbar navbar-default navbar-inverse ">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="http://www.opensensorhub.org/">
                 <img src="https://github.com/sensiasoft/sensorhub/wiki/images/sensorhub_logo_128.png"
                      style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none; width:50px;height:50px;">
-                OpenSensorHub</a>
+                &nbsp;OpenSensorHub</a>
         </div>
     </div>
 </nav>
+<div id="main-container"></div>
+<div id="rangeslider-container"></div>
+<div id="dialog-main-container" class="video-main-container"></div>
+<div id="toolbar"/>
 
-    <div id="mapView" class="main-container"></div>
-    <!--<div id="entityTree" class="tree-container"></div>-->
-    <div id="dialog-main-container" class="video-main-container"></div>
-    <div id="dialog-second-container" class="video-second-container"></div>
-
-    <!--<div id="tempChart" style="height: 50%; width: 100%;"></div>-->
+<style>
+    #toolbar {
+        position: absolute;
+        top: 325px;
+        left: 10px;
+        display: inline;
+        background: none;
+        border-radius: 5px;
+    }
+</style>
 </body>
 </html>
