@@ -140,7 +140,7 @@ function init() {
         var sensorData = new OSH.DataReceiver.JSON("Door", {
             protocol: "ws",
             service: "SOS",
-            endpointUrl: cloudHostNamet + "/sensorhub/sos",
+            endpointUrl: cloudHostName + "/sensorhub/sos",
             offeringID: offeringID,
             observedProperty: "http://sensorml.com/ont/swe/property/ContactSensor",
             startTime: startTime,
