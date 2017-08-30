@@ -75,7 +75,7 @@ function init() {
         var sensorData = new OSH.DataReceiver.JSON("Motion", {
             protocol: "ws",
             service: "SOS",
-            endpointUrl: stHostName + "/sensorhub/sos",
+            endpointUrl: cloudHostName + "/sensorhub/sos",
             offeringID: offeringID,
             observedProperty: "http://sensorml.com/ont/swe/property/MotionSensor",
             startTime: startTime,
@@ -140,7 +140,7 @@ function init() {
         var sensorData = new OSH.DataReceiver.JSON("Door", {
             protocol: "ws",
             service: "SOS",
-            endpointUrl: stHostName + "/sensorhub/sos",
+            endpointUrl: cloudHostNamet + "/sensorhub/sos",
             offeringID: offeringID,
             observedProperty: "http://sensorml.com/ont/swe/property/ContactSensor",
             startTime: startTime,
@@ -206,16 +206,16 @@ function init() {
 
     var treeItems = [];
 
-    addMotionSensor("motion1", "Motion - South East", "urn:osh:client:f2da0945-4a38-4d1a-95ce-faa807872cd0-sos", -86.590321, 34.725591);
-    addMotionSensor("motion2", "Motion - South West", "urn:osh:client:c99a7368-1bc1-4f00-82ce-cf0072ffbec5-sos", -86.590970, 34.725154);
-    addMotionSensor("motion3", "Motion - North East", null, -86.591303, 34.726620);
-    addMotionSensor("motion4", "Motion - North West", null, -86.591934, 34.726383);
+    addMotionSensor("motion1", "Motion - Southeast", "urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182-sos", -86.590321, 34.725591);
+    addMotionSensor("motion2", "Motion - Southwest", "urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5-sos", -86.590970, 34.725154);
+    addMotionSensor("motion3", "Motion - Northeast", "urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1-sos", -86.591303, 34.726620);
+    addMotionSensor("motion4", "Motion - Northwest", "urn:osh:client:e4bc1957-a74a-485f-9317-b5f5646f6d1d-sos", -86.591934, 34.726383);
 
-    addDoorSensor("door1", "Access North East", "urn:osh:client:94dc0797-f0ca-497c-893d-5fb0ce350711-sos", -86.591568, 34.726743);
-    addDoorSensor("door2", "Loading Dock 1", null, -86.592039, 34.726109);
-    addDoorSensor("door3", "Loading Dock 2", null, -86.591961, 34.726008);
-    addDoorSensor("door4", "Access South West 1", null, -86.591290, 34.725343);
-    addDoorSensor("door5", "Access South West 2", null, -86.591085, 34.725119);
+    addDoorSensor("door1", "Access North East", "urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336-sos", -86.591568, 34.726743);
+    addDoorSensor("door2", "Loading Dock 1", "urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56", -86.592039, 34.726109);
+    addDoorSensor("door3", "Loading Dock 2", "urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d", -86.591961, 34.726008);
+    addDoorSensor("door4", "Access South West 1", "urn:osh:client:4b1c2dc7-a544-478f-8de3-9362e5e63a15-sos", -86.591290, 34.725343);
+    addDoorSensor("door5", "Access South West 2", "urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d", -86.591085, 34.725119);
 
 
     // --------------------------------------------------------------//
@@ -258,7 +258,7 @@ function init() {
         var sensorData = new OSH.DataReceiver.JSON("Temperature", {
             protocol: "ws",
             service: "SOS",
-            endpointUrl: stHostName + "/sensorhub/sos",
+            endpointUrl: cloudHostName + "/sensorhub/sos",
             offeringID: offeringID,
             observedProperty: "http://sensorml.com/ont/swe/property/Temperature",
             startTime: startTime,
