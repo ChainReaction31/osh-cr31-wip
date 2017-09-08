@@ -30,6 +30,11 @@ function init() {
     var mapMenuId = "map-menu-";
     var menuGroupId = "allmenus";
 
+    // viewer vars
+    var scene = viewer.scene;
+    var camera = scene.camera;
+    var handler = new Cesium.ScreenSpaceEventHandler(scene.canvas);
+
 
     // ---------------------------------------------------------------//
     // ------------------- Data Sources Controller -------------------//
@@ -367,10 +372,6 @@ for (var i = 0; i < numBillboards; ++i) {
         }
     });
 }
-
-var scene = viewer.scene;
-var camera = scene.camera;
-var handler = new Cesium.ScreenSpaceEventHandler(scene.canvas);
 
 handler.setInputAction(function(movement) {
     // Star burst on left mouse click.
