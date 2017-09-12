@@ -73,6 +73,62 @@ function init() {
         }
     });
 
+    // Sensor addition methods
+    // TODO: create single method for adding multisensors
+    function addMultisensor(entityID, entityName, offeringID, lon, lat, sensorTypes){
+        // create data sources
+        // TODO: add more sensordata vars to capture all sensor outputs of MS's
+        var sensordata = new OSH.DataReceiver.JSON("Multi", {
+            protocol: "ws",
+            service: "SOS",
+            endpointUrl: cloudHostName + "/sensorhub/sos",
+            offeringID: offeringID,
+            observedProperty: "http://sensorml.com.ont/swe/property/MultiSensor",
+            startTime: startTime,
+            endTime: endTime,
+            replaySpeed: "1",
+            syncMasterTime: sync,
+            bufferingTime: bufferingTime,
+            timeOut: dataStreamTimeOut,
+            connect: offeringID != null
+        });
+
+        //create entity
+        var entity = {
+            id: entityID,
+            name: entityName,
+            dataSources: [sensordata]
+        };
+        dataSourceController.addEntity(entity);
+
+        // add Sensor to tree
+        treeItems.push({
+            entity: entity,
+            path: "MultiSensors",
+            treeIcon: "images/multisensor.png"
+        });
+
+        // add marker to map
+        cesiumView.addViewItem({
+            name: entityName,
+            entityId: entity.id,
+            styler: new OSH.UI.Styler.PointMarker({
+              location: {
+                  x: lon,
+                  y: lat,
+                  z: 0
+              },
+              orientation: {
+                  heading: 90
+              },
+              icon: 'images/multisensor.png',
+              // TODO: might need some restructuring to change icons properly in the starburst
+              iconfunc: {
+
+              }
+            })
+        })
+    }
 
     function addMotionSensor(entityID, entityName, offeringID, lon, lat) {
 
