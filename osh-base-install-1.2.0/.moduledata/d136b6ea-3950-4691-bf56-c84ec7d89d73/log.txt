@@ -2558,3 +2558,29 @@
 2017-08-25 14:34:43.798 INFO  [ModuleRegistry-4] - Module INITIALIZED
 2017-08-25 14:34:43.798 INFO  [ModuleRegistry-4] - Module STARTING
 2017-08-25 14:34:43.800 INFO  [ModuleRegistry-4] - Module STARTED
+2017-09-12 13:15:25.027 INFO  [ModuleRegistry-3] - 
+2017-09-12 13:15:25.047 INFO  [ModuleRegistry-3] - *************************************************
+2017-09-12 13:15:25.048 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-09-12 13:15:25.048 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-09-12 13:15:25.048 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-09-12 13:15:25.307 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-09-12 13:15:25.307 INFO  [ModuleRegistry-3] - Module STARTING
+2017-09-12 13:15:25.316 INFO  [ModuleRegistry-3] - Module STARTED
+2017-09-12 13:20:39.488 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-09-12 13:20:39.489 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-09-13 11:25:24.524 INFO  [ModuleRegistry-3] - 
+2017-09-13 11:25:24.569 INFO  [ModuleRegistry-3] - *************************************************
+2017-09-13 11:25:24.569 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-09-13 11:25:24.569 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-09-13 11:25:24.570 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-09-13 11:25:24.841 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-09-13 11:25:24.841 INFO  [ModuleRegistry-3] - Module STARTING
+2017-09-13 11:25:24.842 INFO  [ModuleRegistry-3] - Module STARTED
+2017-09-15 12:09:00.524 INFO  [ModuleRegistry-3] - 
+2017-09-15 12:09:00.543 INFO  [ModuleRegistry-3] - *************************************************
+2017-09-15 12:09:00.543 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-09-15 12:09:00.543 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-09-15 12:09:00.543 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-09-15 12:09:00.758 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-09-15 12:09:00.758 INFO  [ModuleRegistry-3] - Module STARTING
+2017-09-15 12:09:00.763 INFO  [ModuleRegistry-3] - Module STARTED

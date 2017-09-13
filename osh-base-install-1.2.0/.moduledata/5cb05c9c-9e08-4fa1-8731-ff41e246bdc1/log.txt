@@ -9719,3 +9719,41 @@ Caused by: java.lang.NumberFormatException: For input string: "MEDIUM"
 2017-08-25 14:34:44.693 INFO  [EventBus-3] - Module STARTED
 2017-08-25 14:34:45.798 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
 2017-08-25 14:34:46.065 DEBUG [EventBus-1] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-12 13:15:25.166 INFO  [ModuleRegistry-6] - 
+2017-09-12 13:15:25.205 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-12 13:15:25.205 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-12 13:15:25.205 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-09-12 13:15:25.205 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-12 13:15:25.207 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-12 13:15:25.207 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-12 13:15:26.360 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-12 13:15:27.201 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-09-12 13:15:27.210 INFO  [EventBus-4] - Module STARTED
+2017-09-12 13:15:27.588 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-12 13:15:28.052 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-09-12 13:20:39.479 INFO  [EventBus-28] - Module STOPPED
+2017-09-12 13:20:39.490 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-09-12 13:20:39.491 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-09-13 11:25:24.776 INFO  [ModuleRegistry-6] - 
+2017-09-13 11:25:24.794 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-13 11:25:24.794 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-13 11:25:24.794 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-09-13 11:25:24.794 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-13 11:25:24.796 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-13 11:25:24.796 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-13 11:25:26.144 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-13 11:25:26.908 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-09-13 11:25:26.908 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-09-13 11:25:26.914 INFO  [EventBus-2] - Module STARTED
+2017-09-15 12:09:00.670 INFO  [ModuleRegistry-6] - 
+2017-09-15 12:09:00.700 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-15 12:09:00.701 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-15 12:09:00.701 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-09-15 12:09:00.701 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-15 12:09:00.702 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-15 12:09:00.707 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-15 12:09:01.770 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-15 12:09:02.798 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-09-15 12:09:02.805 INFO  [EventBus-3] - Module STARTED
+2017-09-15 12:09:03.184 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-15 12:09:03.605 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879

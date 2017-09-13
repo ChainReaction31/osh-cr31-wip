@@ -11584,3 +11584,344 @@ java.net.UnknownHostException: maps.googleapis.com
 2017-08-25 15:01:06.262 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71177,-86.54727&destination=34.710684528855545,-86.57140343606612
 2017-08-25 15:02:05.278 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71067,-86.57111&destination=34.70928610302511,-86.54602357416775
 2017-08-25 15:03:00.294 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70966,-86.54588&destination=34.699956760581415,-86.62287491506923
+2017-09-12 13:15:25.012 INFO  [ModuleRegistry-2] - 
+2017-09-12 13:15:25.022 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-12 13:15:25.022 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-12 13:15:25.023 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-09-12 13:15:25.023 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-12 13:15:25.296 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-12 13:15:25.296 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-12 13:15:25.299 INFO  [ModuleRegistry-2] - Module STARTED
+2017-09-12 13:15:25.305 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6817543937194,-86.62347357472737&destination=34.69266579201251,-86.62450993753058
+2017-09-12 13:15:55.308 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69274,-86.62451&destination=34.761397127216284,-86.59847224794851
+2017-09-12 13:18:22.346 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76153,-86.59847&destination=34.71236504621331,-86.54953218580532
+2017-09-12 13:20:39.479 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-09-12 13:20:39.481 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-09-13 11:25:24.502 INFO  [ModuleRegistry-2] - 
+2017-09-13 11:25:24.516 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-13 11:25:24.517 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-13 11:25:24.517 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-09-13 11:25:24.517 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-13 11:25:24.828 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-13 11:25:24.828 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-13 11:25:24.830 INFO  [ModuleRegistry-2] - Module STARTED
+2017-09-13 11:25:24.838 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.754739125148305,-86.57057275311267&destination=34.72729551035326,-86.57692620107349
+2017-09-13 11:25:25.889 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:26:25.890 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69524749953005,-86.62487460024913&destination=34.72370573621832,-86.56695772821475
+2017-09-13 11:26:26.058 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:27:26.058 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.748866063784014,-86.54345696477905&destination=34.77697686232163,-86.54011188599952
+2017-09-13 11:27:26.192 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:28:26.193 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.709193167086305,-86.55705212617609&destination=34.75891646898706,-86.55004929930323
+2017-09-13 11:28:26.321 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:29:26.323 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7791315875961,-86.53884334415227&destination=34.72235738806932,-86.61950752252626
+2017-09-13 11:29:26.477 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:30:26.477 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72300328470907,-86.579366844764&destination=34.773344225142374,-86.58730059303808
+2017-09-13 11:30:26.617 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:31:26.618 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69175078139216,-86.63206571402644&destination=34.71120818270946,-86.58176292499974
+2017-09-13 11:31:26.772 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:32:26.773 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70377893495163,-86.54280028195741&destination=34.734001583300625,-86.62621448911885
+2017-09-13 11:32:26.914 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:33:26.923 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.752955734130346,-86.56929372454775&destination=34.732316518633404,-86.55295470333583
+2017-09-13 11:33:27.091 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:34:27.091 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72887253329235,-86.55119608871088&destination=34.76816988252688,-86.61779912075106
+2017-09-13 11:34:27.251 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:35:27.253 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77053968179989,-86.57043213563965&destination=34.734681967882274,-86.57034308504217
+2017-09-13 11:35:27.750 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:36:27.751 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.756279359510756,-86.57656488173868&destination=34.71925712701257,-86.53873838124346
+2017-09-13 11:36:27.923 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:37:27.924 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7177331566985,-86.58105350353576&destination=34.76984381102165,-86.55343540770059
+2017-09-13 11:37:28.073 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:38:28.075 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70662583337542,-86.62602949604815&destination=34.76291228436814,-86.53717423512205
+2017-09-13 11:38:28.247 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:39:28.247 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.700219586148044,-86.60208669638753&destination=34.696387759762224,-86.60286412873711
+2017-09-13 11:39:28.396 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:40:28.397 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71221617655599,-86.58118548310563&destination=34.709088838479055,-86.56095069514762
+2017-09-13 11:40:28.547 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:41:28.548 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7032518642657,-86.59106608164718&destination=34.729939523166095,-86.54067159440216
+2017-09-13 11:41:29.016 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:42:29.016 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71797796409468,-86.6096339558896&destination=34.777168388859664,-86.6286396496169
+2017-09-13 11:44:52.055 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77722,-86.62819&destination=34.71575001571529,-86.53503370453512
+2017-09-13 11:49:08.120 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71573,-86.53519&destination=34.711628097237785,-86.59040322753793
+2017-09-13 11:51:01.151 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71161,-86.59049&destination=34.77259821628418,-86.61122988773677
+2017-09-13 11:53:51.197 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7726,-86.61146&destination=34.75378838019581,-86.58663368733383
+2017-09-13 11:55:15.224 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75385,-86.58625&destination=34.75190531655688,-86.56962675092733
+2017-09-13 11:56:00.236 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75205,-86.56977&destination=34.77453471382183,-86.63234328928085
+2017-09-13 11:58:32.283 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77454,-86.63266&destination=34.685909496906056,-86.57196030391331
+2017-09-13 11:58:32.440 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 11:59:32.441 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.744142358075976,-86.55366738498493&destination=34.74460771571872,-86.59487349488691
+2017-09-13 11:59:32.571 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 12:00:32.572 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75102741271968,-86.60021173299317&destination=34.7599043431514,-86.57821996594453
+2017-09-13 12:00:32.703 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 12:01:32.704 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.729142922960094,-86.62012634116088&destination=34.68842111873837,-86.60492323431465
+2017-09-13 12:02:47.726 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68842,-86.605&destination=34.74905869125611,-86.59201100515688
+2017-09-13 12:04:58.762 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74931,-86.592&destination=34.74881702394589,-86.54251688239383
+2017-09-13 12:06:42.791 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74791,-86.54116&destination=34.75077216267052,-86.6076022692569
+2017-09-13 12:09:09.835 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7506,-86.60794&destination=34.7740534838473,-86.63206138079057
+2017-09-13 12:10:26.856 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77382,-86.63207&destination=34.70880002324214,-86.62506177307823
+2017-09-13 12:10:26.996 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 12:11:26.997 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.762904856519725,-86.59502697999699&destination=34.766099352970016,-86.56155882170843
+2017-09-13 12:12:54.021 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76335,-86.55828&destination=34.69297960147595,-86.54197024607754
+2017-09-13 12:16:39.085 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68937,-86.53922&destination=34.743525384975705,-86.62785627629094
+2017-09-13 12:19:12.132 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74378,-86.62785&destination=34.698336447761484,-86.5382937732379
+2017-09-13 12:23:18.201 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70005,-86.53896&destination=34.70704370477547,-86.58254918434086
+2017-09-13 12:24:49.228 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70722,-86.58265&destination=34.73649419061998,-86.62020380100472
+2017-09-13 12:26:16.253 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7365,-86.61981&destination=34.72565297837661,-86.5811128987727
+2017-09-13 12:27:22.273 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72576,-86.58091&destination=34.71660326373152,-86.53876023346439
+2017-09-13 12:27:22.444 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 12:28:22.445 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70681173367879,-86.59456117317478&destination=34.7280631657546,-86.59834611076661
+2017-09-13 12:28:52.453 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72798,-86.59815&destination=34.73581198808615,-86.62783819398155
+2017-09-13 12:29:14.460 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73577,-86.62784&destination=34.680162800516335,-86.61144498448304
+2017-09-13 12:31:16.496 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68014,-86.61011&destination=34.75464097027649,-86.57314556708847
+2017-09-13 12:33:12.531 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75453,-86.57216&destination=34.75612812338367,-86.57733716414208
+2017-09-13 12:33:16.532 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75643,-86.5772&destination=34.76488835659439,-86.62455157904293
+2017-09-13 12:34:50.558 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76488,-86.62419&destination=34.74178560089986,-86.55096457188014
+2017-09-13 12:37:25.891 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74213,-86.55134&destination=34.71312948575559,-86.62906070547008
+2017-09-13 12:39:33.922 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71314,-86.62883&destination=34.733976835720284,-86.56427829135775
+2017-09-13 12:39:34.091 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 12:40:34.092 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.759455125479505,-86.62909329472627&destination=34.710204781886645,-86.57306406998092
+2017-09-13 12:43:29.142 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71026,-86.57295&destination=34.70579625005274,-86.6049482638329
+2017-09-13 12:43:29.306 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 12:44:29.307 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70396128570609,-86.55899989990797&destination=34.73975665636341,-86.5516529508388
+2017-09-13 12:46:15.341 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74133,-86.55286&destination=34.7749710659199,-86.62476691173848
+2017-09-13 12:49:01.477 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77497,-86.62479&destination=34.75857216253213,-86.61470108581989
+2017-09-13 12:49:43.494 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75817,-86.61471&destination=34.69350814105861,-86.62337647784209
+2017-09-13 12:51:06.527 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.69363,-86.62337&destination=34.774675905999764,-86.6257791503178
+2017-09-13 12:54:02.594 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77418,-86.62578&destination=34.746573570413894,-86.55565213020962
+2017-09-13 12:56:40.652 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74658,-86.55599&destination=34.737169105856786,-86.6043339042563
+2017-09-13 12:58:08.686 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73718,-86.6045&destination=34.70708920189191,-86.55693539309476
+2017-09-13 13:00:30.739 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70734,-86.55693&destination=34.70484910513586,-86.61963510734273
+2017-09-13 13:02:38.125 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70485,-86.6197&destination=34.72243599042181,-86.55059832248897
+2017-09-13 13:05:02.177 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.72256,-86.55101&destination=34.74509277507341,-86.59106773620265
+2017-09-13 13:06:31.212 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7451,-86.5912&destination=34.74845766541069,-86.57296664142007
+2017-09-13 13:06:31.354 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 13:07:31.355 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.693980386443364,-86.56945661412497&destination=34.76026361989582,-86.60265249825649
+2017-09-13 13:09:59.411 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76026,-86.6024&destination=34.70159003765104,-86.5912448882298
+2017-09-13 13:11:49.453 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.70167,-86.59177&destination=34.7710473353911,-86.6147198787135
+2017-09-13 13:14:41.520 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77124,-86.61472&destination=34.77552781465569,-86.55068111412446
+2017-09-13 13:17:19.582 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77285,-86.54766&destination=34.68812692302255,-86.55216852308814
+2017-09-13 13:21:33.685 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68817,-86.55262&destination=34.75453537429967,-86.54562059122941
+2017-09-13 13:21:33.858 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 13:22:33.859 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.727737980103456,-86.5863696587581&destination=34.76477325965363,-86.55807271424054
+2017-09-13 13:22:33.996 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 13:23:33.998 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.75703190139596,-86.59591796639&destination=34.76413302312743,-86.59258100975588
+2017-09-13 13:23:58.010 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.76413,-86.59257&destination=34.74904420775781,-86.56913382927944
+2017-09-13 13:25:04.038 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74898,-86.56914&destination=34.710262218700514,-86.57463176184147
+2017-09-13 13:26:17.073 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71005,-86.57448&destination=34.715612578322094,-86.57750848595627
+2017-09-13 13:26:24.076 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71561,-86.57751&destination=34.74884274955459,-86.56976182595936
+2017-09-13 13:27:29.098 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.74899,-86.56976&destination=34.68338382711214,-86.54955871577897
+2017-09-13 13:27:29.248 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-13 13:28:29.248 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.765205359988876,-86.5532310385429&destination=34.7018563027586,-86.56020003799847
+2017-09-15 12:09:00.516 INFO  [ModuleRegistry-2] - 
+2017-09-15 12:09:00.524 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-15 12:09:00.524 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-15 12:09:00.524 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-09-15 12:09:00.524 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-15 12:09:00.750 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-15 12:09:00.751 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-15 12:09:00.754 INFO  [ModuleRegistry-2] - Module STARTED
+2017-09-15 12:09:00.759 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7231969691295,-86.61972433346786&destination=34.68748079009386,-86.58908341913465
+2017-09-15 12:10:25.783 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68769,-86.58916&destination=34.75013191484901,-86.54056707915734
+2017-09-15 12:10:25.999 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]

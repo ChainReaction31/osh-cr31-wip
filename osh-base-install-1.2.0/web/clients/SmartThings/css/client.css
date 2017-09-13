@@ -134,3 +134,8 @@ a.navbar-brand:hover {
 .cesium-baseLayerPicker-dropDown {
     z-index: 10000;
 }
+
+.c-circle-menu {
+    bottom: 95px;
+    left: 220px;
+}

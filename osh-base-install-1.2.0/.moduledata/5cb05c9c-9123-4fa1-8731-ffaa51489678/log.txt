@@ -2558,3 +2558,29 @@
 2017-08-25 14:34:43.683 INFO  [ModuleRegistry-2] - Module INITIALIZED
 2017-08-25 14:34:43.683 INFO  [ModuleRegistry-2] - Module STARTING
 2017-08-25 14:34:44.643 INFO  [EventBus-4] - Module STARTED
+2017-09-12 13:15:24.906 INFO  [ModuleRegistry-2] - 
+2017-09-12 13:15:24.960 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-12 13:15:24.961 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-12 13:15:24.961 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-12 13:15:24.961 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-12 13:15:24.961 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-12 13:15:24.962 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-12 13:15:26.679 INFO  [EventBus-1] - Module STARTED
+2017-09-12 13:20:39.466 INFO  [ModuleRegistry-8] - Module STOPPING
+2017-09-12 13:20:39.479 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-09-13 11:25:24.421 INFO  [ModuleRegistry-2] - 
+2017-09-13 11:25:24.474 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-13 11:25:24.474 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-13 11:25:24.474 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-13 11:25:24.474 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-13 11:25:24.475 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-13 11:25:24.475 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-13 11:25:26.410 INFO  [EventBus-1] - Module STARTED
+2017-09-15 12:09:00.380 INFO  [ModuleRegistry-2] - 
+2017-09-15 12:09:00.447 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-15 12:09:00.448 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-15 12:09:00.448 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-15 12:09:00.448 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-15 12:09:00.469 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-15 12:09:00.471 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-15 12:09:02.486 INFO  [EventBus-4] - Module STARTED

@@ -2788,3 +2788,29 @@ java.lang.NullPointerException: null
 2017-08-25 14:34:43.785 INFO  [ModuleRegistry-6] - Module INITIALIZED
 2017-08-25 14:34:43.787 INFO  [ModuleRegistry-6] - Module STARTING
 2017-08-25 14:34:45.758 INFO  [ModuleRegistry-6] - Module STARTED
+2017-09-12 13:15:25.030 INFO  [ModuleRegistry-5] - 
+2017-09-12 13:15:25.056 INFO  [ModuleRegistry-5] - *************************************************
+2017-09-12 13:15:25.056 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-09-12 13:15:25.056 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-09-12 13:15:25.056 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-09-12 13:15:25.056 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-09-12 13:15:25.056 INFO  [ModuleRegistry-5] - Module STARTING
+2017-09-12 13:15:28.035 INFO  [ModuleRegistry-5] - Module STARTED
+2017-09-12 13:20:39.489 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-09-12 13:20:40.445 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-09-13 11:25:24.524 INFO  [ModuleRegistry-5] - 
+2017-09-13 11:25:24.561 INFO  [ModuleRegistry-5] - *************************************************
+2017-09-13 11:25:24.561 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-09-13 11:25:24.561 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-09-13 11:25:24.561 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-09-13 11:25:24.561 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-09-13 11:25:24.562 INFO  [ModuleRegistry-5] - Module STARTING
+2017-09-13 11:25:26.889 INFO  [ModuleRegistry-5] - Module STARTED
+2017-09-15 12:09:00.532 INFO  [ModuleRegistry-5] - 
+2017-09-15 12:09:00.551 INFO  [ModuleRegistry-5] - *************************************************
+2017-09-15 12:09:00.552 INFO  [ModuleRegistry-5] - SensorHub Restarted
+2017-09-15 12:09:00.552 INFO  [ModuleRegistry-5] - Starting log for 'Weather Data Storage' [5cb05c9c-9e08-4fa1-8731-ff4ff948bdc2]
+2017-09-15 12:09:00.552 INFO  [ModuleRegistry-5] - Module INITIALIZING
+2017-09-15 12:09:00.552 INFO  [ModuleRegistry-5] - Module INITIALIZED
+2017-09-15 12:09:00.553 INFO  [ModuleRegistry-5] - Module STARTING
+2017-09-15 12:09:03.588 INFO  [ModuleRegistry-5] - Module STARTED
