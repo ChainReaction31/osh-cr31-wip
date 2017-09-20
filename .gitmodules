@@ -12,3 +12,6 @@
 [submodule "osh-video"]
 	path = osh-video
 	url = https://github.com/opensensorhub/osh-video.git
+[submodule "osh-positioning"]
+	path = osh-positioning
+	url = https://github.com/opensensorhub/osh-positioning.git
