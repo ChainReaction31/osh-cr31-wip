@@ -2584,3 +2584,29 @@
 2017-09-15 12:09:00.758 INFO  [ModuleRegistry-3] - Module INITIALIZED
 2017-09-15 12:09:00.758 INFO  [ModuleRegistry-3] - Module STARTING
 2017-09-15 12:09:00.763 INFO  [ModuleRegistry-3] - Module STARTED
+2017-09-20 11:15:04.285 INFO  [ModuleRegistry-3] - 
+2017-09-20 11:15:04.312 INFO  [ModuleRegistry-3] - *************************************************
+2017-09-20 11:15:04.312 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-09-20 11:15:04.312 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-09-20 11:15:04.312 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-09-20 11:15:04.573 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-09-20 11:15:04.574 INFO  [ModuleRegistry-3] - Module STARTING
+2017-09-20 11:15:04.576 INFO  [ModuleRegistry-3] - Module STARTED
+2017-09-20 11:17:52.264 INFO  [ModuleRegistry-3] - 
+2017-09-20 11:17:52.264 INFO  [ModuleRegistry-3] - *************************************************
+2017-09-20 11:17:52.267 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-09-20 11:17:52.267 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-09-20 11:17:52.267 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-09-20 11:17:52.313 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-09-20 11:17:52.314 INFO  [ModuleRegistry-3] - Module STARTING
+2017-09-20 11:17:52.316 INFO  [ModuleRegistry-3] - Module STARTED
+2017-09-20 13:07:51.473 INFO  [ModuleRegistry-3] - 
+2017-09-20 13:07:51.474 INFO  [ModuleRegistry-3] - *************************************************
+2017-09-20 13:07:51.474 INFO  [ModuleRegistry-3] - SensorHub Restarted
+2017-09-20 13:07:51.474 INFO  [ModuleRegistry-3] - Starting log for 'Simulated Weather Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d73]
+2017-09-20 13:07:51.474 INFO  [ModuleRegistry-3] - Module INITIALIZING
+2017-09-20 13:07:51.531 INFO  [ModuleRegistry-3] - Module INITIALIZED
+2017-09-20 13:07:51.538 INFO  [ModuleRegistry-3] - Module STARTING
+2017-09-20 13:07:51.550 INFO  [ModuleRegistry-3] - Module STARTED
+2017-09-20 13:14:59.858 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-09-20 13:14:59.859 INFO  [ModuleRegistry-10] - Module STOPPED

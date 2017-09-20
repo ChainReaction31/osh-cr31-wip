@@ -11925,3 +11925,79 @@ java.lang.Exception: No route available
 	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
 	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
 	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-20 11:15:04.252 INFO  [ModuleRegistry-2] - 
+2017-09-20 11:15:04.267 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-20 11:15:04.267 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-20 11:15:04.267 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-09-20 11:15:04.267 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-20 11:15:04.537 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-20 11:15:04.537 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-20 11:15:04.542 INFO  [ModuleRegistry-2] - Module STARTED
+2017-09-20 11:15:04.572 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.6963016512201,-86.56848859544941&destination=34.6882354604162,-86.56044725306668
+2017-09-20 11:15:50.568 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68832,-86.56015&destination=34.720391250204884,-86.61835181597498
+2017-09-20 11:17:52.254 INFO  [ModuleRegistry-2] - 
+2017-09-20 11:17:52.255 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-20 11:17:52.255 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-20 11:17:52.255 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-09-20 11:17:52.255 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-20 11:17:52.307 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-20 11:17:52.308 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-20 11:17:52.310 INFO  [ModuleRegistry-2] - Module STARTED
+2017-09-20 11:17:52.314 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73023421645852,-86.5477997923868&destination=34.76062362945478,-86.56076429354098
+2017-09-20 13:07:51.471 INFO  [ModuleRegistry-2] - 
+2017-09-20 13:07:51.472 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-20 13:07:51.472 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-20 13:07:51.472 INFO  [ModuleRegistry-2] - Starting log for 'Simulated GPS Sensor' [d136b6ea-3950-4691-bf56-c84ec7d89d72]
+2017-09-20 13:07:51.472 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-20 13:07:51.526 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-20 13:07:51.532 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-20 13:07:51.543 INFO  [ModuleRegistry-2] - Module STARTED
+2017-09-20 13:07:51.549 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.7366472809943,-86.56894345148834&destination=34.71825853175184,-86.54569421283504
+2017-09-20 13:09:08.572 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.71827,-86.54614&destination=34.73123982928993,-86.58455560020755
+2017-09-20 13:10:29.601 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.73115,-86.58449&destination=34.74675778693512,-86.59618984270868
+2017-09-20 13:10:29.717 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-20 13:11:29.717 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.77388335837254,-86.58573853650725&destination=34.71720601250155,-86.54054273108608
+2017-09-20 13:11:29.797 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-20 13:12:29.798 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68500996492394,-86.53679294476521&destination=34.71786297378895,-86.61407056237296
+2017-09-20 13:12:29.855 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-20 13:13:29.855 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.733255545025266,-86.55067747728948&destination=34.71787162719533,-86.56292729055689
+2017-09-20 13:13:29.933 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-20 13:14:29.934 DEBUG [Timer-0] - Google API request: http://maps.googleapis.com/maps/api/directions/json?origin=34.68822176468021,-86.59835529812888&destination=34.73146063325929,-86.59274946937678
+2017-09-20 13:14:29.989 ERROR [Timer-0] - Error while retrieving Google directions
+java.lang.Exception: No route available
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.generateRandomTrajectory(FakeGpsOutput.java:140) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.sendMeasurement(FakeGpsOutput.java:203) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput.access$000(FakeGpsOutput.java:38) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at org.sensorhub.impl.sensor.fakegps.FakeGpsOutput$1.run(FakeGpsOutput.java:258) [sensorhub-driver-fakegps-1.0.0.jar:na]
+	at java.util.TimerThread.mainLoop(Unknown Source) [na:1.8.0_144]
+	at java.util.TimerThread.run(Unknown Source) [na:1.8.0_144]
+2017-09-20 13:14:59.852 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-09-20 13:14:59.852 INFO  [ModuleRegistry-10] - Module STOPPED

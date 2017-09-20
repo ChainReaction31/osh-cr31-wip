@@ -2584,3 +2584,29 @@
 2017-09-15 12:09:00.469 INFO  [ModuleRegistry-2] - Module INITIALIZED
 2017-09-15 12:09:00.471 INFO  [ModuleRegistry-2] - Module STARTING
 2017-09-15 12:09:02.486 INFO  [EventBus-4] - Module STARTED
+2017-09-20 11:15:04.189 INFO  [ModuleRegistry-2] - 
+2017-09-20 11:15:04.203 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-20 11:15:04.204 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-20 11:15:04.204 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-20 11:15:04.204 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-20 11:15:04.204 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-20 11:15:04.205 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-20 11:15:06.753 INFO  [EventBus-4] - Module STARTED
+2017-09-20 11:17:52.238 INFO  [ModuleRegistry-2] - 
+2017-09-20 11:17:52.238 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-20 11:17:52.238 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-20 11:17:52.239 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-20 11:17:52.239 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-20 11:17:52.239 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-20 11:17:52.239 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-20 11:17:52.643 INFO  [EventBus-1] - Module STARTED
+2017-09-20 13:07:51.457 INFO  [ModuleRegistry-2] - 
+2017-09-20 13:07:51.457 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-20 13:07:51.457 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-20 13:07:51.457 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-20 13:07:51.457 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-20 13:07:51.458 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-20 13:07:51.458 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-20 13:07:51.883 INFO  [EventBus-3] - Module STARTED
+2017-09-20 13:14:59.839 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-09-20 13:14:59.865 INFO  [ModuleRegistry-9] - Module STOPPED

@@ -1,0 +1,10 @@
+2017-09-20 13:09:41.519 INFO  [qtp27557884-40] - 
+2017-09-20 13:09:41.519 INFO  [qtp27557884-40] - *************************************************
+2017-09-20 13:09:41.519 INFO  [qtp27557884-40] - SensorHub Restarted
+2017-09-20 13:09:41.519 INFO  [qtp27557884-40] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-20 13:09:41.519 INFO  [qtp27557884-40] - Module INITIALIZING
+2017-09-20 13:09:41.520 INFO  [qtp27557884-40] - Module INITIALIZED
+2017-09-20 13:09:41.521 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-20 13:09:41.523 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-20 13:15:00.488 INFO  [ModuleRegistry-10] - Module STOPPING
+2017-09-20 13:15:00.490 INFO  [ModuleRegistry-10] - Module STOPPED

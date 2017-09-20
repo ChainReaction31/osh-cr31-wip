@@ -1,0 +1,10 @@
+2017-09-20 13:09:42.081 INFO  [qtp27557884-40] - 
+2017-09-20 13:09:42.082 INFO  [qtp27557884-40] - *************************************************
+2017-09-20 13:09:42.082 INFO  [qtp27557884-40] - SensorHub Restarted
+2017-09-20 13:09:42.082 INFO  [qtp27557884-40] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-20 13:09:42.082 INFO  [qtp27557884-40] - Module INITIALIZING
+2017-09-20 13:09:42.082 INFO  [qtp27557884-40] - Module INITIALIZED
+2017-09-20 13:09:42.083 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-20 13:09:42.084 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-20 13:15:00.492 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-09-20 13:15:00.493 INFO  [ModuleRegistry-9] - Module STOPPED

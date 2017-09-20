@@ -1,0 +1,10 @@
+2017-09-20 13:09:40.079 INFO  [qtp27557884-55] - 
+2017-09-20 13:09:40.080 INFO  [qtp27557884-55] - *************************************************
+2017-09-20 13:09:40.080 INFO  [qtp27557884-55] - SensorHub Restarted
+2017-09-20 13:09:40.080 INFO  [qtp27557884-55] - Starting log for 'Motion - Northwest' [urn:osh:client:e4bc1957-a74a-485f-9317-b5f5646f6d1d]
+2017-09-20 13:09:40.080 INFO  [qtp27557884-55] - Module INITIALIZING
+2017-09-20 13:09:40.080 INFO  [qtp27557884-55] - Module INITIALIZED
+2017-09-20 13:09:40.081 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-20 13:09:40.082 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-20 13:15:00.408 INFO  [ModuleRegistry-9] - Module STOPPING
+2017-09-20 13:15:00.408 INFO  [ModuleRegistry-9] - Module STOPPED

@@ -9757,3 +9757,59 @@ Caused by: java.lang.NumberFormatException: For input string: "MEDIUM"
 2017-09-15 12:09:02.805 INFO  [EventBus-3] - Module STARTED
 2017-09-15 12:09:03.184 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
 2017-09-15 12:09:03.605 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 11:15:04.373 INFO  [ModuleRegistry-6] - 
+2017-09-20 11:15:04.394 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-20 11:15:04.394 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-20 11:15:04.395 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-09-20 11:15:04.395 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-20 11:15:04.396 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-20 11:15:04.397 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-20 11:15:05.936 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-20 11:15:07.155 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 11:15:07.163 INFO  [EventBus-3] - Module STARTED
+2017-09-20 11:15:07.586 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-20 11:15:08.069 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 11:17:52.291 INFO  [ModuleRegistry-6] - 
+2017-09-20 11:17:52.292 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-20 11:17:52.292 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-20 11:17:52.292 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-09-20 11:17:52.292 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-20 11:17:52.293 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-20 11:17:52.294 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-20 11:17:52.648 DEBUG [EventBus-4] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-20 11:17:52.715 DEBUG [EventBus-4] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 11:17:52.721 INFO  [EventBus-4] - Module STARTED
+2017-09-20 11:17:53.064 DEBUG [EventBus-3] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-20 11:17:53.379 DEBUG [EventBus-3] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 13:07:51.512 INFO  [ModuleRegistry-6] - 
+2017-09-20 13:07:51.512 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-20 13:07:51.512 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-20 13:07:51.512 INFO  [ModuleRegistry-6] - Starting log for 'SOS Service' [5cb05c9c-9e08-4fa1-8731-ff41e246bdc1]
+2017-09-20 13:07:51.513 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-20 13:07:51.514 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-20 13:07:51.517 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-20 13:07:51.864 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" added for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-20 13:07:51.936 DEBUG [EventBus-2] - Offering "urn:mysos:offering03" added for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 13:07:51.942 INFO  [EventBus-2] - Module STARTED
+2017-09-20 13:07:52.522 DEBUG [EventBus-2] - Offering "urn:mysos:offering02" updated for procedure urn:osh:sensor:simgps:d136b6ea
+2017-09-20 13:07:52.812 DEBUG [EventBus-1] - Offering "urn:mysos:offering03" updated for procedure urn:osh:sensor:simweather:0123456879
+2017-09-20 13:09:39.301 INFO  [qtp27557884-40] - Registering new sensor urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1
+2017-09-20 13:09:39.341 DEBUG [qtp27557884-40] - Offering "urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1-sos" added for procedure urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1
+2017-09-20 13:09:40.076 INFO  [qtp27557884-55] - Registering new sensor urn:osh:client:e4bc1957-a74a-485f-9317-b5f5646f6d1d
+2017-09-20 13:09:40.101 DEBUG [qtp27557884-55] - Offering "urn:osh:client:e4bc1957-a74a-485f-9317-b5f5646f6d1d-sos" added for procedure urn:osh:client:e4bc1957-a74a-485f-9317-b5f5646f6d1d
+2017-09-20 13:09:40.364 INFO  [qtp27557884-40] - Registering new sensor urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182
+2017-09-20 13:09:40.398 DEBUG [qtp27557884-40] - Offering "urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182-sos" added for procedure urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182
+2017-09-20 13:09:40.654 INFO  [qtp27557884-55] - Registering new sensor urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5
+2017-09-20 13:09:40.678 DEBUG [qtp27557884-55] - Offering "urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5-sos" added for procedure urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5
+2017-09-20 13:09:40.941 INFO  [qtp27557884-40] - Registering new sensor urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336
+2017-09-20 13:09:40.965 DEBUG [qtp27557884-40] - Offering "urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336-sos" added for procedure urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336
+2017-09-20 13:09:41.227 INFO  [qtp27557884-55] - Registering new sensor urn:osh:client:4b1c2dc7-a544-478f-8de3-9362e5e63a15
+2017-09-20 13:09:41.254 DEBUG [qtp27557884-55] - Offering "urn:osh:client:4b1c2dc7-a544-478f-8de3-9362e5e63a15-sos" added for procedure urn:osh:client:4b1c2dc7-a544-478f-8de3-9362e5e63a15
+2017-09-20 13:09:41.516 INFO  [qtp27557884-40] - Registering new sensor urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d
+2017-09-20 13:09:41.540 DEBUG [qtp27557884-40] - Offering "urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d-sos" added for procedure urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d
+2017-09-20 13:09:41.801 INFO  [qtp27557884-55] - Registering new sensor urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56
+2017-09-20 13:09:41.823 DEBUG [qtp27557884-55] - Offering "urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56-sos" added for procedure urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56
+2017-09-20 13:09:42.078 INFO  [qtp27557884-40] - Registering new sensor urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d
+2017-09-20 13:09:42.098 DEBUG [qtp27557884-40] - Offering "urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d-sos" added for procedure urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d
+2017-09-20 13:14:59.861 INFO  [ModuleRegistry-13] - Module STOPPING
+2017-09-20 13:14:59.864 INFO  [ModuleRegistry-13] - Module STOPPED

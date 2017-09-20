@@ -407,6 +407,13 @@ function init() {
     function addPresenceSensor() {
 
     }
+//TODO: fix and use .onData for each tree item as it happens
+    treeItems.forEach(function(rec, index){
+        var table = document.getElementById("sensordata-container");
+       table.rows[index].cells[3].innerHTML = rec.data
+    });
+
+
 }
 
 // TODO: add various other sensors and things
