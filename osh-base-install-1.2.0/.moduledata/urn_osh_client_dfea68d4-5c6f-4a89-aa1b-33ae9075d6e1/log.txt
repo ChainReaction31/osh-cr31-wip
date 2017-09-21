@@ -8,3 +8,187 @@
 2017-09-20 13:09:39.310 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.334 INFO  [ModuleRegistry-9] - Module STOPPING
 2017-09-20 13:15:00.335 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-09-21 10:01:59.675 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:01:59.675 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:01:59.675 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:01:59.675 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:01:59.675 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:02:00.096 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:02:00.101 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:02:00.171 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:07:10.147 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:07:10.148 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:07:10.148 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:07:10.148 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:07:10.148 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:07:10.355 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:07:10.445 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:07:10.581 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:14:59.379 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:14:59.379 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:14:59.379 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:14:59.379 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:14:59.379 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:14:59.853 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:14:59.878 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:15:00.003 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:18:03.148 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:18:03.149 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:18:03.149 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:18:03.151 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:18:03.151 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:18:03.637 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:18:03.640 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:18:03.692 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:20:13.506 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:20:13.507 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:20:13.507 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:20:13.508 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:20:13.509 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:20:14.255 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:20:14.260 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:20:14.641 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:21:00.393 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:21:00.393 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:21:00.393 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:21:00.393 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:21:00.393 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:21:00.758 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:21:00.826 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:21:00.948 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:23:58.238 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:23:58.238 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:23:58.238 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:23:58.632 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:23:58.863 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:23:59.195 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:26:36.028 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:26:36.029 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:26:36.029 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:26:36.029 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:26:36.029 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:26:36.532 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:26:36.535 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:26:36.543 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:33:24.765 INFO  [ModuleRegistry-6] - 
+2017-09-21 10:33:24.765 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-21 10:33:24.765 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-21 10:33:24.765 INFO  [ModuleRegistry-6] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:33:24.765 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-21 10:33:25.273 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-21 10:33:25.279 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-21 10:33:25.369 INFO  [ModuleRegistry-6] - Module STARTED
+2017-09-21 10:38:03.622 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:38:03.622 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:38:03.622 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:38:03.623 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:38:03.623 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:38:03.943 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:38:04.031 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:38:04.142 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:50:49.811 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:50:49.811 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:50:49.811 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:50:49.811 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:50:49.811 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:50:50.347 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:50:50.362 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:50:50.435 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:52:35.718 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:52:36.236 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:52:36.248 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:52:36.297 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:54:28.214 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:54:28.214 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:54:28.214 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:54:28.214 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:54:28.214 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:54:28.779 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:54:28.815 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:54:28.967 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:54:59.636 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:54:59.637 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:54:59.637 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:54:59.637 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:54:59.637 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:55:00.298 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:55:00.368 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:55:00.543 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:55:45.180 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:55:45.182 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:55:45.182 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:55:45.182 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:55:45.182 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:55:45.449 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:55:45.590 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:55:45.732 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 10:58:49.327 INFO  [ModuleRegistry-7] - 
+2017-09-21 10:58:49.328 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 10:58:49.328 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 10:58:49.328 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 10:58:49.328 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 10:58:49.926 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 10:58:49.936 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 10:58:50.014 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 11:00:13.713 INFO  [ModuleRegistry-7] - 
+2017-09-21 11:00:13.713 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 11:00:13.713 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 11:00:13.713 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:00:13.714 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 11:00:13.995 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 11:00:14.029 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 11:00:14.156 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 11:00:57.332 INFO  [ModuleRegistry-6] - 
+2017-09-21 11:00:57.333 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-21 11:00:57.333 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-21 11:00:57.333 INFO  [ModuleRegistry-6] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:00:57.333 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-21 11:00:57.806 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-21 11:00:57.825 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-21 11:00:57.869 INFO  [ModuleRegistry-6] - Module STARTED
+2017-09-21 11:02:37.369 INFO  [ModuleRegistry-7] - 
+2017-09-21 11:02:37.369 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 11:02:37.369 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 11:02:37.369 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:02:37.369 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 11:02:38.181 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 11:02:38.288 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 11:02:38.366 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 11:03:27.643 INFO  [ModuleRegistry-7] - 
+2017-09-21 11:03:27.644 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 11:03:27.645 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 11:03:27.645 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:03:27.645 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 11:03:28.181 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 11:03:28.202 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 11:03:28.318 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 11:19:55.478 INFO  [ModuleRegistry-7] - 
+2017-09-21 11:19:55.479 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 11:19:55.479 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 11:19:55.479 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:19:55.479 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 11:19:55.879 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 11:19:55.881 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 11:19:55.898 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 11:20:51.535 INFO  [ModuleRegistry-7] - 
+2017-09-21 11:20:51.537 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 11:20:51.538 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 11:20:51.538 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:20:51.538 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 11:20:52.032 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 11:20:52.047 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 11:20:52.081 INFO  [ModuleRegistry-7] - Module STARTED
+2017-09-21 11:21:34.890 INFO  [ModuleRegistry-7] - 
+2017-09-21 11:21:34.891 INFO  [ModuleRegistry-7] - *************************************************
+2017-09-21 11:21:34.891 INFO  [ModuleRegistry-7] - SensorHub Restarted
+2017-09-21 11:21:34.891 INFO  [ModuleRegistry-7] - Starting log for 'Motion - Northeast' [urn:osh:client:dfea68d4-5c6f-4a89-aa1b-33ae9075d6e1]
+2017-09-21 11:21:34.891 INFO  [ModuleRegistry-7] - Module INITIALIZING
+2017-09-21 11:21:35.315 INFO  [ModuleRegistry-7] - Module INITIALIZED
+2017-09-21 11:21:35.326 INFO  [ModuleRegistry-7] - Module STARTING
+2017-09-21 11:21:35.355 INFO  [ModuleRegistry-7] - Module STARTED

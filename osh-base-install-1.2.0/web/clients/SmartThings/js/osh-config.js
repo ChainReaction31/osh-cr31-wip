@@ -52,22 +52,25 @@ function init() {
     var cesiumView = new OSH.UI.CesiumView("main-container", []);
     cesiumView.viewer.terrainProvider = new Cesium.EllipsoidTerrainProvider();
 
-    var lat = 34.72704;
-    var lon = -86.59074;
-    var halfsize = 0.002045;
-    var aratio = 0.8;
-    var east = lon + halfsize * aratio;
-    var west = lon - halfsize * aratio;
+    var lat = 34.666047;
+    var lon = -86.780183;
+    //var halfsize = 0.002045;
+    var halfsize = 0.00125;
+    var aratio = 0.999647;
+    /*var east = lon + halfsize * aratio;
+    var west = lon - halfsize * aratio;*/
+    var east = lon + halfsize;
+    var west = lon - halfsize;
     var north = lat + halfsize;
     var south = lat - halfsize;
     var rectangle = Cesium.Rectangle.fromDegrees(west, south, east, north);
 
-    var vbc = cesiumView.viewer.entities.add({
-        name: "Von Braun Center",
+    var office = cesiumView.viewer.entities.add({
+        name: "Office Building",
         rectangle: {
             coordinates: rectangle,
             material: new Cesium.ImageMaterialProperty({
-                image: './models/vbc_facility_rot.png',
+                image: './models/floorplan-office-rot.png',
                 transparent: true
             })
         }
@@ -307,7 +310,7 @@ function init() {
 
     // start streams and display
     dataSourceController.connectAll();
-    cesiumView.viewer.flyTo(vbc, {offset: new Cesium.HeadingPitchRange(Cesium.Math.toRadians(-90), Cesium.Math.toRadians(-90), 500)});
+    cesiumView.viewer.flyTo(office, {offset: new Cesium.HeadingPitchRange(Cesium.Math.toRadians(-90), Cesium.Math.toRadians(-90), 500)});
 
 
     //--------------------------------------------------------------//

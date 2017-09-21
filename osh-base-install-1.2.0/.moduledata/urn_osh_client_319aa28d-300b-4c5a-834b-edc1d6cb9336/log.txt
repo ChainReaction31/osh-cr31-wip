@@ -8,3 +8,187 @@
 2017-09-20 13:09:40.947 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.414 INFO  [ModuleRegistry-10] - Module STOPPING
 2017-09-20 13:15:00.414 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-09-21 10:01:59.680 INFO  [ModuleRegistry-6] - 
+2017-09-21 10:01:59.680 INFO  [ModuleRegistry-6] - *************************************************
+2017-09-21 10:01:59.680 INFO  [ModuleRegistry-6] - SensorHub Restarted
+2017-09-21 10:01:59.680 INFO  [ModuleRegistry-6] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:01:59.680 INFO  [ModuleRegistry-6] - Module INITIALIZING
+2017-09-21 10:02:00.100 INFO  [ModuleRegistry-6] - Module INITIALIZED
+2017-09-21 10:02:00.130 INFO  [ModuleRegistry-6] - Module STARTING
+2017-09-21 10:02:00.221 INFO  [ModuleRegistry-6] - Module STARTED
+2017-09-21 10:07:10.150 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:07:10.150 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:07:10.150 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:07:10.150 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:07:10.150 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:07:10.355 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:07:10.457 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:07:10.593 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:14:59.380 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:14:59.381 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:14:59.381 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:14:59.381 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:14:59.381 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:14:59.853 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:14:59.874 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:15:00.004 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:18:03.241 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:18:03.242 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:18:03.243 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:18:03.243 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:18:03.243 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:18:03.638 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:18:03.644 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:18:03.711 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:20:13.570 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:20:13.570 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:20:13.570 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:20:13.570 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:20:13.570 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:20:14.256 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:20:14.404 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:20:14.701 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:21:00.411 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:21:00.412 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:21:00.413 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:21:00.416 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:21:00.417 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:21:00.756 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:21:00.763 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:21:00.862 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:23:58.239 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:23:58.632 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:23:58.863 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:23:59.269 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:26:36.043 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:26:36.044 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:26:36.044 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:26:36.044 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:26:36.044 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:26:36.538 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:26:36.569 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:26:36.658 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:33:24.884 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:33:24.884 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:33:24.884 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:33:24.884 INFO  [ModuleRegistry-10] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:33:24.884 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:33:25.276 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:33:25.315 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:33:25.447 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:38:03.946 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:38:04.063 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:38:04.225 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:50:49.943 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:50:49.943 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:50:49.943 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:50:49.943 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:50:49.943 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:50:50.353 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:50:50.408 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:50:50.507 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:52:35.788 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:52:35.788 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:52:35.788 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:52:35.788 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:52:35.790 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:52:36.242 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:52:36.278 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:52:36.367 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:54:28.129 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:54:28.129 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:54:28.130 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:54:28.130 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:54:28.130 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:54:28.787 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:54:28.896 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:54:29.081 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:54:59.713 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:54:59.714 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:54:59.714 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:54:59.714 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:54:59.714 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:55:00.297 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:55:00.328 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:55:00.522 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:55:45.202 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:55:45.203 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:55:45.203 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:55:45.203 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:55:45.203 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:55:45.455 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:55:45.641 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:55:45.892 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 10:58:49.402 INFO  [ModuleRegistry-11] - 
+2017-09-21 10:58:49.402 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 10:58:49.403 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 10:58:49.403 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 10:58:49.403 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 10:58:49.927 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 10:58:49.951 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 10:58:50.075 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 11:00:13.685 INFO  [ModuleRegistry-11] - 
+2017-09-21 11:00:13.686 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 11:00:13.686 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 11:00:13.686 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:00:13.686 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 11:00:14.014 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 11:00:14.099 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 11:00:14.241 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 11:00:57.363 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:00:57.364 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:00:57.364 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:00:57.364 INFO  [ModuleRegistry-10] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:00:57.364 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:00:57.818 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:00:57.865 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:00:58.015 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:02:37.393 INFO  [ModuleRegistry-11] - 
+2017-09-21 11:02:37.394 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 11:02:37.394 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 11:02:37.394 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:02:37.394 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 11:02:38.181 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 11:02:38.254 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 11:02:38.351 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 11:03:27.673 INFO  [ModuleRegistry-11] - 
+2017-09-21 11:03:27.673 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 11:03:27.673 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 11:03:27.674 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:03:27.674 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 11:03:28.180 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 11:03:28.191 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 11:03:28.275 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 11:19:55.522 INFO  [ModuleRegistry-11] - 
+2017-09-21 11:19:55.522 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 11:19:55.522 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 11:19:55.522 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:19:55.522 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 11:19:55.883 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 11:19:55.927 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 11:19:56.044 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 11:20:51.577 INFO  [ModuleRegistry-11] - 
+2017-09-21 11:20:51.578 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 11:20:51.578 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 11:20:51.578 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:20:51.578 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 11:20:52.041 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 11:20:52.047 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 11:20:52.079 INFO  [ModuleRegistry-11] - Module STARTED
+2017-09-21 11:21:34.938 INFO  [ModuleRegistry-11] - 
+2017-09-21 11:21:34.938 INFO  [ModuleRegistry-11] - *************************************************
+2017-09-21 11:21:34.938 INFO  [ModuleRegistry-11] - SensorHub Restarted
+2017-09-21 11:21:34.938 INFO  [ModuleRegistry-11] - Starting log for 'AccessNE' [urn:osh:client:319aa28d-300b-4c5a-834b-edc1d6cb9336]
+2017-09-21 11:21:34.938 INFO  [ModuleRegistry-11] - Module INITIALIZING
+2017-09-21 11:21:35.329 INFO  [ModuleRegistry-11] - Module INITIALIZED
+2017-09-21 11:21:35.404 INFO  [ModuleRegistry-11] - Module STARTING
+2017-09-21 11:21:35.503 INFO  [ModuleRegistry-11] - Module STARTED

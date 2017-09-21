@@ -8,3 +8,187 @@
 2017-09-20 13:09:41.808 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.490 INFO  [ModuleRegistry-8] - Module STOPPING
 2017-09-20 13:15:00.491 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-09-21 10:01:59.706 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:01:59.706 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:01:59.707 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:01:59.707 INFO  [ModuleRegistry-13] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:01:59.712 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:02:00.099 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:02:00.128 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:02:00.206 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:07:10.165 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:07:10.166 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:07:10.166 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:07:10.166 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:07:10.166 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:07:10.353 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:07:10.429 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:07:10.528 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:14:59.433 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:14:59.434 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:14:59.434 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:14:59.434 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:14:59.434 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:14:59.851 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:14:59.860 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:14:59.952 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:18:03.214 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:18:03.215 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:18:03.215 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:18:03.215 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:18:03.215 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:18:03.639 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:18:03.664 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:18:03.760 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:20:13.624 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:20:13.624 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:20:13.624 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:20:13.624 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:20:13.624 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:20:14.256 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:20:14.356 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:20:14.675 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:21:00.398 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:21:00.398 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:21:00.400 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:21:00.400 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:21:00.401 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:21:00.757 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:21:00.778 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:21:00.877 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:23:58.285 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:23:58.285 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:23:58.285 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:23:58.286 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:23:58.286 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:23:58.621 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:23:58.656 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:23:58.956 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:26:36.059 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:26:36.059 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:26:36.059 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:26:36.059 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:26:36.060 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:26:36.538 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:26:36.561 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:26:36.642 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:33:24.803 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:33:24.803 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:33:24.803 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:33:24.803 INFO  [ModuleRegistry-13] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:33:24.803 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:33:25.277 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:33:25.332 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:33:25.516 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:38:03.699 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:38:03.699 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:38:03.699 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:38:03.699 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:38:03.699 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:38:03.946 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:38:04.064 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:38:04.254 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:50:49.885 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:50:49.886 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:50:49.887 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:50:49.887 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:50:49.887 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:50:50.357 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:50:50.412 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:50:50.512 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:52:35.816 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:52:35.816 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:52:35.816 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:52:35.816 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:52:35.816 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:52:36.241 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:52:36.278 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:52:36.354 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:54:28.126 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:54:28.126 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:54:28.126 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:54:28.126 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:54:28.127 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:54:28.774 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:54:28.784 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:54:28.831 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:54:59.728 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:54:59.728 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:54:59.728 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:54:59.728 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:54:59.728 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:55:00.296 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:55:00.316 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:55:00.504 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:55:45.220 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:55:45.220 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:55:45.220 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:55:45.220 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:55:45.220 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:55:45.449 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:55:45.607 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:55:45.759 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:58:49.360 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:58:49.360 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:58:49.360 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:58:49.361 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 10:58:49.361 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:58:49.927 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:58:49.977 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:58:50.176 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:00:13.698 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:00:13.699 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:00:13.700 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:00:13.701 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:00:13.702 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:00:14.010 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:00:14.045 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:00:14.178 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:00:57.396 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:00:57.396 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:00:57.399 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:00:57.400 INFO  [ModuleRegistry-13] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:00:57.400 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:00:57.812 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:00:57.849 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:00:57.917 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:02:37.455 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:02:37.456 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:02:37.456 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:02:37.456 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:02:37.456 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:02:38.181 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:02:38.185 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:02:38.307 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:03:27.719 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:03:27.720 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:03:27.720 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:03:27.720 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:03:27.720 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:03:28.175 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:03:28.179 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:03:28.189 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:19:55.510 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:19:55.511 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:19:55.511 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:19:55.511 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:19:55.511 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:19:55.886 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:19:55.961 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:19:56.074 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:20:51.569 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:20:51.569 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:20:51.569 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:20:51.569 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:20:51.569 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:20:52.045 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:20:52.064 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:20:52.102 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:21:34.932 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 1' [urn:osh:client:1b837d84-3c33-459c-b7e9-a43efddd7c56]
+2017-09-21 11:21:34.949 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:21:35.321 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:21:35.336 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:21:35.418 INFO  [ModuleRegistry-14] - Module STARTED

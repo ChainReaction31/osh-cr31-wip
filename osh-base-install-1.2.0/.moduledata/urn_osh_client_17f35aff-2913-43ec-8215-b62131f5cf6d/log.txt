@@ -8,3 +8,187 @@
 2017-09-20 13:09:41.523 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.488 INFO  [ModuleRegistry-10] - Module STOPPING
 2017-09-20 13:15:00.490 INFO  [ModuleRegistry-10] - Module STOPPED
+2017-09-21 10:01:59.713 INFO  [ModuleRegistry-12] - 
+2017-09-21 10:01:59.713 INFO  [ModuleRegistry-12] - *************************************************
+2017-09-21 10:01:59.713 INFO  [ModuleRegistry-12] - SensorHub Restarted
+2017-09-21 10:01:59.713 INFO  [ModuleRegistry-12] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:01:59.713 INFO  [ModuleRegistry-12] - Module INITIALIZING
+2017-09-21 10:02:00.098 INFO  [ModuleRegistry-12] - Module INITIALIZED
+2017-09-21 10:02:00.113 INFO  [ModuleRegistry-12] - Module STARTING
+2017-09-21 10:02:00.186 INFO  [ModuleRegistry-12] - Module STARTED
+2017-09-21 10:07:10.147 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:07:10.147 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:07:10.147 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:07:10.147 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:07:10.147 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:07:10.356 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:07:10.491 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:07:10.595 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:14:59.848 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:14:59.854 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:14:59.933 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:18:03.232 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:18:03.232 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:18:03.232 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:18:03.232 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:18:03.232 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:18:03.638 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:18:03.653 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:18:03.728 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:20:13.548 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:20:13.567 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:20:13.568 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:20:13.568 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:20:13.568 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:20:14.256 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:20:14.622 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:20:14.725 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:21:00.400 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:21:00.401 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:21:00.401 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:21:00.401 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:21:00.401 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:21:00.757 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:21:00.785 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:21:00.892 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:23:58.256 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:23:58.256 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:23:58.256 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:23:58.265 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:23:58.265 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:23:58.622 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:23:58.817 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:23:59.116 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:26:36.099 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:26:36.099 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:26:36.099 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:26:36.099 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:26:36.099 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:26:36.534 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:26:36.541 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:26:36.607 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:33:24.889 INFO  [ModuleRegistry-12] - 
+2017-09-21 10:33:24.892 INFO  [ModuleRegistry-12] - *************************************************
+2017-09-21 10:33:24.892 INFO  [ModuleRegistry-12] - SensorHub Restarted
+2017-09-21 10:33:24.892 INFO  [ModuleRegistry-12] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:33:24.892 INFO  [ModuleRegistry-12] - Module INITIALIZING
+2017-09-21 10:33:25.276 INFO  [ModuleRegistry-12] - Module INITIALIZED
+2017-09-21 10:33:25.299 INFO  [ModuleRegistry-12] - Module STARTING
+2017-09-21 10:33:25.416 INFO  [ModuleRegistry-12] - Module STARTED
+2017-09-21 10:38:03.704 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:38:03.705 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:38:03.705 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:38:03.705 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:38:03.705 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:38:03.944 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:38:04.058 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:38:04.287 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:50:49.947 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:50:49.947 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:50:49.947 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:50:49.947 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:50:49.947 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:50:50.347 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:50:50.369 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:50:50.444 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:52:35.790 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:52:35.791 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:52:35.791 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:52:35.791 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:52:35.791 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:52:36.245 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:52:36.286 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:52:36.373 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:54:28.131 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:54:28.131 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:54:28.132 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:54:28.132 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:54:28.132 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:54:28.787 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:54:28.892 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:54:29.081 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:54:59.770 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:54:59.770 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:54:59.770 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:54:59.770 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:54:59.770 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:55:00.296 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:55:00.303 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:55:00.425 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:55:45.205 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:55:45.206 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:55:45.206 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:55:45.215 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:55:45.216 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:55:45.452 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:55:45.614 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:55:45.781 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 10:58:49.370 INFO  [ModuleRegistry-13] - 
+2017-09-21 10:58:49.371 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 10:58:49.372 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 10:58:49.372 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 10:58:49.372 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 10:58:49.927 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 10:58:49.967 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 10:58:50.128 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:00:13.689 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:00:13.690 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:00:13.690 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:00:13.690 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:00:13.690 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:00:14.013 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:00:14.097 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:00:14.225 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:00:57.382 INFO  [ModuleRegistry-12] - 
+2017-09-21 11:00:57.382 INFO  [ModuleRegistry-12] - *************************************************
+2017-09-21 11:00:57.382 INFO  [ModuleRegistry-12] - SensorHub Restarted
+2017-09-21 11:00:57.383 INFO  [ModuleRegistry-12] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:00:57.383 INFO  [ModuleRegistry-12] - Module INITIALIZING
+2017-09-21 11:00:57.814 INFO  [ModuleRegistry-12] - Module INITIALIZED
+2017-09-21 11:00:57.850 INFO  [ModuleRegistry-12] - Module STARTING
+2017-09-21 11:00:57.941 INFO  [ModuleRegistry-12] - Module STARTED
+2017-09-21 11:02:37.404 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:02:37.452 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:02:37.452 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:02:37.452 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:02:37.452 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:02:38.181 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:02:38.213 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:02:38.331 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:03:27.715 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:03:27.716 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:03:27.716 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:03:27.716 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:03:27.716 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:03:28.179 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:03:28.187 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:03:28.206 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:19:55.524 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:19:55.524 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:19:55.524 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:19:55.524 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:19:55.524 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:19:55.882 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:19:55.916 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:19:56.029 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:20:51.594 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:20:51.594 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:20:51.594 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:20:51.594 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:20:51.594 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:20:52.038 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:20:52.047 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:20:52.066 INFO  [ModuleRegistry-13] - Module STARTED
+2017-09-21 11:21:34.945 INFO  [ModuleRegistry-13] - 
+2017-09-21 11:21:34.952 INFO  [ModuleRegistry-13] - *************************************************
+2017-09-21 11:21:34.953 INFO  [ModuleRegistry-13] - SensorHub Restarted
+2017-09-21 11:21:34.954 INFO  [ModuleRegistry-13] - Starting log for 'AccessSW2' [urn:osh:client:17f35aff-2913-43ec-8215-b62131f5cf6d]
+2017-09-21 11:21:34.954 INFO  [ModuleRegistry-13] - Module INITIALIZING
+2017-09-21 11:21:35.324 INFO  [ModuleRegistry-13] - Module INITIALIZED
+2017-09-21 11:21:35.351 INFO  [ModuleRegistry-13] - Module STARTING
+2017-09-21 11:21:35.432 INFO  [ModuleRegistry-13] - Module STARTED

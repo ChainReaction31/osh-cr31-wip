@@ -8,3 +8,187 @@
 2017-09-20 13:09:40.381 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.410 INFO  [ModuleRegistry-8] - Module STOPPING
 2017-09-20 13:15:00.411 INFO  [ModuleRegistry-8] - Module STOPPED
+2017-09-21 10:01:59.705 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:01:59.705 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:01:59.705 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:01:59.706 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:01:59.714 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:02:00.098 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:02:00.114 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:02:00.193 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:07:10.155 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:07:10.155 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:07:10.155 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:07:10.155 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:07:10.155 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:07:10.354 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:07:10.441 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:07:10.575 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:14:59.364 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:14:59.364 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:14:59.365 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:14:59.365 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:14:59.366 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:14:59.853 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:14:59.891 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:15:00.067 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:18:03.169 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:18:03.169 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:18:03.169 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:18:03.169 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:18:03.169 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:18:03.639 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:18:03.679 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:18:03.848 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:20:13.575 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:20:13.575 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:20:13.575 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:20:13.575 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:20:13.575 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:20:14.256 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:20:14.402 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:20:14.693 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:21:00.420 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:21:00.420 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:21:00.420 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:21:00.420 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:21:00.420 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:21:00.756 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:21:00.757 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:21:00.802 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:23:58.283 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:23:58.283 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:23:58.283 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:23:58.283 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:23:58.283 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:23:58.621 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:23:58.784 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:23:59.018 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:26:36.037 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:26:36.038 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:26:36.038 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:26:36.038 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:26:36.038 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:26:36.539 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:26:36.601 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:26:36.703 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:33:24.789 INFO  [ModuleRegistry-8] - 
+2017-09-21 10:33:24.789 INFO  [ModuleRegistry-8] - *************************************************
+2017-09-21 10:33:24.789 INFO  [ModuleRegistry-8] - SensorHub Restarted
+2017-09-21 10:33:24.789 INFO  [ModuleRegistry-8] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:33:24.789 INFO  [ModuleRegistry-8] - Module INITIALIZING
+2017-09-21 10:33:25.277 INFO  [ModuleRegistry-8] - Module INITIALIZED
+2017-09-21 10:33:25.363 INFO  [ModuleRegistry-8] - Module STARTING
+2017-09-21 10:33:25.584 INFO  [ModuleRegistry-8] - Module STARTED
+2017-09-21 10:38:03.642 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:38:03.643 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:38:03.643 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:38:03.643 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:38:03.643 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:38:03.946 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:38:04.092 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:38:04.321 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:50:49.835 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:50:49.835 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:50:49.836 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:50:49.836 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:50:49.837 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:50:50.358 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:50:50.425 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:50:50.541 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:52:35.709 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:52:35.710 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:52:35.720 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:52:36.237 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:52:36.250 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:52:36.298 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:54:28.137 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:54:28.788 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:54:28.938 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:54:29.100 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:54:59.686 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:54:59.686 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:54:59.687 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:54:59.687 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:54:59.687 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:55:00.297 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:55:00.328 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:55:00.524 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:55:45.191 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:55:45.191 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:55:45.191 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:55:45.192 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:55:45.192 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:55:45.455 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:55:45.661 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:55:45.943 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:58:49.341 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:58:49.342 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:58:49.342 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:58:49.343 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 10:58:49.343 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:58:49.929 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:58:50.005 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:58:50.221 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:00:13.650 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:00:13.651 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:00:13.651 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:00:13.651 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:00:13.651 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:00:13.991 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:00:14.029 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:00:14.116 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:00:57.353 INFO  [ModuleRegistry-8] - 
+2017-09-21 11:00:57.353 INFO  [ModuleRegistry-8] - *************************************************
+2017-09-21 11:00:57.353 INFO  [ModuleRegistry-8] - SensorHub Restarted
+2017-09-21 11:00:57.353 INFO  [ModuleRegistry-8] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:00:57.353 INFO  [ModuleRegistry-8] - Module INITIALIZING
+2017-09-21 11:00:57.830 INFO  [ModuleRegistry-8] - Module INITIALIZED
+2017-09-21 11:00:57.893 INFO  [ModuleRegistry-8] - Module STARTING
+2017-09-21 11:00:58.093 INFO  [ModuleRegistry-8] - Module STARTED
+2017-09-21 11:02:37.387 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:02:37.387 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:02:37.387 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:02:37.387 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:02:37.387 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:02:38.181 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:02:38.268 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:02:38.353 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:03:27.656 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:03:27.657 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:03:27.657 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:03:27.657 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:03:27.657 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:03:28.181 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:03:28.191 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:03:28.266 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:19:55.508 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:19:55.509 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:19:55.509 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:19:55.509 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:19:55.509 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:19:55.884 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:19:55.942 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:19:56.059 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:20:51.568 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:20:51.568 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:20:51.568 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:20:51.568 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:20:51.568 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:20:52.045 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:20:52.062 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:20:52.085 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:21:34.905 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:21:34.905 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:21:34.905 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:21:34.905 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southeast' [urn:osh:client:788c0cdb-021d-4af4-bdd1-a88759541182]
+2017-09-21 11:21:34.905 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:21:35.333 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:21:35.416 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:21:35.533 INFO  [ModuleRegistry-9] - Module STARTED

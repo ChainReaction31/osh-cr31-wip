@@ -8,3 +8,187 @@
 2017-09-20 13:09:42.084 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.492 INFO  [ModuleRegistry-9] - Module STOPPING
 2017-09-20 13:15:00.493 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-09-21 10:01:59.702 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:01:59.702 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:01:59.703 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:01:59.703 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:01:59.703 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:02:00.100 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:02:00.145 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:02:00.281 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:07:10.174 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:07:10.174 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:07:10.174 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:07:10.174 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:07:10.175 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:07:10.352 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:07:10.424 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:07:10.517 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:14:59.442 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:14:59.848 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:14:59.854 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:14:59.944 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:18:03.222 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:18:03.222 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:18:03.222 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:18:03.222 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:18:03.223 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:18:03.639 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:18:03.663 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:18:03.750 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:20:13.634 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:20:13.635 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:20:13.636 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:20:13.637 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:20:13.637 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:20:14.255 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:20:14.293 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:20:14.660 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:21:00.391 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:21:00.391 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:21:00.392 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:21:00.392 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:21:00.392 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:21:00.759 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:21:00.861 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:21:00.958 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:23:58.234 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:23:58.234 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:23:58.234 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:23:58.234 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:23:58.235 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:23:58.620 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:23:58.650 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:23:58.937 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:26:36.087 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:26:36.087 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:26:36.088 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:26:36.088 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:26:36.088 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:26:36.537 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:26:36.546 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:26:36.635 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:33:24.811 INFO  [ModuleRegistry-14] - 
+2017-09-21 10:33:24.811 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 10:33:24.811 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 10:33:24.811 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:33:24.811 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 10:33:25.276 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 10:33:25.321 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 10:33:25.501 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 10:38:03.721 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:38:03.722 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:38:03.723 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:38:03.723 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:38:03.723 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:38:03.944 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:38:04.031 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:38:04.138 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:50:49.890 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:50:49.891 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:50:49.891 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:50:49.891 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:50:49.891 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:50:50.354 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:50:50.411 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:50:50.509 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:52:35.833 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:52:35.833 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:52:35.833 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:52:35.833 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:52:35.833 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:52:36.237 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:52:36.263 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:52:36.318 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:54:28.138 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:54:28.789 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:54:28.942 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:54:29.145 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:54:59.770 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:54:59.772 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:54:59.772 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:54:59.773 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:54:59.773 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:55:00.296 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:55:00.307 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:55:00.437 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:55:45.203 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:55:45.204 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:55:45.204 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:55:45.204 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:55:45.204 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:55:45.454 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:55:45.630 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:55:45.859 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 10:58:49.373 INFO  [ModuleRegistry-15] - 
+2017-09-21 10:58:49.373 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 10:58:49.373 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 10:58:49.373 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 10:58:49.373 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 10:58:49.927 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 10:58:49.957 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 10:58:50.123 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 11:00:13.696 INFO  [ModuleRegistry-15] - 
+2017-09-21 11:00:13.697 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 11:00:13.697 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 11:00:13.697 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:00:13.697 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 11:00:14.013 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 11:00:14.086 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 11:00:14.188 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 11:00:57.410 INFO  [ModuleRegistry-14] - 
+2017-09-21 11:00:57.410 INFO  [ModuleRegistry-14] - *************************************************
+2017-09-21 11:00:57.410 INFO  [ModuleRegistry-14] - SensorHub Restarted
+2017-09-21 11:00:57.410 INFO  [ModuleRegistry-14] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:00:57.410 INFO  [ModuleRegistry-14] - Module INITIALIZING
+2017-09-21 11:00:57.810 INFO  [ModuleRegistry-14] - Module INITIALIZED
+2017-09-21 11:00:57.830 INFO  [ModuleRegistry-14] - Module STARTING
+2017-09-21 11:00:57.896 INFO  [ModuleRegistry-14] - Module STARTED
+2017-09-21 11:02:37.484 INFO  [ModuleRegistry-15] - 
+2017-09-21 11:02:37.484 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 11:02:37.484 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 11:02:37.484 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:02:37.484 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 11:02:38.180 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 11:02:38.182 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 11:02:38.289 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 11:03:27.718 INFO  [ModuleRegistry-15] - 
+2017-09-21 11:03:27.718 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 11:03:27.718 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 11:03:27.718 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:03:27.718 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 11:03:28.175 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 11:03:28.187 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 11:03:28.238 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 11:19:55.548 INFO  [ModuleRegistry-15] - 
+2017-09-21 11:19:55.548 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 11:19:55.548 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 11:19:55.548 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:19:55.548 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 11:19:55.879 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 11:19:55.884 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 11:19:55.930 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 11:20:51.598 INFO  [ModuleRegistry-15] - 
+2017-09-21 11:20:51.598 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 11:20:51.598 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 11:20:51.598 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:20:51.598 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 11:20:52.037 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 11:20:52.045 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 11:20:52.064 INFO  [ModuleRegistry-15] - Module STARTED
+2017-09-21 11:21:34.932 INFO  [ModuleRegistry-15] - 
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-15] - *************************************************
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-15] - SensorHub Restarted
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-15] - Starting log for 'Loading Dock 2' [urn:osh:client:0552cd9c-daab-4853-b2c8-1549d1adf36d]
+2017-09-21 11:21:34.933 INFO  [ModuleRegistry-15] - Module INITIALIZING
+2017-09-21 11:21:35.327 INFO  [ModuleRegistry-15] - Module INITIALIZED
+2017-09-21 11:21:35.356 INFO  [ModuleRegistry-15] - Module STARTING
+2017-09-21 11:21:35.453 INFO  [ModuleRegistry-15] - Module STARTED

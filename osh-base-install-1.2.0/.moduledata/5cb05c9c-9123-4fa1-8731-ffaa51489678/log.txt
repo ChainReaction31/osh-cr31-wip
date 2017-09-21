@@ -2610,3 +2610,187 @@
 2017-09-20 13:07:51.883 INFO  [EventBus-3] - Module STARTED
 2017-09-20 13:14:59.839 INFO  [ModuleRegistry-9] - Module STOPPING
 2017-09-20 13:14:59.865 INFO  [ModuleRegistry-9] - Module STOPPED
+2017-09-21 10:01:59.595 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:01:59.595 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:01:59.595 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:01:59.595 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:01:59.595 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:01:59.596 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:01:59.597 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:02:00.861 INFO  [EventBus-2] - Module STARTED
+2017-09-21 10:07:10.009 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:07:10.010 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:07:10.010 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:07:10.010 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:07:10.010 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:07:10.011 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:07:10.011 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:07:11.316 INFO  [EventBus-11] - Module STARTED
+2017-09-21 10:14:59.218 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:14:59.219 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:14:59.219 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:14:59.219 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:14:59.219 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:14:59.219 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:14:59.219 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:15:00.641 INFO  [EventBus-12] - Module STARTED
+2017-09-21 10:18:02.998 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:18:02.998 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:18:02.999 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:18:02.999 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:18:02.999 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:18:02.999 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:18:02.999 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:18:04.186 INFO  [EventBus-7] - Module STARTED
+2017-09-21 10:20:13.406 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:20:13.406 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:20:13.406 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:20:13.406 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:20:13.406 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:20:13.407 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:20:13.410 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:20:15.160 INFO  [EventBus-10] - Module STARTED
+2017-09-21 10:21:00.238 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:21:00.239 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:21:00.239 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:21:00.239 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:21:00.239 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:21:00.240 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:21:00.241 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:21:01.464 INFO  [EventBus-11] - Module STARTED
+2017-09-21 10:23:58.124 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:23:58.125 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:23:58.125 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:23:58.125 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:23:58.125 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:23:58.125 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:23:58.126 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:24:00.233 INFO  [EventBus-12] - Module STARTED
+2017-09-21 10:26:35.913 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:26:35.913 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:26:35.913 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:26:35.913 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:26:35.913 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:26:35.915 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:26:35.915 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:26:37.197 INFO  [EventBus-12] - Module STARTED
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:33:24.582 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:33:26.006 INFO  [EventBus-7] - Module STARTED
+2017-09-21 10:38:03.528 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:38:03.529 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:38:03.529 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:38:03.529 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:38:03.529 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:38:03.529 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:38:03.529 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:38:05.025 INFO  [EventBus-7] - Module STARTED
+2017-09-21 10:50:49.604 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:50:49.605 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:50:49.605 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:50:49.605 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:50:49.605 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:50:49.605 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:50:49.605 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:50:51.124 INFO  [EventBus-12] - Module STARTED
+2017-09-21 10:52:35.520 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:52:35.520 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:52:35.521 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:52:35.521 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:52:35.521 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:52:35.521 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:52:35.521 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:52:36.729 INFO  [EventBus-3] - Module STARTED
+2017-09-21 10:54:28.006 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:54:28.006 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:54:28.006 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:54:28.006 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:54:28.006 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:54:28.007 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:54:28.007 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:54:29.672 INFO  [EventBus-12] - Module STARTED
+2017-09-21 10:54:59.485 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:54:59.485 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:54:59.485 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:54:59.485 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:54:59.485 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:54:59.486 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:54:59.489 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:55:01.071 INFO  [EventBus-13] - Module STARTED
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:55:45.081 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:55:46.346 INFO  [EventBus-12] - Module STARTED
+2017-09-21 10:58:49.157 INFO  [ModuleRegistry-2] - 
+2017-09-21 10:58:49.158 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 10:58:49.158 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 10:58:49.158 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 10:58:49.158 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 10:58:49.158 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 10:58:49.158 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 10:58:50.701 INFO  [EventBus-11] - Module STARTED
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:00:13.525 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:00:14.879 INFO  [EventBus-13] - Module STARTED
+2017-09-21 11:00:57.208 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:00:57.208 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:00:57.208 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:00:57.208 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:00:57.208 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:00:57.209 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:00:57.210 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:00:58.578 INFO  [EventBus-13] - Module STARTED
+2017-09-21 11:02:37.196 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:02:37.197 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:02:37.197 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:02:37.197 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:02:37.197 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:02:37.198 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:02:37.215 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:02:38.865 INFO  [EventBus-5] - Module STARTED
+2017-09-21 11:03:27.487 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:03:27.488 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:03:27.488 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:03:27.488 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:03:27.488 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:03:27.488 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:03:27.488 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:03:28.747 INFO  [EventBus-12] - Module STARTED
+2017-09-21 11:19:55.388 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:19:55.389 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:19:55.389 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:19:55.389 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:19:55.389 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:19:55.389 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:19:55.389 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:19:56.466 INFO  [EventBus-11] - Module STARTED
+2017-09-21 11:20:51.394 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:20:51.394 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:20:51.394 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:20:51.394 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:20:51.394 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:20:51.395 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:20:51.397 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:20:52.598 INFO  [EventBus-5] - Module STARTED
+2017-09-21 11:21:34.773 INFO  [ModuleRegistry-2] - 
+2017-09-21 11:21:34.773 INFO  [ModuleRegistry-2] - *************************************************
+2017-09-21 11:21:34.774 INFO  [ModuleRegistry-2] - SensorHub Restarted
+2017-09-21 11:21:34.774 INFO  [ModuleRegistry-2] - Starting log for 'Admin UI' [5cb05c9c-9123-4fa1-8731-ffaa51489678]
+2017-09-21 11:21:34.774 INFO  [ModuleRegistry-2] - Module INITIALIZING
+2017-09-21 11:21:34.774 INFO  [ModuleRegistry-2] - Module INITIALIZED
+2017-09-21 11:21:34.775 INFO  [ModuleRegistry-2] - Module STARTING
+2017-09-21 11:21:36.048 INFO  [EventBus-5] - Module STARTED

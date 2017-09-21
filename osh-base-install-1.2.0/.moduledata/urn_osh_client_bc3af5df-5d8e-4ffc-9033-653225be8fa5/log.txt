@@ -8,3 +8,187 @@
 2017-09-20 13:09:40.660 INFO  [ModuleRegistry-7] - Module STARTED
 2017-09-20 13:15:00.412 INFO  [ModuleRegistry-13] - Module STOPPING
 2017-09-20 13:15:00.413 INFO  [ModuleRegistry-13] - Module STOPPED
+2017-09-21 10:01:59.695 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:01:59.695 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:01:59.695 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:01:59.695 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:01:59.695 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:02:00.100 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:02:00.156 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:02:00.312 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:07:10.138 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:07:10.139 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:07:10.139 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:07:10.139 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:07:10.139 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:07:10.348 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:07:10.414 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:07:10.506 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:14:59.378 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:14:59.378 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:14:59.378 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:14:59.378 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:14:59.378 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:14:59.853 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:14:59.887 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:15:00.071 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:18:03.186 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:18:03.186 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:18:03.186 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:18:03.186 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:18:03.186 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:18:03.639 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:18:03.665 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:18:03.784 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:20:13.627 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:20:13.630 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:20:13.630 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:20:13.631 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:20:13.632 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:20:14.255 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:20:14.301 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:20:14.661 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:21:00.397 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:21:00.397 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:21:00.398 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:21:00.398 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:21:00.398 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:21:00.757 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:21:00.816 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:21:00.907 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:23:58.251 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:23:58.254 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:23:58.254 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:23:58.254 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:23:58.254 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:23:58.622 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:23:58.817 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:23:59.069 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:26:36.097 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:26:36.098 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:26:36.098 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:26:36.098 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:26:36.098 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:26:36.536 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:26:36.544 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:26:36.621 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:33:24.911 INFO  [ModuleRegistry-9] - 
+2017-09-21 10:33:24.911 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 10:33:24.911 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 10:33:24.911 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:33:24.911 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 10:33:25.274 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 10:33:25.294 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 10:33:25.388 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:38:03.703 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:38:03.944 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:38:04.049 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:38:04.187 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:50:49.946 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:50:49.946 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:50:49.946 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:50:49.946 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:50:49.946 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:50:50.348 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:50:50.397 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:50:50.492 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:52:35.773 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:52:35.773 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:52:35.773 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:52:35.774 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:52:35.774 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:52:36.237 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:52:36.263 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:52:36.333 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:54:28.136 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:54:28.136 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:54:28.136 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:54:28.136 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:54:28.136 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:54:28.788 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:54:28.922 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:54:29.082 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:54:59.713 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:54:59.714 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:54:59.715 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:54:59.715 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:54:59.715 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:55:00.297 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:55:00.322 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:55:00.520 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:55:45.202 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:55:45.202 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:55:45.202 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:55:45.202 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:55:45.203 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:55:45.455 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:55:45.644 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:55:45.896 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 10:58:49.354 INFO  [ModuleRegistry-10] - 
+2017-09-21 10:58:49.354 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 10:58:49.354 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 10:58:49.354 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 10:58:49.354 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 10:58:49.928 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 10:58:50.000 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 10:58:50.186 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:00:13.712 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:00:13.712 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:00:13.712 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:00:13.712 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:00:13.712 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:00:14.006 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:00:14.040 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:00:14.161 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:00:57.361 INFO  [ModuleRegistry-9] - 
+2017-09-21 11:00:57.362 INFO  [ModuleRegistry-9] - *************************************************
+2017-09-21 11:00:57.362 INFO  [ModuleRegistry-9] - SensorHub Restarted
+2017-09-21 11:00:57.362 INFO  [ModuleRegistry-9] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:00:57.362 INFO  [ModuleRegistry-9] - Module INITIALIZING
+2017-09-21 11:00:57.826 INFO  [ModuleRegistry-9] - Module INITIALIZED
+2017-09-21 11:00:57.879 INFO  [ModuleRegistry-9] - Module STARTING
+2017-09-21 11:00:58.045 INFO  [ModuleRegistry-9] - Module STARTED
+2017-09-21 11:02:37.397 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:02:37.397 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:02:37.397 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:02:37.397 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:02:37.397 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:02:38.181 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:02:38.246 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:02:38.349 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:03:27.657 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:03:27.658 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:03:27.658 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:03:27.658 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:03:27.658 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:03:28.183 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:03:28.192 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:03:28.286 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:19:55.538 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:19:55.539 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:19:55.539 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:19:55.541 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:19:55.541 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:19:55.881 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:19:55.896 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:19:55.977 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:20:51.562 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:20:51.562 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:20:51.562 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:20:51.562 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:20:51.563 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:20:52.045 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:20:52.064 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:20:52.095 INFO  [ModuleRegistry-10] - Module STARTED
+2017-09-21 11:21:34.936 INFO  [ModuleRegistry-10] - 
+2017-09-21 11:21:34.937 INFO  [ModuleRegistry-10] - *************************************************
+2017-09-21 11:21:34.937 INFO  [ModuleRegistry-10] - SensorHub Restarted
+2017-09-21 11:21:34.937 INFO  [ModuleRegistry-10] - Starting log for 'Motion - Southwest' [urn:osh:client:bc3af5df-5d8e-4ffc-9033-653225be8fa5]
+2017-09-21 11:21:34.937 INFO  [ModuleRegistry-10] - Module INITIALIZING
+2017-09-21 11:21:35.333 INFO  [ModuleRegistry-10] - Module INITIALIZED
+2017-09-21 11:21:35.410 INFO  [ModuleRegistry-10] - Module STARTING
+2017-09-21 11:21:35.520 INFO  [ModuleRegistry-10] - Module STARTED
