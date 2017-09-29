@@ -1,0 +1,44 @@
+{
+  "name": "golden-layout",
+  "version": "1.5.9",
+  "homepage": "https://golden-layout.com",
+  "authors": [
+    "deepstreamHub GmbH"
+  ],
+  "description": "a multi-screen/multi-window javascript layout manager",
+  "main": "./dist/goldenlayout.min.js",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "layoutmanager",
+    "layout manager",
+    "html5",
+    "javascript",
+    "layout",
+    "docker",
+    "popup"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "lib"
+  ],
+  "_release": "1.5.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.5.9",
+    "commit": "49f55e1fa0a1e8d025f0b2645b13a9cb1028a0fc"
+  },
+  "_source": "https://github.com/hoxton-one/golden-layout.git",
+  "_target": "^1.5.9",
+  "_originalSource": "golden-layout",
+  "_direct": true
+}
